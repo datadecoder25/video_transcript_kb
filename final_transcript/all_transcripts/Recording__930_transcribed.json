@@ -1,0 +1,465 @@
+{
+  "id": "d9312f9e-d2c9-46ad-a910-3faf90efd38c",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "speech_understanding": null,
+  "translated_texts": null,
+  "status": "completed",
+  "audio_url": "https://cdn.assemblyai.com/upload/0faffb1951019c0a16057005316867070e42819f0f67fa863dd733dc15eef064/38222a3b-4b49-4528-983c-8747e2368d7e",
+  "text": "Sure. Yeah. Yeah, sure. Okay. Yeah. All right. You're going to send me the file right now. Are you okay?",
+  "words": [
+    {
+      "text": "Sure.",
+      "start": 24160,
+      "end": 24400,
+      "confidence": 0.56933594,
+      "speaker": "A"
+    },
+    {
+      "text": "Yeah.",
+      "start": 25690,
+      "end": 25930,
+      "confidence": 0.8751628,
+      "speaker": "A"
+    },
+    {
+      "text": "Yeah,",
+      "start": 25930,
+      "end": 26410,
+      "confidence": 0.95491534,
+      "speaker": "A"
+    },
+    {
+      "text": "sure.",
+      "start": 28730,
+      "end": 29130,
+      "confidence": 0.99609375,
+      "speaker": "A"
+    },
+    {
+      "text": "Okay.",
+      "start": 31210,
+      "end": 31770,
+      "confidence": 0.9951172,
+      "speaker": "A"
+    },
+    {
+      "text": "Yeah.",
+      "start": 31770,
+      "end": 32250,
+      "confidence": 0.9685872,
+      "speaker": "A"
+    },
+    {
+      "text": "All",
+      "start": 33130,
+      "end": 33410,
+      "confidence": 0.9638672,
+      "speaker": "A"
+    },
+    {
+      "text": "right.",
+      "start": 33410,
+      "end": 33650,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "You're",
+      "start": 33650,
+      "end": 34050,
+      "confidence": 0.9690755,
+      "speaker": "A"
+    },
+    {
+      "text": "going",
+      "start": 34050,
+      "end": 34170,
+      "confidence": 0.8515625,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 34170,
+      "end": 34250,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "send",
+      "start": 34250,
+      "end": 34450,
+      "confidence": 0.9946289,
+      "speaker": "A"
+    },
+    {
+      "text": "me",
+      "start": 34450,
+      "end": 34570,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 34570,
+      "end": 34690,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "file",
+      "start": 34690,
+      "end": 34930,
+      "confidence": 0.99975586,
+      "speaker": "A"
+    },
+    {
+      "text": "right",
+      "start": 34930,
+      "end": 35090,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "now.",
+      "start": 35090,
+      "end": 35370,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "Are",
+      "start": 35370,
+      "end": 35650,
+      "confidence": 0.9980469,
+      "speaker": "A"
+    },
+    {
+      "text": "you",
+      "start": 35650,
+      "end": 35930,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "okay?",
+      "start": 37210,
+      "end": 37770,
+      "confidence": 0.97965497,
+      "speaker": "A"
+    }
+  ],
+  "utterances": [
+    {
+      "speaker": "A",
+      "text": "Sure. Yeah. Yeah, sure. Okay. Yeah. All right. You're going to send me the file right now. Are you okay?",
+      "confidence": 0.9556437,
+      "start": 24160,
+      "end": 37770,
+      "words": [
+        {
+          "text": "Sure.",
+          "start": 24160,
+          "end": 24400,
+          "confidence": 0.56933594,
+          "speaker": "A"
+        },
+        {
+          "text": "Yeah.",
+          "start": 25690,
+          "end": 25930,
+          "confidence": 0.8751628,
+          "speaker": "A"
+        },
+        {
+          "text": "Yeah,",
+          "start": 25930,
+          "end": 26410,
+          "confidence": 0.95491534,
+          "speaker": "A"
+        },
+        {
+          "text": "sure.",
+          "start": 28730,
+          "end": 29130,
+          "confidence": 0.99609375,
+          "speaker": "A"
+        },
+        {
+          "text": "Okay.",
+          "start": 31210,
+          "end": 31770,
+          "confidence": 0.9951172,
+          "speaker": "A"
+        },
+        {
+          "text": "Yeah.",
+          "start": 31770,
+          "end": 32250,
+          "confidence": 0.9685872,
+          "speaker": "A"
+        },
+        {
+          "text": "All",
+          "start": 33130,
+          "end": 33410,
+          "confidence": 0.9638672,
+          "speaker": "A"
+        },
+        {
+          "text": "right.",
+          "start": 33410,
+          "end": 33650,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "You're",
+          "start": 33650,
+          "end": 34050,
+          "confidence": 0.9690755,
+          "speaker": "A"
+        },
+        {
+          "text": "going",
+          "start": 34050,
+          "end": 34170,
+          "confidence": 0.8515625,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 34170,
+          "end": 34250,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "send",
+          "start": 34250,
+          "end": 34450,
+          "confidence": 0.9946289,
+          "speaker": "A"
+        },
+        {
+          "text": "me",
+          "start": 34450,
+          "end": 34570,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 34570,
+          "end": 34690,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "file",
+          "start": 34690,
+          "end": 34930,
+          "confidence": 0.99975586,
+          "speaker": "A"
+        },
+        {
+          "text": "right",
+          "start": 34930,
+          "end": 35090,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "now.",
+          "start": 35090,
+          "end": 35370,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "Are",
+          "start": 35370,
+          "end": 35650,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "you",
+          "start": 35650,
+          "end": 35930,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "okay?",
+          "start": 37210,
+          "end": 37770,
+          "confidence": 0.97965497,
+          "speaker": "A"
+        }
+      ]
+    }
+  ],
+  "confidence": 0.9556437,
+  "audio_duration": 40,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": {
+    "status": "success",
+    "results": [
+      {
+        "count": 1,
+        "rank": 0.12,
+        "text": "file",
+        "timestamps": [
+          {
+            "start": 34690,
+            "end": 34930
+          }
+        ]
+      }
+    ]
+  },
+  "auto_highlights": true,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "prompt": null,
+  "keyterms_prompt": [],
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_audio_options": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "speaker_options": null,
+  "content_safety": false,
+  "iab_categories": false,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "iab_categories_result": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_options": null,
+  "language_detection_results": null,
+  "language_confidence_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": null,
+  "speech_models": [
+    "universal-2"
+  ],
+  "speech_model_used": "universal-2",
+  "temperature": null,
+  "remove_audio_tags": "all",
+  "chapters": [
+    {
+      "summary": "Sure. Yeah. All right. You're going to send me the file right now. Are you okay?",
+      "headline": "Sure. All right. Yeah. Okay. Are you okay?",
+      "gist": "\"Are You Okay?\"",
+      "start": 24160,
+      "end": 37770
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": true,
+  "sentiment_analysis": true,
+  "sentiment_analysis_results": [
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Sure.",
+      "start": 24160,
+      "end": 24400,
+      "confidence": 0.4753469
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Yeah.",
+      "start": 25690,
+      "end": 25930,
+      "confidence": 0.54914486
+    },
+    {
+      "sentiment": "POSITIVE",
+      "speaker": "A",
+      "text": "Yeah, sure.",
+      "start": 25930,
+      "end": 29130,
+      "confidence": 0.48728997
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Okay.",
+      "start": 31210,
+      "end": 31770,
+      "confidence": 0.5843518
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Yeah.",
+      "start": 31770,
+      "end": 32250,
+      "confidence": 0.54914486
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "All right.",
+      "start": 33130,
+      "end": 33650,
+      "confidence": 0.48966992
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "You're going to send me the file right now.",
+      "start": 33650,
+      "end": 35370,
+      "confidence": 0.8613362
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Are you okay?",
+      "start": 35370,
+      "end": 37770,
+      "confidence": 0.79175186
+    }
+  ],
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "multichannel": null,
+  "project_id": 553667,
+  "token_id": 555720
+}

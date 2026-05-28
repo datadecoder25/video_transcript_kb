@@ -1,0 +1,166 @@
+{
+  "id": "22415bc0-7a96-46b4-ad68-b1a56f06dfad",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "speech_understanding": null,
+  "translated_texts": null,
+  "status": "completed",
+  "audio_url": "https://cdn.assemblyai.com/upload/da439ab0be83121bbd10cbf80aff81a6570da35b12c6da7990765ffe35047603/0c831d79-7220-41b5-b227-07b554bd5c26",
+  "text": "You. Why you?",
+  "words": [
+    {
+      "text": "You.",
+      "start": 400,
+      "end": 640,
+      "confidence": 0.57666016,
+      "speaker": "A"
+    },
+    {
+      "text": "Why",
+      "start": 10080,
+      "end": 10480,
+      "confidence": 0.8925781,
+      "speaker": "A"
+    },
+    {
+      "text": "you?",
+      "start": 14400,
+      "end": 14800,
+      "confidence": 0.57128906,
+      "speaker": "A"
+    }
+  ],
+  "utterances": [
+    {
+      "speaker": "A",
+      "text": "You. Why you?",
+      "confidence": 0.6801758,
+      "start": 400,
+      "end": 14800,
+      "words": [
+        {
+          "text": "You.",
+          "start": 400,
+          "end": 640,
+          "confidence": 0.57666016,
+          "speaker": "A"
+        },
+        {
+          "text": "Why",
+          "start": 10080,
+          "end": 10480,
+          "confidence": 0.8925781,
+          "speaker": "A"
+        },
+        {
+          "text": "you?",
+          "start": 14400,
+          "end": 14800,
+          "confidence": 0.57128906,
+          "speaker": "A"
+        }
+      ]
+    }
+  ],
+  "confidence": 0.6801758,
+  "audio_duration": 18,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": {
+    "status": "success"
+  },
+  "auto_highlights": true,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "prompt": null,
+  "keyterms_prompt": [],
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_audio_options": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "speaker_options": null,
+  "content_safety": false,
+  "iab_categories": false,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "iab_categories_result": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_options": null,
+  "language_detection_results": null,
+  "language_confidence_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": null,
+  "speech_models": [
+    "universal-2"
+  ],
+  "speech_model_used": "universal-2",
+  "temperature": null,
+  "remove_audio_tags": "all",
+  "chapters": [
+    {
+      "summary": "You. Why you?",
+      "headline": "You. Why you?",
+      "gist": "What's Your Face",
+      "start": 400,
+      "end": 14800
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": true,
+  "sentiment_analysis": true,
+  "sentiment_analysis_results": [
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "You.",
+      "start": 400,
+      "end": 640,
+      "confidence": 0.5462571
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Why you?",
+      "start": 10080,
+      "end": 14800,
+      "confidence": 0.61363286
+    }
+  ],
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "multichannel": null,
+  "project_id": 553667,
+  "token_id": 555720
+}

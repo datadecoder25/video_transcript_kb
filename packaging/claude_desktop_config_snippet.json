@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "transcripts": {
+      "command": "uv",
+      "args": ["--directory", "{{PROJECT_PATH}}", "run", "python", "-m", "transcripts.mcp_server"],
+      "env": {
+        "TRANSCRIPTS_DATA_DIR": "{{DATA_PATH}}"
+      }
+    }
+  }
+}

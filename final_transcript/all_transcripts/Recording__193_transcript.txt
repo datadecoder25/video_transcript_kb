@@ -1,0 +1,30 @@
+Transcript for: Recording__193.mp4
+Title: Recording #193
+============================================================
+
+Hey, I took a look at the dashboard that you have created for the different variation. It's for Canada for the same account. Now I was taking a look at these. You mentioned that these numbers are not coming because these ASIN SQ are not the Canadian ones. So I just changed the first three and yeah, the data is coming for them. So I believe it's working. The formula is working. What's not working is though the FBM snh. Now these data is supposed to be here in the back end first of all, right? And this is being calculated based on comprehensive order report. Now the data in the comprehensive order report is coming from order report I believe. Now the data in the order report, that is the last one. It's supposed to be calculated from the carrier charges Canada this one. But it looks like the formula is not okay here. So we'll need to take a look at that. And also remember how we calculated these shipping, shipping and handling fee when we had multiple SKUs in the same order. Please do the formula accordingly. I mean how we used to divide that among. Among different rows, you know, according to the SKU and how many quantities of that SKU we had. So we'll have to do the same here too. And, and if we, if we resolve that, I believe the IBM SNH cost issue will also be solved. But another point that I wanted to mention is that when I click on this and then select the folder with all the files, it's supposed to process all the files together and there might be multiple files for this carrier charges like the other variation that you created. So my question is I gave you four files in the table. This table. Did you, did you here, take a look four files. So did you really take all those four. Did you make it in, in a way that it, it is going to process all of those files when I select the folder because from here it doesn't look like that to me. And I this. All these data are supposed to be. I see only the February data. I believe I also give you marches date. That's why I'm asking. So please take a look at that. I believe if that one is fixed, probably this variation is done. But after you make the correction I will do another check and then let you know. But please make this, help me make this correction as soon as possible. Thank you so much.
+
+============================================================
+Speaker-labeled transcript:
+============================================================
+
+Speaker A: Hey, I took a look at the dashboard that you have created for the different variation. It's for Canada for the same account. Now I was taking a look at these. You mentioned that these numbers are not coming because these ASIN SQ are not the Canadian ones. So I just changed the first three and yeah, the data is coming for them. So I believe it's working. The formula is working. What's not working is though the FBM snh. Now these data is supposed to be here in the back end first of all, right? And this is being calculated based on comprehensive order report. Now the data in the comprehensive order report is coming from order report I believe. Now the data in the order report, that is the last one.
+
+Speaker B: It's supposed to be calculated from the carrier charges Canada this one.
+
+Speaker A: But it looks like the formula is not okay here. So we'll need to take a look at that. And also remember how we calculated these
+
+Speaker B: shipping, shipping and handling fee when we
+
+Speaker A: had multiple SKUs in the same order.
+
+Speaker B: Please do the formula accordingly. I mean how we used to divide that among. Among different rows, you know, according to the SKU and how many quantities of that SKU we had.
+
+Speaker A: So we'll have to do the same here too.
+
+Speaker B: And, and if we, if we resolve that, I believe the IBM SNH cost issue will also be solved. But another point that I wanted to mention is that when I click on this and then select the folder with all the files, it's supposed to process all the files together and there might be multiple files for this carrier charges like the other variation that you created. So my question is I gave you four files in the table. This table. Did you, did you here, take a look four files. So did you really take all those four. Did you make it in, in a way that it, it is going to process all of those files when I
+
+Speaker A: select the folder because from here it doesn't look like that to me.
+
+Speaker B: And I this. All these data are supposed to be. I see only the February data. I believe I also give you marches date. That's why I'm asking. So please take a look at that. I believe if that one is fixed, probably this variation is done. But after you make the correction I will do another check and then let you know. But please make this, help me make this correction as soon as possible. Thank you so much.
+

@@ -1,0 +1,254 @@
+{
+  "id": "13157f98-2c36-4814-9519-8a511594c5e3",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "speech_understanding": null,
+  "translated_texts": null,
+  "status": "completed",
+  "audio_url": "https://cdn.assemblyai.com/upload/ba941925a1149ae4a6d901ad8b77aed75df6b19a6a372ee3adc30482faca067f/3858f030-0f76-448b-9bf5-6f6ae1ae2583",
+  "text": "Hello, Sydney. I'm just testing this video.",
+  "words": [
+    {
+      "text": "Hello,",
+      "start": 880,
+      "end": 1080,
+      "confidence": 0.98339844,
+      "speaker": "A"
+    },
+    {
+      "text": "Sydney.",
+      "start": 1080,
+      "end": 1680,
+      "confidence": 0.91715497,
+      "speaker": "A"
+    },
+    {
+      "text": "I'm",
+      "start": 2960,
+      "end": 3320,
+      "confidence": 0.99820966,
+      "speaker": "A"
+    },
+    {
+      "text": "just",
+      "start": 3320,
+      "end": 3520,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "testing",
+      "start": 3520,
+      "end": 4000,
+      "confidence": 0.9394531,
+      "speaker": "A"
+    },
+    {
+      "text": "this",
+      "start": 4000,
+      "end": 4240,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "video.",
+      "start": 4240,
+      "end": 4560,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    }
+  ],
+  "utterances": [
+    {
+      "speaker": "A",
+      "text": "Hello, Sydney. I'm just testing this video.",
+      "confidence": 0.97681826,
+      "start": 880,
+      "end": 4560,
+      "words": [
+        {
+          "text": "Hello,",
+          "start": 880,
+          "end": 1080,
+          "confidence": 0.98339844,
+          "speaker": "A"
+        },
+        {
+          "text": "Sydney.",
+          "start": 1080,
+          "end": 1680,
+          "confidence": 0.91715497,
+          "speaker": "A"
+        },
+        {
+          "text": "I'm",
+          "start": 2960,
+          "end": 3320,
+          "confidence": 0.99820966,
+          "speaker": "A"
+        },
+        {
+          "text": "just",
+          "start": 3320,
+          "end": 3520,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "testing",
+          "start": 3520,
+          "end": 4000,
+          "confidence": 0.9394531,
+          "speaker": "A"
+        },
+        {
+          "text": "this",
+          "start": 4000,
+          "end": 4240,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "video.",
+          "start": 4240,
+          "end": 4560,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        }
+      ]
+    }
+  ],
+  "confidence": 0.97681826,
+  "audio_duration": 6,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": {
+    "status": "success",
+    "results": [
+      {
+        "count": 1,
+        "rank": 0.17,
+        "text": "video",
+        "timestamps": [
+          {
+            "start": 4240,
+            "end": 4560
+          }
+        ]
+      },
+      {
+        "count": 1,
+        "rank": 0.12,
+        "text": "Sydney",
+        "timestamps": [
+          {
+            "start": 1080,
+            "end": 1680
+          }
+        ]
+      }
+    ]
+  },
+  "auto_highlights": true,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "prompt": null,
+  "keyterms_prompt": [],
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_audio_options": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "speaker_options": null,
+  "content_safety": false,
+  "iab_categories": false,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "iab_categories_result": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_options": null,
+  "language_detection_results": null,
+  "language_confidence_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": null,
+  "speech_models": [
+    "universal-2"
+  ],
+  "speech_model_used": "universal-2",
+  "temperature": null,
+  "remove_audio_tags": "all",
+  "chapters": [
+    {
+      "summary": "Hello, Sydney. I'm just testing this video.",
+      "headline": "Hello, Sydney. I'm just testing this video.",
+      "gist": "Hello, Sydney",
+      "start": 880,
+      "end": 4560
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": true,
+  "sentiment_analysis": true,
+  "sentiment_analysis_results": [
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Hello, Sydney.",
+      "start": 880,
+      "end": 1680,
+      "confidence": 0.5669794
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "I'm just testing this video.",
+      "start": 2960,
+      "end": 4560,
+      "confidence": 0.7148006
+    }
+  ],
+  "entities": [
+    {
+      "entity_type": "person_name",
+      "text": "Sydney",
+      "start": 1080,
+      "end": 1680,
+      "speaker": "A"
+    }
+  ],
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "multichannel": null,
+  "project_id": 553667,
+  "token_id": 555720
+}

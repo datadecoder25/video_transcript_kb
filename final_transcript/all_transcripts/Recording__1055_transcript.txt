@@ -1,0 +1,930 @@
+Transcript for: Recording__1055.mp4
+Title: Recording #1055
+============================================================
+
+In one master case. And we will be packing six of those bags in a master case like we did recently for those 28 grams. But we'll be moving this old 15 grams into six pack boxes going forward. So I just want to understand what quantities should we be working with. So should I just be able to convert the current forecast by six for master cases or does any marketing dynamics affect that? Nothing changes. Nothing changes. So I just can go ahead with the conversion in terms of forecast? Yes. Okay. So my only thing is there is a certain type of boxes that we need to use. So we do have some of the inventory on hand, but I'll make sure that after seeing what, what kind of conversions or numbers we are looking at for the master boxes, I'll make sure the inventory we have and then we decide on the switch timing because the lead time for those boxes varies any time between three to four weeks. So we do have some stock on hand for now and one is on order. So I just want to work around on the exact timing of those and we'll make sure that we keep pushing for consistent supply purchase. Okay. Okay. In terms of. So Annabelle, to that question, are you going to come to us with the timing recommendation? Right? Yes. Yes. Okay. Yeah. Yeah. Okay. So I've just put down the housekeeping things that we need to work on for this 15 gram snacks to go blind. So one is item checklist. So fishbowl code creation needs to happen internally that will create one code which would be the parent code for both US and Canada like we did for 28 grams. So we'll be creating a new code internally first and then I'll be sharing with Soham on like you see you can see in the Amazon checklist. So two codes will be requested for code creation. One in Canada and one SKU code with a suffix dash1 in US. So that will ensure we have the same ASINs but two different FNSKUs. And again it will help us with easy mapping in our ERP versus Amazon marketplace. Okay Anava, when you say this, which product is this for SKUs. This is for a snacks to go 15 grams. The current snacks. Current show home the old one. Basically. Yeah. Yeah. Okay. Are we, are you thinking of creating. I mean we already have two different SKUs. So what were you thinking of doing from here? So I will be creating. Okay, you're saying we. Oh yeah, right, yeah. Because the item's already set up so it's more just mapping in the new. So even if the pack size changes. Right. Because we were not sending Pack of six. Earlier we were sending just one box with one bag. But now Amazon will be opening the box and send individual bags to customers when they receive an order. So definitely a packing dimensions, everything will change, right? Well, so the item package is still the same. The dimensions of the item is still the same. Right. The only thing that is changing is for the box and that doesn't relate to the listing at all. That is how you ship. So yeah, nothing changes here. From now I can continue to use the same code you are saying. Exactly. Yeah. All you have to do is you just have to specify that you are going to ship a box of six and that is all. So it's probably very similar annabh to what you did with the oil. Everything stays the same but you change the bombs. Like those types of things had to change but otherwise nothing on the item was changed. Only when you shipped the box dimensions changed. I'm just trying to wrap around my thought process. So when we were doing just one box with one snacks to go back, we had a specific finished good score in Freshboard. That finish good code will change even though we are selling individual units. So our parent code will change in fishbowl. So it will be more of an internal adjustment then. Okay. Okay. So you're saying we can still. I guess the question there to show home when they receive the master box now how will they know just to open it? Is that all in the shipping. That's all in the shipping instruction. I guess when they see the dimms and it's a master case six. Okay. That's in the shipping label. Yeah. Amazon from Amazon you get the shipping label, Right. One is you get the carrier label. Another one is the FBA label. On the FBA label if they scan it, they get to know what's in the box. Okay, so we don't have to do any instruction prep for those, right? No, all you need to do is you need to label the boxes correctly with those two labels that you get from Amazon. And when you create the shipment, just specify that you are sending a box in which there will be six products. Specify the box dimension correctly and the box weight correctly. That's all. Yeah, no, that'll be done. Yeah. And so and question to that because earlier on this was a few few months or weeks back when you're talking about this show home, you mentioned that. So. So we're clear that the only codes that are going to change an above is internal. That as long as the labeling and the shipping documents are filled out properly, Amazon will be able to execute on their end, to open the master and go. So I think we've confirmed all that. Everybody's very clear on that, right? Yeah. Okay, second thing. So show home when we make this switch. Okay. So because you had mentioned early on that what might happen is we might end up having these like skews kind of hanging around in the single boxes for a while as the new boxes come in. But actually that might not be a thing now. Because we are using the same code then. Yeah. Because it's not. There's no new code. So that actually the inventory drawdown should just be seamless. I'm sorry, but I lost you for a while there. Could you repeat the question? Yeah, I'll repeat the question differently. So I guess in terms of inventory drawdown, there's. We just continue as is and start shipping six boxes, six packs, whenever we want. The drawdown is going to be seamless. There's no additional conducting that needs to happen there. We just seamlessly change to the six pack. Yes. Okay, that's good. I think everybody's very fearful that there's no additional complexities here. Yeah. Like for example, when Amazon is receiving a stock, let's say if one particular DC of Amazon is seeing two different packaging types sitting for the same sku, won't that be a red flag to them? Well, first of all, I don't know how they store the products when you ship them. Will they keep the boxes intact as you send them or will they keep it in a different way? I. I personally think they cannot. I mean, in a warehouse. If I just. I don't know much about how a warehouse operates, but I don't think people may send different size boxes. Right. I not sure if they still keep all of those boxes in their warehouse. Yeah. They must have their system, please. Probably they will. What would end up happening is like the new one that we just shipped in. Right. All the weights and stuff. We'll talk about that probably next. Or whatever. Wherever on your agenda. There's. But it will get flagged with a question and then we just. It could. It won't. I don't. It sounds like it's going to be pretty seamless. As long as the labeling and the shipping documentation is filled out appropriately, it should be pretty seamless. Hope so. Okay. Okay. Yeah, that's what. That's the thing. So I guess the question we're asking, does anybody see where there could be risk here? Because all we can do is just mitigate the risk as much as possible. Right. Like, have we asked all the right questions. And so because yeah, it, it's a box change, but it, but it's a. It's. It's a significant box change. It's not like just the box dims went up an inch or two. Right. It's. The whole master pack has changed. So that's why we're feeling. Have we asked all the questions? Is there an additional step that we've missed here? Yeah. For example, remember Soham we were discussing last week on the dimensions issue. So is there a place where this will be an impact? No, it will not be. Let me show you something. Let me share my screen for a moment. Yeah. And show you something. The reason I'm saying it will not for this case. We don't need to. We don't really need to overthink this one. It's really simple. So this is the product that you are talking about right now, right? Yeah. No, this is in the US FG751. Yeah, fine. I'll just go ahead with this one. So it's in the US the third one. Right. So I'll just click on send replenishment. Replenishment or something. Whatever it was correct. It goes to. Sent to Amazon here, for example. Right. Now the pack. You have the pack. Yeah. You have different. You have different setups here. So you send this one unit per box. All you have to do is edit and then. Or maybe create a different packing template. Right? Yeah. That is all. Then that is what you are going to send. Even you already have multiple options here. Right. So for example, instead of sending this one, if you wanted to send this and let's assume it's something different. Well, let's make it different right now if you want. Let's say if we edit it to six and then set the dimensions correctly. Okay. And save it. And then we use this template and just specify. Okay. We're going to use. Let's say we want to send 120 units. Six in each 20. Yes. Yeah. So then it will. Yeah. Okay. Yeah, that's it. Nothing. But the base information of the packet still stays the same. An oversized alert or something? No, the item dimension is set up in the product listing backend. So that still stays the same. Okay. Okay. It's always scary when things are so simple. So. But this looks so. Thank you for showing that, Shoham, because even just for mine, I never see the back end and I know annabe does all the time, but that just helps me because it has just set up a new box size and then the instruction to Amazon is quite clear. So you can sleep at night and above make the change. Yeah but Alicia, I think we'll just talk offline on whether we should create two different codes in our system because we have inventory in Amazon with a current code. Right. And would we want to. I'm not sure like whether fishbowl will be able to kind of. Are you asking that question because you're just wondering if we want to know the data of when we made the swap. Like do we want to see honestly in. That might be a Natasha H. Question Annabelle. Because for me I'm just looking at unit sales. Yeah, we only care about the unit sales whether it went a single box or six pack. Whatever is easier for you. But for finance they'll probably say the same thing to whatever's easier. Yeah. Let me touch base with that again just to make sure we are connecting the right dots. Okay. Okay, so that's successful conversation on snacks to go. Now we'll just see how it goes. Next one. Annab. Yeah, just give me. Okay, that's fine. Then initial inventory to be planned for master cases so we discussed will stay continue with the same number of units based on the forecast. So for 5 liters bed in Canada. So item listing was done under the new code by Shoham and we just have to do a remapping in fishbowl. So in my next shipment plan to Canada Alicia I'll be sending few of the 5 liters BEP. So based on Soham's suggestion we are adding like 15 units a month. So instead of sending 3 months talk I'm just. I think we. I'll be sending 30 units like couple months inventory just to see how they start moving and then we can always replenish a week after they reach. Right? Sure. Yeah. That is what my plan is. Okay then third topic is the decision to discard three pack versus five pack fava across both Amazon, US and Canada. So maybe add some context here so as we rationalize and we can pull up that inventory. So last conversation we had was we're gonna. The main priority right now is to rationalize stop fulfilling 40 grams and then some of those other items I talked about so that we can focus on variety packs. Camelina oil basically. And so what came up in rationalizing was the we used to have in Canada a three pack fava and a five pack fava. Right now we have not sold in Canada the three pack. I don't know Brittany in like six plus months. Like a long time because we got rid of that. We said we already Rationalized in Canada said, let's just continue with the five pack and get rid of the three pack. But now we're saying we'd rather go with the three pack because the box size and the iteration is exactly the same as the three pack chickpeas, the three pack lentils, everything like that. So we want to do three pack Canada and three pack only in the U.S. is that fine that we can just reactivate the three pack fava and run out the five pack fava in Canada. Do you see any issues with that show Home with reactivating the three three pack listings? I don't see any problem. If you just send inventory, they will. They'll be reactivated on its own. Yeah. And then just let the five run out is what you suggested too, right? Like not removing it. Yeah, yeah. Okay. And so same in the U.S. and so in the U.S. annabelle showed we were saying like, hey, we sold like 33 pack and 25 pack in the US so we're gonna say we're gonna take away the five pack. We're gonna stop filling the five pack in the US and just keep the three pack. I don't think anybody sees any problems with that either. So this is the five pack for us and we sold 27 units of them. And right now we like that. We are entering into a phase whether we need to decide whether we not to replenish or discontinue. So do not. Yeah, okay. Yeah, I've added that. So now in the US show home, it'll just be the three pack fava. There's not two, just one. And same in Canada. Annab, if we can fulfill the three pack and stop fulfilling the five pack again, just so operationally like. Yeah, so five pack we have marked as don't fulfill. And let me see on three pack how many ministries think the three pack is on this list? The weird thing about it, maybe that's why I put that question there. Because where is the damn three pack? Did we discontinue already in the past? So let's just make a note. Can we go look at that? Where is the three pack fava in Canada? Because I don't want to dis. I want to have a fava variety pack. So I just want to make sure that that's easy enough. Or do we just keep the five pack right now in Canada? That was my question. What's up in Canada? It's fine to do that in the U.S. easy peasy. But can we streamline in Canada even further to okay. And anubhav when you are, could you please send me the final for Excel with what we will continue and what we will not? Yeah, for sure. Yeah. Because we literally just had this discussion yesterday to make sure that everyone is tied up on the same page. So I'll share this thing with you because definitely it will affect your forecasting techniques. Right. And advertising save with. Correct. Yeah, I'll do that. So then we remember we got a flag from Amazon on the items being moved to unfulfillable status because of the wrong NFT declarations. So what we decided is we went back to the customer saying that hey, we went back to Amazon customer service and we said that we'll be rectifying our packages and send you the corrected ones. Right. So what we decided internally is we'll try to play dumb by the year and we will continue to send Amazon US packages in Amazon US Marketplace because even though the stock images currently uploaded are of Canadian unless. Yeah. So basically the lentil issue, we're not going to refill that item, we're going to leave it. But operationally we're still executing with US packaging in the box even though the ASINs match. So it's Canadian images. So if we get our hand slapped again on done then we'll change all our internal codes to change the item. So it's Canada pack inside. But for now we're just business as usual and not fulfill the lentils. Just leave that quietly. Yeah. For let's say for example Chickpeas variety pack. So we have. We are sending US packaging for chickpeas to US and we are sending Canadian packaging to Amazon. Canada. Yeah. So unless. So it's more just for your information show home.com it's more just for your information, if we get our hand slapped again we'll have to make some internal like. Like the only reason we don't want to make the change to everything right now is it's just not a big enough issue to uproot all of our codes and recreate all new boms and stuff. So. So we'll just continue quietly as that. But if we get our hands slapped again, we'll. We'll do the bigger changes. Yeah, sure. Yeah. That doesn't happen very frequently, so hopefully not any soon. Yeah, exactly. Okay. Inventory review. We can do it last. So there is one observation I had from the new variety pack that we sent snacks to grow. So we got a placement fee and I'll just show this picture. So they asked me to split into five shipments for those 20 cases going to us which I won't. And one, making one shipment for 20 cases, like, which is like a layer of a palette. They charge me 600 bucks. Wow. 20 boxes LTL shipment, like one pallet. And their suggestion is to send five different shipments to five different locations. So either way, like, if you want to save your money, spend in fret. If you want to save your fret, give money to Amazon. Right. So are you asking what would be the best way to go ahead? Yeah, I mean, I haven't seen this. Can you explain? So, okay, so currently in the US we ship to one location and they. And then they go out to all their warehouses, right? Yeah. And so in this case with this item only, they're asking us to go to all these different addresses. Yeah. Why would you ask that? So generally they want a healthy distribution of all our products. So it is spread well across the different provinces of Canada. And there is less transit time between customer order and the delivery date. Right. If it is located in one, Yeah. I don't know why they go to those. But why would they ask us specifically to ship now to the individual warehouses versus the process we've already been doing for everything else? Why would they always ask you, but they don't charge you this heavily? Okay, so they always ask us, but they don't charge us that heavily. How much heavier is this one? Generally I've seen between less than $200. And even they don't ask you to split more than two shipments at once. They have asked for three shipments, but here they have asked for five shipments just because. Is it new? I don't know why I would see five different split shipments, additions. I don't know. Is this in Canada, US that's what I thought. Yeah. Right. Okay. You know what? Something that I would. And this is not probably for right now, but this is something we consider. So placement fee. They didn't have this placement fee before. It has been a while, many, many months. But this is relatively new. Before, they used to take responsibility of distributing it across different warehouses and without any charge. But right now they have a placement fee and that is a very big expense. So we need to be careful, first of all. And second is they have introduced one option. It's called awd, Amazon Warehouse Distribution. I think that's the full form where you can store things in bulk. If you do that there, you generally ship products for a, let's say six months for a longer time horizon as compared to what we're doing right now. And if you do that, there's no placement fee. First of all. And they auto replenish, replenish the inventory from their AWD warehouses to the fulfillment centers whenever our products are low in inventory, if I'm reading you correctly. So do you suggest that if there is higher inventory then that is an auto trigger from Amazon that they won't probably charge it? No, it's a different one. So if you go to the back end, you will see right now instead of sending to Amazon's regular fulfillment centers, you also have an option to send it to Amazon awd. So if you peak that one, there will be no placement fee. Okay. Crazy. So, okay, so two things I heard there. Show home. So one, you said this is almost like a listing fee with a new item or like it's a logistics fee that we're going to have to pay every time. Is this only in the U.S. this new AW warehouse, is this only a U.S. thing? In the U.S. yes. Okay, so in the U.S. now they have this new method. And how new is it? Show home, like a couple months, Couple weeks? Like. No, no, it's been, it's been many months. I. I cannot exactly remember. It's been a while. Yeah, it's been a while. And this is a. Can you open the back end and show us? So you're saying now we can ship to a different warehouse? AW warehouse. And why is that cheaper? Why is that warehouse cheaper than just the current warehouse we're shipping to? Just like if that's their own internal, they've set something up that makes it cheaper. So they, that's like a, they're promoting AWD as the long term storage solution. Okay. So for example, they will penalize you if you store your products more than three months. They will charge you an overstock fee. But they won't do that if you ship to awd. And a few more things that I want to mention. When they initially started with awd, you could only ship pallets. And also you couldn't do, you couldn't ship perishable items. So our items right now, they have changed all of those things. You can even ship small boxes. They also accept perishable items. Just mentioning these two as some information. And what does it take to change what warehouse we ship to? Like there must be. Is there. Do we have to ship a certain volume or do we have to be a certain revenue? Like because why wouldn't every brand just, oh, just shift to that warehouse? It's. I get dinged less. It is an option to open to every brand right now. Before it was a bit limited because not every brand could ship just palettes. Right. But it's more open to every brand right now. And I think one reason is brands are not that aware of this option like we are not. And yeah, that's the primary reason. And also the unknowns basically. What are the fees of storing at awd? How does it compare versus okay, so there is a month. So you're saying it's okay. Yeah, go ahead Annaba. Yeah, yeah. Is there a monthly storage fee then? Yes. Yeah, there are storage fee for even our regular. So we either take the hit at the initial ship too and we don't pay significant storage fees or we likely go to this AWD and pay higher storage fees. We'd have to do that analysis, I guess. Anabel. Right. Yeah. Usually they promote this as a long term storage fee at long term storage at a reasonable rate. That's how they have been promoting compared to, you know, they claim that it's even lower than storing at their regular fulfillment centers. But we have to do that comparison. Okay. Because you're saying so where we ship right now, after three months they start charging us. If product has been shipping sitting there longer than three months, we our fees are higher but the fees are lower because they allow you to store more longer. Yes, but where do I get those kind those alerts? Because I haven't got any alerts of excess fee being charged. You mean overstock fee. Yeah. Yeah. Well is there a way to track that in portal or is it just based on how they invoice to us? Yes, that's based on how you can also track which products are under overstock fee, which products are there for more than 90 days. But also you will get to see all of these transactions, all of these fees if you download the transactions report. Right? Not like, not exactly the transactions report. I forgot the name of that report. But could you send me a link later once you have like once we are done with that meeting. Like if you know where I can then probably I just. I'll try to see where it is and then I can start a discussion with finance on that. Sure. Yeah. And the report that I was talking about is the all statements, the statements that they issue. From the payments page. Okay. Yeah. So for this discussion because yeah to your point there Annabelle, this we we just need to do even internally a little more investigation on understanding the differences and the different costs to ship to this AWD versus what we're doing right now. So this is kind of bringing up show homes brought up maybe opportunity for improvements in how we ship to the US For Amazon, there might be a different way. Okay. Yeah. And so show home, standby for more questions. Because maybe if you can, if you have. And even I would like. Or you're saying it's in the back end, show home. We can see bit of info on that, right? Okay. Yeah. Can I show you something? Let me show you something. Okay, here. So if you go to your shipments page, inventory and then shipments, you. You will see this page, right? And here you have two options. Now, one is fulfillment center shipments. Another one is Amazon. Oh, you are not in. So maybe this is where our barrier is, right? What is do we think? Are they trying to push us into these? Like, does that make more sense for Amazon? Do you know what I mean? Like, are they trying to charge absorbant fees on a fulfillment center so that we're forced to go in here? And this kind of begs my question. I'm saying, what's the criteria to get there? Because I wonder if we meet the criteria. It looks like we don't. We're either not set up or. Because if this is a. My just my basic knowledge of just how warehousing is. So AWD sounds like it's a bigger warehouse in a more central location so that Amazon can be more efficient. So ideally they're likely pushing a lot of their vendors there. However, there's probably a specific vendor that they want going there. And so that's kind of where my question is. Like, do we meet the criteria? You know what, if you click on Learn more, then this is a page you come to. And if you click on Create shipment, you'll see these. Now they're saying send to Amazon warehousing and distribution AWD and how you can create the shipments from here. But is there an impact? So what I was hearing different terminologies being tossed around when we were shipping. Let's say, even when I used to interact with ERP companies for Amazon integration, they were always asking the first question, where do you send? Do you send it to fulfillment centers only? And then you say we just send to fulfillment center. So does things change in terms of coding or anything? Because as per that page, nothing changes. It's the same portal. It's the same portal, yes. All you have to check for is where you are sending it. And that is all but one thing to consider. If you send it here, send it for, let's say, six months of inventory, not three months. Okay, so you're saying show home. If you send to this, send more stock. Okay. And you can also see probably we'll have to. I also have to look into it a little bit more but I think we can learn a little bit more about these costs and everything. It claims that easy, efficient, cost effective upstream bulk storage and distribution solutions. So we'll have to check all of these things and how they charge and if that makes sense for us. So the takeaway here, Annabelle, if we could dig a little deeper and learn internally how this differs from what we're currently doing in terms of just methodology and logistics and cost. That's what we want to understand. And then the second thing to understand is if we like this, how do we become part of it and which sounds like we just. It sounds like we have to set something up. So let's take this away. Annabelle, if you could dig in a little further and then what we might need to have is just a conversation in between our next meeting on. On what we learned. You'll probably have to take this to. If you can just get a little more information out above, you can bring it to Natasha and myself and then we'll probably have to loop and show home for some more questions too. Okay. Yeah. Yes. But this is USA only is what we're saying to you. Yeah. And in the meantime, in the meantime that cost. Are we just going to have to eat it right now, Annabelle, to start fulfilling and see if the cost is the same next time. Like maybe it's only on the first shipment that it's so high. Why I brought to everyone's attention because I haven't seen this kind of placement tree ever and that too for one sq. And I'm sending just 20 cases, you know. Yeah. And that's my question. I wonder if it is because it is a new sku. I wonder if a fulfilling. So the initial fulfill it almost is like it's a new SKU going in. So it's like a listing fee or a premium and then I don't know if the next one will come back down. Right. I don't think so. Amazon's also beefing Amazon's also beefing with the White House right now. Hey, did you see that yesterday Amazon said that they're going to start putting like literal like a sticker of tab basically that says you are being charged this much because of Trump's tariffs. And so that was like the big White House. That's awesome. Yeah. And so then the obviously the press secretary was like this is a political. You know. So then that was the big topic in the White House yesterday. So I sort of wonder if this has something to do with Amazon sticking it to Trump, even though he only shipment we have going into the US Right now, Annabelle, is the other ones, you're saying. So you've created several shipments into the US and the only item that you're seeing this, this premium on is the new one. No. So we don't have any other shipment from this. So we'll be planning. Because we were just finalizing on which skus right. To refill and discontinue. So the others are yet to be planned. And by the way, this is just not. I don't think this is direct related because even US companies has to pay this placement. Pardon me? I'm saying even the US Companies, they have to pay this placement fee. So it's not tariff related. Yeah. Yeah. Okay. Okay. Yeah. Because my question here is is this all of a sudden an increase that just happened overnight on everything, or does this have to do with the fact that it's a new item? But we don't really know that because we don't have a simultaneous. We don't have a recent shipment. So I'm saying if we go now, when we send our next shipment, we'll know if this is related to the fact that it's a new item or if this is just a new. An increase in the fees. Meanwhile, we need to figure out this ADW thing. Yeah, I can, I can answer that question. It's not related to this new item. I. I'll see that this will continue to be like this. Okay. Okay. So that's why we need to look at this. Aw, I haven't seen so many suggestions on splits. Like, I haven't seen more than three ever. And this was like 20 cases, five different shipments. I'm like, okay, that's not happening any which ways. Okay, okay. So we might have to fulfill. We don't want to hold up the launch of the item man above. I would have to break down the cost of like how significant that is in. In actually fulfilling. But we definitely want to figure out this AWD thing quicker than possible, quicker than later to know if it's a more efficient, effective way. Yeah. Okay. So aside that three. So let us come back to the inventory discussion. Just. Sorry, I just dropped my headphones. That's okay. So in terms of the inventory discussion, we probably can just. The reason we like to pull this up at every meeting is we just want to flag or make sure. Does anybody see any concerns of overages or underages in. In any of the items here we discussed last time? I think we're and above. Do you have any issues in fulfilling like 5 liters gonna be fulfilled soon? We're gonna run down the five packs the snacks to go. We've upped things and the new ones going in. Yeah. So based on the for Soham's visibility also. So the yellow ones are the hero items. Soham and the others are the don't fulfill criterias. So only item missing on this list is that three pack power which I will be investigating. So for the new snacks to go six pack. We dispatched 50 master cases recently to Canada. Then we did. We are planning to send more of snacks to go like 800 units for Amazon Canada. So last month we sold close to 850. And then including everything in transit and available we have 1700 units there. And this is our plan. But if I go by their recommendation. There is recommendation is to send 2000. I don't know why they would have that numbers like even for me to. That's fine. Again show home said last time don't listen to their numbers. We know. Yeah. Because they're just trying to get fees for overstocks. Yeah. So that was one and then so like yeah, I already plotted 30 units to be sent for 5 liters bag in a box. Then variety pack for lentils. I'm planning to send 20 more. So we have like 50, close to 50 over there and close to 2 months stock. And this includes the 60 units that we dispatched this week. So I'm planning to send 20 more just to keep that number healthy. Unless you think we should send more. This is three packs. Yeah. That's not getting a huge amount of budget. So yeah. Okay. So yeah, I'll just trim it to my my plan of just sending 20 units more just to keep numbers flowing. And I'm just waiting on stocks for two pack oil. So like we have a production run happening at TA Foods only in the week of 12th of May. So fingers crossed as soon as I'm able to get those I can't replenish them. So we are waiting that for Costco, for Amazon for everything and all our current stocks. Oh second week of May waiting for bottling socket TF who is in second week of May. So two weeks almost probably three or four weeks before we'll have stock in annaboub. Yeah. Okay. So we want to watch that line item really closely how fast the Camelina starts selling because we are spending against it. Yeah. Okay. Yeah. And this is across both like for both US and Canada because all my current inventory is reserved for MRG going for an export order and we were expecting they'll delay the PO but they just issued the PO as soon as we asked them. So we can't even divert that store. Like I have 300 plus cases sitting in the warehouse but all are being reserved for that export order so we can't divert it. So that's the only problematic SKU across both marketplaces. One thing quickly for the variety pack, could you please send 1100 instead of 800? I would have. Okay. I will have to check the possibility based on our production resources also. But let me review that. Okay. Or maybe I can send another run a week later. You know like and I can add a schedule for. But yeah, so yeah, good point there, Annabelle. So if it's scheduled to do 800 basically show home saying you might want to buff up or make sure the frequency of the next one is really close. Yeah, yeah. And we'll want to watch as soon as that new variety hits. We'll need to watch that really closely because you're filling with oh 300 units of 50 miles. Okay. So 300 units are going in. So but let's just watch that closely because I know it'll take a bit to ramp it up. But hopefully like it is our top sellers. It has dill pickle in it. So I assume that forecasted quantities was also determine my inventory planning for the boxes. Like how many. Yeah. Will it ramp up? So do we have you have the link to show homes Forecast. Forecast. So I'll just. I'll just rely on those numbers to make sure that. Yeah numbers are accounted for. Okay. Yeah. Okay. Coming to Amazon US. So for like we sent 20 right on the new. Sorry, this is the old one K. So yeah we already have your recommendation on this one. So for 140amonth. So we are already planned for 300 units to be sent. Then again oil we will come back later. But oil is low. Oil is literally low in us. We don't have oil. So watch your spend on that item. Show home. You could slow it down until we get stock back up. Sure. This is the new snacks to go variety pack that we just discussed that we are. It's in just picked yesterday. So one body units of those then the variety pack chickpeas. We are low on this one. So I'm planning to send 60 but again I'll verify with your forecasting figures. So I'm planning to club both the shipments with the snacks to go 300 with this chickpeas variety pack and club it all and send it out Sounds good. Perfect. Okay. And we are keeping this active, right? The three pack powers. That is what we discussed, correct? Yeah. Okay, awesome. Thanks. Yeah, Soham, I'll reach out to you with that list so that you can focus on your ad spend accordingly. Yeah, sounds good. Thanks. I think I killed most of your time. So whatever little time you have, honestly the priority right now is cleaning up and rationalizing. So this is all relevant conversation. Yeah, thanks. Yeah, thanks so much. Thank you. Okay, awesome. So for our discussion points. So I think show home again just because like as I mentioned there, cleaning up and rationalizing is huge. So I'm glad we're going through all those points. There's some change happening in some key items to include the new variety pack fulfillment, that 5 liter camelina oil which like once it's finally fulfilled, that's a high revenue item for Camelina oil. And if you have horse owners buying that. So maybe let's just jump in over to Camelin oil. So I sent you the email, sorry, I couldn't figure out how to like copy right in there. And because it's such a, it's a bit clinical Camelina oil, we need to make sure that we, the how we talk about it is factual and right. And I will not be shocked if once you load the new copy, there's some rejections in there from Amazon. We'll see. Like, okay, we'll see. Yes. Yeah. Let me pull up your email. And so what I did was I just kind of rewrote all of your, your bullet copy there and just highlighted in red where I changed whether there was a word edit or how we spoke edit. So that's kind of like your new copy to put in there. And then just a few things I made that like there's no QR code on the 5 liter, only on the bottle. So just making sure those things are clear. Sure. Yeah. These, all of these are. Okay. I, I, one thing I would say is this one probably will not be able to put everything, keep everything because it's a bit lengthy. We need to keep it below 250 characters. So it's around 330 I think. So we need to shorten a little bit and then I'll just use it on Amazon. Okay. Okay. And then Brittany's brief. So I updated Brittany on our conversation about the images and she saw your updates there. The only one I thought which would be good to add or work with was that infographic that I showed in the email there. It's a pretty powerful visual that we use lots in other Sales or it's on the video too. So she's working on those. And they'll probably be some back and forth with you guys on those. Okay. Okay. And then did you want show home just to pull up the dashboard and do a quick how are things going? You also have the additional thousand dollars starting this month, correct? That's right. Yes. Yeah. Okay. All right. So let me just pull up the dashboard. It's. It's for Canada. I'll just switch it to monthly view. I was working on it, make sure everything is okay. So. So give me one second. And your I don't know if I saw the new Snacks to Go item. Is the copy pretty much exactly the same for like the strategy copy, like the same as the current Snacks to Go? Yes, almost the same. So let me pull that up if you want to take a look at that quickly. One second. I'll just stop sharing my screen. Okay, I'll share my screen now. Because what I'm really hoping for, that snacks to go show home to. And this is another question I have is we need to get our reviews up because our current one is 3.8. It can't even take prime days. I think that our. Our new one with Dill pickle, it just has our hero items in it. I think it has a better opportunity to be at your 4 to 5. But on the current one, how can we get our Reviews up past 4? Like do we need to do the vine review thing or like what are some strategies we could do to get that up? Well, first of all, on that one, we are trying to increase our sales. Right. First of all, you have to fix the product. Right. And if we fix the product, we can at least ensure whatever reviews we are getting in the future, it's going to be. It's going to help us improve the rating. Overall rating. Yeah. And we are also boosting ourselves. So at the. The rate at which we'll receive the reviews will also go up. So hopefully in the long run it will help you improve your rating. And it has already happened, by the way. Dropped to. I'm not saying it's happened since we started working. It's happening. It dropped to 3.6 at some point. Now it has improved to 3.8. You can also see the timeline. So yes, one thing is, yes, we have to keep on. We have to make sure the product is fixed and since our sales volume is going up, we'll keep on receiving more reviews that will help us boost that review in the long run. Another thing that we could do is use a tool like Feedback quiz. What it does is whenever people order and we have the we can set up an automated flow. It will use Amazon's automated template and send that review request to the customers. So what that will do is that will increase the review conversion rate. So I mean review to the number of orders that we get. That ratio. It will improve that ratio. Okay, what's that tool called? It's called Feedback Wheeze. Okay. And that's an Amazon tool, is it? There's probably a cost to it. There's a cost to it. Yes. It's very reasonable, I would say. Yeah. And so you're saying once they've purchased it just sends them a note to say, hey, do you want to leave a review? Yes, after a while. So you can also save that duration after how many days do you want to send these all of those flows and it will keep on sending those automated emails. Okay, do you want to mind just confirming show home. And again, it can be after this just what the cost is to add that on. Is there any work to you or it's just turning it on? It's just turning it on. Okay, we should talk about that. Brittany, that might be something we want to do. Let's get the new one up and see how it's gaining because we might even want to do it on that new one just to get the reviews up faster. Well, you can. Once you set it up, you can do it for all of your products. Yeah. Yeah. Okay. Sorry. I assume that's us. Yeah, that's in US and Canada. That option to do that, I just assume it's a us. No, you can do it for all of your marketplaces, all of your products. There's some limitations. Okay. Okay, sorry I disrupted. Go ahead and jump into. I'm already thinking about how do we get more sales before even seeing what we are. Okay. So the only thing that I have changed here is this first positioning element key message basically. So instead of the previous one, because the protein amount of protein was not that high, I was positioning it as a high protein diet complement here because the pack sizes are higher. I mean we have more product. It's 28 gram pack compared to 15 gram. And also because of fava, the protein is higher than other chickpeas and lentils. So I want to say that it's a high protein and high fiber snack as compared to what I said before, which was hyperten diet compliments. So that's the only change that I have made and that's why you Will see the first bullet point has changed Roasted high protein and fiber. That's the headline. That's how it's starting. And we have also changed the images to reflect the same thing. Along with that, what I have done is since this is a new listing, we have to create a. An A plus content anyway. So I thought, why not do it properly? So I suggested that we do the premium A plus content. And if we do the Premium plus content for this one, you can also implement the same thing for the old snack table. Similar. And I have given you those copies. For those modules, we're going to use six modules. And I have given you. So this is down at the bottom, the A content. Yeah. Okay. Did you see these, Brittany, for briefing images and stuff? Okay. And I have one walkthrough video. So I just wanted to describe the basic concept, why Premium plus is better and all. I've given you two examples and I recorded one video. You can watch it to see how I basically think about the A plus content, the premium. Okay. And then in terms of execution on this A plus content, show home. So you give us the recommendation here, but if we come up with all of the stuff, will you go load it or do you need to show our team? It can work either way. Okay. As long as we just get all the copy and stuff. Yeah. Okay. So that's it. About this and this. A just again, just for my A plus content. So that's at the very bottom. I'm just going to pull up. Where does that go? Because we do have A plus content on all our listings. Hey, we do. That's the basic A and this is a premium A plus. And also the way the basic A plus is done, I'd say the information, all of those are okay, but the format could be improved for schemability. No one is going to sit and read all of this information. Okay, that's fine. Could you also resend. Can you just resend this notion? I have the Camelina one, but I don't have this one. I just checked. Yeah, sure. All right. Yeah, I resend it to you. Thank you. Yeah. And why do you call them modules? That's what Amazon. Amazon calls them. Okay. Because I'm just gonna. Again, just for my own understanding, because here's the current snacks to go on Canada, for instance. So A plus content is all this pretty stuff down here right on the page. So when you say module, does that mean like section? Yes, section. Okay. Yeah. Okay. Okay. Okay, Brittany, so you want to take some of that and start looking at That a little bit and go to Show Home with questions. We have locked in with Lindsay. So much to do. Yeah. But we have time, right? So if it's like two weeks, that's totally fine. Yeah, yeah. The key thing is get the page A plus content can happen next. Yeah. But by the way, more than the A content, the listing images are more important. Yeah. In terms of priority. Yeah, yeah. Right. And you know what? I, I would like to talk about the business pricing first. I know you would also like to take a look at the report, but how about we discuss that first so that you can just Implemented. It's very simple to implement. Yep. Okay. Yep. So the business pricing is. I answered your questions. So yes, it's going to be visible to just business customers, whoever. Business customers are basically those companies who register with Amazon Business. It's a business account and if you offer business pricing, they get a blue teak or something, blue badge that highlights. Oh. These products have a special business pricing that makes it more lucrative. And the reason I'm suggesting this is because the distribution between the business purchases versus the individual customers, that ratio is quite unusual for your snack to go. Okay, that was going to be my question. Yeah, I really like this insight though because I have a feeling show home that it's because the occasion in all the business pricing. So the business is buying snacks for. Yeah, their office is our hope. Yeah, yeah. I would say the businesses are buying because it literally has to be a business account. And then I mean you need to look into that more because this is a great insight because initially just what went through my head was like, okay, so the business is buying these snacks. So the business is purchasing our snacks online. The only reason I think businesses would. Are we able to see who the business customers are like the name of them. Oh, shoot. Okay. Yeah. So because my assumption would be because the occasion of our snacks is very much a daytime fuel, healthy snack. If I'm a business buying the snack, it's because it's going in my, my office for my cafeteria, my little snack corner that I have set up for my staff. Right. So that's my assumption. But is there a way we can understand that better? No, we don't have any more insight on that. We just can't see how many business purchases we're getting. And so you're recommending saying can we for the business account specifically give them a 5% discount for the fact that their business on any single purchase, but they get 10% if they purchase, I think you said in multiples of Three plus more or two. Three. Three or more. Yeah. We can also create different packages. So for example, for 3, 10% if you want to do more. Let's say for 5 if you want to give more discount. That also is option in case they want to buy that. Okay. Yeah, no, I'm totally, I'm totally open to tests. I go ahead and turn that so it's just with the business accounts only. And then we could do it for the month of May and see if that has what we're able to see the balance in revenue. Has that increased? Okay, yeah, yeah, I'm open to that. And then. Yeah, I would love to dig a little deeper if there's any way to dig on understanding more who. Who those businesses are even where they are. Are we able to see like are they Ontario. Are they. Are we able to see any data behind who. Where those business transactions are going to. Okay, here's what I can do. We can see where we cannot see the names. That's the. That's a problem. Can't see the names, but you can see the address or the. The areas. Yeah. Could you pull that data show home even if it's just in an Excel to just see in a general area or a graph like, hey, these are in. You know, 60% of businesses are in Ontario. Like just something it's in the order to our marketing discussions. Sure. That's a good analysis. It's. You can find it in many reports. It will be in the transactions report or the order support that I sent you. You will find it even in that one. Oh yeah. Okay, I see. And you saw. Did I put you on. I put that email to my finance team. So I told them if they wanted to have a quick call with you or just pulled the order report themselves to do their own. But. Okay. And so. Sorry, what is that percent right now? Business to. It's. It was like 15 or something like 12. 12. Okay. Yeah. No, I'm totally interested in testing something here and diving a little deeper on that because I don't even know if that influences even keywords a little bit or anything like that, but it definitely influences some campaign ideas for sampling and for. Yeah. Audience. Yeah. Yeah. That's an interesting one because what do you. What's. What have you seen otherwise show home like the business versus like less. Not in five or I just ignore it. It's that. Yeah. Okay. Yeah. Well, good job identifying that insight and bringing that. Thank you. No problem. Okay, so do you want to quickly look at the reports right now? Yeah. Okay. So this is our report. Maybe we'll just look at this one. This is cleaner. Sorry, just one more question. So show home that business insight too. That is specifically on the snacks to go item, right? That's right. Yes. Okay. Yeah. Okay. All right. So let's just go item by item. I know this is not important for us. This sold just one unit. Probably we don't have any inventory for this. That's why it's happening. Okay. Is this US Or Canada? It's in Canada right now. We're looking. This is Canada. Okay. So probably we should even. We should probably. If it is something, we'll have to verify if it is something, we're not going to Lentil Toppers. Probably we're discontinuing it. If we are, we'll probably remove the forecasts. Yeah. So you're saying I should zero that out sooner. You should zero that out sooner. Show home even in May. Because that was one of the, the don't fulfill items. Okay. All right. And let's now take a look at this one. We have the varieties here, and I think I, I, this is also discontinued. Yeah. We sold some in April. I'm not sure if we're going to sell some in May. So how about you keep it for now and then we'll discontinue after it runs out of stock. Yeah. Okay. Now snack to go. Let's see how many we did. This is. We'll have to add another 43 units to it. I'll say so 920. Okay. So almost equal to what you forecasted. Wow. For this product. Yeah. That's great. Yeah. When we hit a thousand in a month. Yeah. That's it. That's an internal win. Yes, we'll announce that very soon. Yeah. All right. And this one, I think we, for some reason we started selling very well, but we are going to stop it. It stop selling this item or whatever. Like. Yeah, sell it through. Well, that's great. And then hopefully they move into the variety pack after that. But yeah. Yeah. Okay. And so this is the item we were talking about. Show home the five pack fava. I'd rather it be the three pack because eventually we're going to be discontinuing the jalapeno lime. So we'll look at that and maybe revive the three pack and. And this one will go down. Yeah. Okay. Sounds good. It it nothing too drastic. I'll say they are. Okay. One day sales is still missing. So probably 35 something around that. I'm just assuming probably that many units versus 40 that we forecasted and we're going to discontinue these and we are selling better than ever right now. Okay, how about this one? We sold more than what you forecasted this month. This one is the roasted lentils, right? No, this is staying for a while. Yeah. Okay. And this one hasn't sold as many. This is. Is that the buy box issue? I'm sorry, I don't remember off the top of my head. Okay, we should dig into that just again, just because. Yeah, it's like it's softening quite a bit, so we might just want to revisit. Just do a check on that. Sure. Okay, I'll do that. I'll do that. I'll need to look into this comparison, how the sales are comparing, and also see what we need to do from here. All right, now for the Camelina, it's. I'd say probably a little bit more than that. Yeah, yeah. On track. Almost on track. I probably could do a little bit better, but yeah. Okay. Not bad. He's got to get a fulfilled show home. Watch out for that inventory because. Yeah, that's right. And we're discontinuing this one, so. So don't need to talk about that. This one. Okay. This one is also going to be discontinued and we are not selling this one at all. I'm not sure exactly why. Okay. Yeah, check into that one too. Lentils, variety. We don't have any stock. Oh, is it out? Yeah. Okay. Why was that? Not. I need to relook at that inventory report we just went to. Because he didn't say we were out of stock on any of the ones that we. Yeah, let him send it to us, then we'll go over it. Okay. And this is a new one, of course, no sales. And this is a 5 liter, no cells yet. Yeah, that's, that's the overall report. If you want to look at the USA version. Okay, let's just go to this. All right. It's less than what we forecasted for this item and we're going to continue that. So. Well, we have a really, we really have a budget issue in the US right now, so. And even in Canada, you know, for some of the best performing campaigns, some of them only run 70% of the time. The entire time they run out of. They stay out of budget 30% of the time. And that especially during the evenings. And if we had more budget, we could spend more on them and probably that would have boosted ourselves. That's, that's the same situation even in the US Primarily for snack to go and especially because it's taking off. And so what are. Well, what are our total sales monthly right now in the US because we're 850 is 10%, isn't it? Okay, let's see. Our overall revenue this month was lower, probably a little bit more. Let's say 5,500 US dollar. That's how much we're doing right now. Okay. Because that's just my question to you to show home because we are at 10% in both markets right now because the thousand that you're getting this month, they're the thousand that we said in addition to this month. Yes, that's right. But in the US we need to spend 20%. That was also what I suggested initially. USA is more competitive and if you want to really take off, then we need to allocate that percentage. Okay. So right now, so just so I know that we're at 10% and again, when we relook at our budget, I can put that target in and saying ideally we spend more in the US for growth, basically is what you're saying. That's right. Okay. Yeah. All right, so let's do the comparison here. Okay. This doesn't really matter. This also doesn't matter. This one, it's way lower than what we forecasted half almost. So not doing well. This one is going to be discontinued. I'm not sure if it is because we are out of stock. It's fine. I guess. This one is on track. Camelina more than forecasted. Slightly more than that. On track, probably. It's also going to be discontinued, so it doesn't really matter. This one is also going to be discontinued. Doesn't really matter. This one is. This is the one that you wanted to continue, but oh, this one will also be discoed as well because it's not a variety, so it's kind of soft. Yeah. So it will also go away. Yeah. And. Well, this one too. This one too. Yeah. Big rationalization going on here. This is the, this is the lentil one that I know. It was one of our top sellers. That was the discussion I had with them in saying it is a top seller. So if we choose not to fulfill. And. But again, these things do show home. Like you can see the huge rationalization going on where at least you only have a few ASINs for this budget. It's not going to be right. So. But yeah, this was the question I brought to the team and saying if we the lentils are the only thing selling right now in the US but we're hoping the Snacks to Go. The Snacks to Go Fulfillment will start taking off. So we'd rather focus there. Sure. Yeah. All right, moving on. We're on track to selling almost 100 units, I'll say based on the weekly rates. But this month, Overall, we did 71, which is more than forecasted. And we have already taken this into account. Yeah. We have assumed 140 units this each month from now on. So I think we're okay on that front. Oh, that. I think this. How come we sold this product. I think this is something wrong or change this phone. Oh, I think you must have just. Yeah. So it's obviously pulling the wrong info or something because it's just repeating. Yeah, yeah. Oh, my gosh. That's the other. I was like, what did I do? Oh, shit. Yeah. So, yeah, we'll. We'll look into that. The formula, the same formula was copied. That is all that is about the two reports. Okay, so in terms of sales right now. So two things in Canada, if you can look at. Look. So we confirmed we're soft on the lentil variety because we're out of stock. We need to look at animals. Sorry, I'm confused. Which one you meant? So, because we do have lentils in stock. Is it the fathers lentil variety in Canada? Are you in Canada right now? It's in the usa. No, this is the usa. Okay. Yeah, but in Canada, the one before you said, like, why. When we said why wasn't it in our inventory report? Which one was that? That was three pack lentils variety, Canada. This one a four two. But you sold none. Why does it come up as. Okay, so something's wrong? Because when you look in the back end, it comes up as favas. Yeah. Oh, oh, something's wrong with lentils in this formula then. Okay, okay. All right. Okay. So where is the lentil one? No show. Okay, so show home. You need to do an audit of your. Your dashboard. I just freaked a new bottle. Thank you for nothing. You're a good call, Brittany. Okay. Because there is a variety pack lentils. How many did we sell, Brittany? No, that one's the lentil topper. Oh. Oh, so that's still not it. That's wholesome variety. Wholesome variety. Oh, down to roasted lemon variety. Pack this one under the variation. Yeah. And there is some in stock. 30. Yeah. And more is on the way. Okay. Now we're doing well on this one. Okay. Yeah. So that code is supposed to be there, like. Yeah, okay. Okay. Right. Okay. So the. The biggest one Then you're looking into. So just make sure the dashboard's pulling the right asins. But the Chickpea variety packs softness in Canada, you were just going to dig a little bit on that just to. Is that a buy box issue or is there another issue there? Okay. Okay. So I gotta take my little one to a doctor's appointment, so. But yeah, in between this and our next touch point, it's finalizing some of the Camelina oil stuff. So whatever questions you have there. And Annabel will take to his ops team talking about the US AWD warehouse. And yeah, I'm looking forward to seeing how that new variety pack goes because I think it's going to do well. Yeah. And you know what? I am sorry. This is not how it's supposed to be. Usually I'm supposed to give you a quote first for the product detail, page work and then start the work. Right. If you agree. But that's not how it has. Okay, for which product? For which product? The Camelina oil and. Oh, you did. Let's see, did I give you the quotation? No, I don't. You mean for the, for the audit and review of the page? Yeah, there are content. Yeah. Well, isn't it the thousand dollars to, to do an item that was just for the first product? So I'll have to give you. It will be less than thousand. Okay. Yes. No, but I, I, I do think we did talk about the Camelin oil show home because you said it's the thousand dollar fee to review any new item page. No, I, Yeah, you came up with that. But then, then I said that no, it's not going to be that much because the initial product was, it was more work, basically. But I didn't really get back to you with a. Okay, I'll do that. So if you can. Yeah, okay. Don't worry. I'm expecting a little bit extra. But like not crazy. Yeah, yeah, yes. If you want to just finalize that to make sure that it's contracted there properly or like conversed properly, that would be perfect. Sure. Yes. All right, thank you so much. Great chat soon. Thanks so much. Bye, guys. Yeah, bye. Oh, and wait. Show home. So you'll start the business test this month? Yes. Okay, perfect. All right, awesome. Okay, chat soon. Bye Bye. Yeah, bye now.
+
+============================================================
+Speaker-labeled transcript:
+============================================================
+
+Speaker A: In one master case. And we will be packing six of those bags in a master case like we did recently for those 28 grams. But we'll be moving this old 15 grams into six pack boxes going forward. So I just want to understand what quantities should we be working with. So should I just be able to convert the current forecast by six for master cases or does any marketing dynamics affect that?
+
+Speaker B: Nothing changes.
+
+Speaker A: Nothing changes. So I just can go ahead with the conversion in terms of forecast?
+
+Speaker B: Yes.
+
+Speaker A: Okay. So my only thing is there is a certain type of boxes that we need to use. So we do have some of the inventory on hand, but I'll make sure that after seeing what, what kind of conversions or numbers we are looking at for the master boxes, I'll make sure the inventory we have and then we decide on the switch timing because the lead time for those boxes varies any time between three to four weeks. So we do have some stock on hand for now and one is on order. So I just want to work around on the exact timing of those and we'll make sure that we keep pushing for consistent supply purchase.
+
+Speaker B: Okay.
+
+Speaker A: Okay. In terms of.
+
+Speaker C: So Annabelle, to that question, are you going to come to us with the timing recommendation? Right?
+
+Speaker A: Yes.
+
+Speaker C: Yes. Okay. Yeah.
+
+Speaker A: Yeah.
+
+Speaker C: Okay.
+
+Speaker A: So I've just put down the housekeeping things that we need to work on for this 15 gram snacks to go blind. So one is item checklist. So fishbowl code creation needs to happen internally that will create one code which would be the parent code for both US and Canada like we did for 28 grams. So we'll be creating a new code internally first and then I'll be sharing with Soham on like you see you can see in the Amazon checklist. So two codes will be requested for code creation. One in Canada and one SKU code with a suffix dash1 in US. So that will ensure we have the same ASINs but two different FNSKUs. And again it will help us with easy mapping in our ERP versus Amazon marketplace.
+
+Speaker B: Okay Anava, when you say this, which product is this for SKUs.
+
+Speaker A: This is for a snacks to go 15 grams.
+
+Speaker C: The current snacks.
+
+Speaker A: Current show home the old one.
+
+Speaker B: Basically. Yeah. Yeah. Okay. Are we, are you thinking of creating. I mean we already have two different SKUs. So what were you thinking of doing from here?
+
+Speaker A: So I will be creating. Okay, you're saying we. Oh yeah, right, yeah.
+
+Speaker C: Because the item's already set up so it's more just mapping in the new.
+
+Speaker A: So even if the pack size changes. Right. Because we were not sending Pack of six. Earlier we were sending just one box with one bag. But now Amazon will be opening the box and send individual bags to customers when they receive an order. So definitely a packing dimensions, everything will change, right?
+
+Speaker B: Well, so the item package is still the same. The dimensions of the item is still the same. Right. The only thing that is changing is for the box and that doesn't relate to the listing at all. That is how you ship. So yeah, nothing changes here. From now I can continue to use
+
+Speaker A: the same code you are saying.
+
+Speaker B: Exactly. Yeah. All you have to do is you just have to specify that you are going to ship a box of six and that is all.
+
+Speaker C: So it's probably very similar annabh to what you did with the oil. Everything stays the same but you change the bombs. Like those types of things had to change but otherwise nothing on the item was changed. Only when you shipped the box dimensions changed.
+
+Speaker A: I'm just trying to wrap around my thought process. So when we were doing just one box with one snacks to go back, we had a specific finished good score in Freshboard. That finish good code will change even though we are selling individual units. So our parent code will change in fishbowl. So it will be more of an internal adjustment then. Okay. Okay. So you're saying we can still.
+
+Speaker C: I guess the question there to show home when they receive the master box now how will they know just to open it? Is that all in the shipping. That's all in the shipping instruction. I guess when they see the dimms and it's a master case six. Okay.
+
+Speaker B: That's in the shipping label. Yeah. Amazon from Amazon you get the shipping label, Right. One is you get the carrier label. Another one is the FBA label. On the FBA label if they scan it, they get to know what's in the box.
+
+Speaker A: Okay, so we don't have to do any instruction prep for those, right?
+
+Speaker B: No, all you need to do is you need to label the boxes correctly with those two labels that you get from Amazon. And when you create the shipment, just specify that you are sending a box in which there will be six products. Specify the box dimension correctly and the box weight correctly. That's all.
+
+Speaker A: Yeah, no, that'll be done. Yeah.
+
+Speaker C: And so and question to that because earlier on this was a few few months or weeks back when you're talking about this show home, you mentioned that. So. So we're clear that the only codes that are going to change an above is internal. That as long as the labeling and the shipping documents are filled out properly, Amazon will be able to execute on their end, to open the master and go. So I think we've confirmed all that. Everybody's very clear on that, right?
+
+Speaker B: Yeah.
+
+Speaker C: Okay, second thing. So show home when we make this switch. Okay. So because you had mentioned early on that what might happen is we might end up having these like skews kind of hanging around in the single boxes for a while as the new boxes come in. But actually that might not be a thing now.
+
+Speaker A: Because we are using the same code then. Yeah.
+
+Speaker C: Because it's not. There's no new code. So that actually the inventory drawdown should just be seamless.
+
+Speaker B: I'm sorry, but I lost you for a while there. Could you repeat the question?
+
+Speaker C: Yeah, I'll repeat the question differently. So I guess in terms of inventory drawdown, there's. We just continue as is and start shipping six boxes, six packs, whenever we want. The drawdown is going to be seamless. There's no additional conducting that needs to happen there. We just seamlessly change to the six pack.
+
+Speaker B: Yes.
+
+Speaker C: Okay, that's good. I think everybody's very fearful that there's no additional complexities here.
+
+Speaker A: Yeah. Like for example, when Amazon is receiving a stock, let's say if one particular DC of Amazon is seeing two different packaging types sitting for the same sku, won't that be a red flag to them?
+
+Speaker B: Well, first of all, I don't know how they store the products when you ship them. Will they keep the boxes intact as you send them or will they keep it in a different way? I. I personally think they cannot. I mean, in a warehouse. If I just. I don't know much about how a warehouse operates, but I don't think people may send different size boxes. Right. I not sure if they still keep all of those boxes in their warehouse.
+
+Speaker C: Yeah.
+
+Speaker B: They must have their system, please. Probably they will.
+
+Speaker C: What would end up happening is like the new one that we just shipped in. Right. All the weights and stuff. We'll talk about that probably next. Or whatever. Wherever on your agenda. There's. But it will get flagged with a question and then we just. It could. It won't. I don't. It sounds like it's going to be pretty seamless. As long as the labeling and the shipping documentation is filled out appropriately, it should be pretty seamless.
+
+Speaker B: Hope so.
+
+Speaker A: Okay. Okay.
+
+Speaker C: Yeah, that's what. That's the thing. So I guess the question we're asking, does anybody see where there could be risk here? Because all we can do is just mitigate the risk as much as possible. Right. Like, have we asked all the right questions. And so because yeah, it, it's a box change, but it, but it's a. It's. It's a significant box change. It's not like just the box dims went up an inch or two. Right. It's. The whole master pack has changed. So that's why we're feeling. Have we asked all the questions? Is there an additional step that we've missed here?
+
+Speaker A: Yeah. For example, remember Soham we were discussing last week on the dimensions issue. So is there a place where this will be an impact?
+
+Speaker B: No, it will not be. Let me show you something. Let me share my screen for a moment.
+
+Speaker A: Yeah.
+
+Speaker B: And show you something. The reason I'm saying it will not for this case. We don't need to. We don't really need to overthink this one. It's really simple. So this is the product that you are talking about right now, right? Yeah.
+
+Speaker A: No, this is in the US FG751.
+
+Speaker B: Yeah, fine. I'll just go ahead with this one.
+
+Speaker A: So it's in the US the third one.
+
+Speaker B: Right. So I'll just click on send replenishment. Replenishment or something. Whatever it was correct. It goes to. Sent to Amazon here, for example. Right. Now the pack. You have the pack. Yeah. You have different. You have different setups here. So you send this one unit per box. All you have to do is edit and then. Or maybe create a different packing template.
+
+Speaker A: Right? Yeah.
+
+Speaker B: That is all. Then that is what you are going to send. Even you already have multiple options here.
+
+Speaker C: Right.
+
+Speaker B: So for example, instead of sending this one, if you wanted to send this and let's assume it's something different. Well, let's make it different right now if you want. Let's say if we edit it to six and then set the dimensions correctly.
+
+Speaker A: Okay.
+
+Speaker B: And save it. And then we use this template and just specify. Okay. We're going to use. Let's say we want to send 120 units. Six in each 20.
+
+Speaker A: Yes. Yeah. So then it will. Yeah. Okay.
+
+Speaker B: Yeah, that's it. Nothing.
+
+Speaker A: But the base information of the packet still stays the same. An oversized alert or something?
+
+Speaker B: No, the item dimension is set up in the product listing backend. So that still stays the same.
+
+Speaker A: Okay. Okay.
+
+Speaker C: It's always scary when things are so simple. So. But this looks so. Thank you for showing that, Shoham, because even just for mine, I never see the back end and I know annabe does all the time, but that just helps me because it has just set up a new box size and then the instruction to Amazon is quite clear. So you can sleep at night and above make the change.
+
+Speaker A: Yeah but Alicia, I think we'll just talk offline on whether we should create two different codes in our system because we have inventory in Amazon with a current code. Right. And would we want to. I'm not sure like whether fishbowl will
+
+Speaker C: be able to kind of. Are you asking that question because you're just wondering if we want to know the data of when we made the swap. Like do we want to see honestly in. That might be a Natasha H. Question Annabelle. Because for me I'm just looking at unit sales. Yeah, we only care about the unit sales whether it went a single box or six pack. Whatever is easier for you. But for finance they'll probably say the same thing to whatever's easier. Yeah.
+
+Speaker A: Let me touch base with that again just to make sure we are connecting the right dots.
+
+Speaker C: Okay. Okay, so that's successful conversation on snacks to go. Now we'll just see how it goes.
+
+Speaker D: Next one.
+
+Speaker C: Annab.
+
+Speaker A: Yeah, just give me. Okay, that's fine. Then initial inventory to be planned for master cases so we discussed will stay continue with the same number of units based on the forecast. So for 5 liters bed in Canada. So item listing was done under the new code by Shoham and we just have to do a remapping in fishbowl. So in my next shipment plan to Canada Alicia I'll be sending few of the 5 liters BEP. So based on Soham's suggestion we are adding like 15 units a month. So instead of sending 3 months talk I'm just. I think we. I'll be sending 30 units like couple months inventory just to see how they start moving and then we can always replenish a week after they reach. Right?
+
+Speaker B: Sure. Yeah.
+
+Speaker A: That is what my plan is. Okay then third topic is the decision to discard three pack versus five pack fava across both Amazon, US and Canada.
+
+Speaker C: So maybe add some context here so as we rationalize and we can pull up that inventory. So last conversation we had was we're gonna. The main priority right now is to rationalize stop fulfilling 40 grams and then some of those other items I talked about so that we can focus on variety packs. Camelina oil basically. And so what came up in rationalizing was the we used to have in Canada a three pack fava and a five pack fava. Right now we have not sold in Canada the three pack. I don't know Brittany in like six plus months. Like a long time because we got rid of that. We said we already Rationalized in Canada said, let's just continue with the five pack and get rid of the three pack. But now we're saying we'd rather go with the three pack because the box size and the iteration is exactly the same as the three pack chickpeas, the three pack lentils, everything like that. So we want to do three pack Canada and three pack only in the U.S. is that fine that we can just reactivate the three pack fava and run out the five pack fava in Canada. Do you see any issues with that show Home
+
+Speaker B: with reactivating the three three pack listings? I don't see any problem. If you just send inventory, they will. They'll be reactivated on its own. Yeah.
+
+Speaker D: And then just let the five run out is what you suggested too, right? Like not removing it.
+
+Speaker C: Yeah, yeah. Okay. And so same in the U.S. and so in the U.S. annabelle showed we were saying like, hey, we sold like 33 pack and 25 pack in the US so we're gonna say we're gonna take away the five pack. We're gonna stop filling the five pack in the US and just keep the three pack. I don't think anybody sees any problems with that either.
+
+Speaker A: So this is the five pack for us and we sold 27 units of them. And right now we like that. We are entering into a phase whether we need to decide whether we not to replenish or discontinue.
+
+Speaker C: So do not.
+
+Speaker A: Yeah, okay. Yeah, I've added that.
+
+Speaker C: So now in the US show home, it'll just be the three pack fava. There's not two, just one. And same in Canada. Annab, if we can fulfill the three pack and stop fulfilling the five pack again, just so operationally like.
+
+Speaker A: Yeah, so five pack we have marked as don't fulfill. And let me see on three pack
+
+Speaker C: how many ministries think the three pack is on this list? The weird thing about it, maybe that's why I put that question there. Because where is the damn three pack?
+
+Speaker A: Did we discontinue already in the past?
+
+Speaker C: So let's just make a note. Can we go look at that? Where is the three pack fava in Canada? Because I don't want to dis. I want to have a fava variety pack. So I just want to make sure that that's easy enough. Or do we just keep the five pack right now in Canada? That was my question. What's up in Canada? It's fine to do that in the U.S. easy peasy. But can we streamline in Canada even further to okay.
+
+Speaker B: And anubhav when you are, could you please send me the final for Excel with what we will continue and what we will not?
+
+Speaker A: Yeah, for sure. Yeah. Because we literally just had this discussion yesterday to make sure that everyone is tied up on the same page. So I'll share this thing with you because definitely it will affect your forecasting techniques. Right.
+
+Speaker B: And advertising save with.
+
+Speaker C: Correct.
+
+Speaker A: Yeah, I'll do that. So then we remember we got a flag from Amazon on the items being moved to unfulfillable status because of the wrong NFT declarations. So what we decided is we went back to the customer saying that hey, we went back to Amazon customer service and we said that we'll be rectifying our packages and send you the corrected ones.
+
+Speaker C: Right.
+
+Speaker A: So what we decided internally is we'll try to play dumb by the year and we will continue to send Amazon US packages in Amazon US Marketplace because even though the stock images currently uploaded are of Canadian unless.
+
+Speaker D: Yeah.
+
+Speaker C: So basically the lentil issue, we're not going to refill that item, we're going to leave it. But operationally we're still executing with US packaging in the box even though the ASINs match. So it's Canadian images. So if we get our hand slapped again on done then we'll change all our internal codes to change the item. So it's Canada pack inside. But for now we're just business as usual and not fulfill the lentils. Just leave that quietly.
+
+Speaker A: Yeah. For let's say for example Chickpeas variety pack. So we have. We are sending US packaging for chickpeas to US and we are sending Canadian packaging to Amazon. Canada.
+
+Speaker C: Yeah.
+
+Speaker A: So unless.
+
+Speaker C: So it's more just for your information show home.com it's more just for your information, if we get our hand slapped again we'll have to make some internal like. Like the only reason we don't want to make the change to everything right now is it's just not a big enough issue to uproot all of our codes and recreate all new boms and stuff. So. So we'll just continue quietly as that. But if we get our hands slapped again, we'll. We'll do the bigger changes.
+
+Speaker B: Yeah, sure. Yeah. That doesn't happen very frequently, so hopefully not any soon.
+
+Speaker C: Yeah, exactly.
+
+Speaker A: Okay. Inventory review. We can do it last. So there is one observation I had from the new variety pack that we sent snacks to grow. So we got a placement fee and I'll just show this picture. So they asked me to split into five shipments for those 20 cases going to us which I won't. And one, making one shipment for 20 cases, like, which is like a layer of a palette. They charge me 600 bucks. Wow. 20 boxes LTL shipment, like one pallet. And their suggestion is to send five different shipments to five different locations. So either way, like, if you want to save your money, spend in fret. If you want to save your fret, give money to Amazon.
+
+Speaker B: Right. So are you asking what would be the best way to go ahead?
+
+Speaker A: Yeah, I mean, I haven't seen this.
+
+Speaker C: Can you explain? So, okay, so currently in the US we ship to one location and they. And then they go out to all their warehouses, right? Yeah. And so in this case with this item only, they're asking us to go to all these different addresses. Yeah. Why would you ask that?
+
+Speaker A: So generally they want a healthy distribution of all our products. So it is spread well across the different provinces of Canada. And there is less transit time between customer order and the delivery date. Right. If it is located in one, Yeah.
+
+Speaker C: I don't know why they go to those. But why would they ask us specifically to ship now to the individual warehouses versus the process we've already been doing for everything else?
+
+Speaker A: Why would they always ask you, but they don't charge you this heavily?
+
+Speaker C: Okay, so they always ask us, but they don't charge us that heavily. How much heavier is this one?
+
+Speaker A: Generally I've seen between less than $200. And even they don't ask you to split more than two shipments at once. They have asked for three shipments, but here they have asked for five shipments just because. Is it new? I don't know why I would see five different split shipments, additions. I don't know.
+
+Speaker B: Is this in Canada, US that's what I thought. Yeah.
+
+Speaker C: Right.
+
+Speaker B: Okay. You know what? Something that I would. And this is not probably for right now, but this is something we consider. So placement fee. They didn't have this placement fee before. It has been a while, many, many months. But this is relatively new. Before, they used to take responsibility of distributing it across different warehouses and without any charge. But right now they have a placement fee and that is a very big expense. So we need to be careful, first of all. And second is they have introduced one option. It's called awd, Amazon Warehouse Distribution. I think that's the full form where you can store things in bulk. If you do that there, you generally ship products for a, let's say six months for a longer time horizon as compared to what we're doing right now. And if you do that, there's no placement fee. First of all. And they auto replenish, replenish the inventory from their AWD warehouses to the fulfillment centers whenever our products are low in
+
+Speaker A: inventory, if I'm reading you correctly. So do you suggest that if there is higher inventory then that is an auto trigger from Amazon that they won't probably charge it?
+
+Speaker B: No, it's a different one. So if you go to the back end, you will see right now instead of sending to Amazon's regular fulfillment centers, you also have an option to send it to Amazon awd. So if you peak that one, there will be no placement fee.
+
+Speaker C: Okay. Crazy. So, okay, so two things I heard there. Show home. So one, you said this is almost like a listing fee with a new item or like it's a logistics fee that we're going to have to pay every time. Is this only in the U.S. this new AW warehouse, is this only a U.S. thing?
+
+Speaker B: In the U.S. yes.
+
+Speaker C: Okay, so in the U.S. now they have this new method. And how new is it? Show home, like a couple months, Couple weeks? Like.
+
+Speaker B: No, no, it's been, it's been many months. I. I cannot exactly remember. It's been a while.
+
+Speaker A: Yeah, it's been a while.
+
+Speaker C: And this is a. Can you open the back end and show us? So you're saying now we can ship to a different warehouse? AW warehouse. And why is that cheaper? Why is that warehouse cheaper than just the current warehouse we're shipping to? Just like if that's their own internal, they've set something up that makes it cheaper. So they,
+
+Speaker B: that's like a, they're promoting AWD as the long term storage solution.
+
+Speaker C: Okay.
+
+Speaker B: So for example, they will penalize you if you store your products more than three months. They will charge you an overstock fee. But they won't do that if you ship to awd. And a few more things that I want to mention. When they initially started with awd, you could only ship pallets. And also you couldn't do, you couldn't ship perishable items. So our items right now, they have changed all of those things. You can even ship small boxes. They also accept perishable items. Just mentioning these two as some information.
+
+Speaker C: And what does it take to change what warehouse we ship to? Like there must be. Is there. Do we have to ship a certain volume or do we have to be a certain revenue? Like because why wouldn't every brand just, oh, just shift to that warehouse? It's. I get dinged less.
+
+Speaker B: It is an option to open to every brand right now. Before it was a bit limited because not every brand could ship just palettes. Right. But it's more open to every brand right now. And I think one reason is brands are not that aware of this option like we are not. And yeah, that's the primary reason. And also the unknowns basically. What are the fees of storing at awd? How does it compare versus okay, so
+
+Speaker A: there is a month.
+
+Speaker C: So you're saying it's okay. Yeah, go ahead Annaba.
+
+Speaker B: Yeah, yeah.
+
+Speaker A: Is there a monthly storage fee then?
+
+Speaker B: Yes. Yeah, there are storage fee for even our regular.
+
+Speaker C: So we either take the hit at the initial ship too and we don't pay significant storage fees or we likely go to this AWD and pay higher storage fees. We'd have to do that analysis, I guess. Anabel. Right.
+
+Speaker B: Yeah. Usually they promote this as a long term storage fee at long term storage at a reasonable rate. That's how they have been promoting compared to, you know, they claim that it's even lower than storing at their regular fulfillment centers. But we have to do that comparison.
+
+Speaker C: Okay. Because you're saying so where we ship right now, after three months they start charging us. If product has been shipping sitting there longer than three months, we our fees are higher but the fees are lower because they allow you to store more longer.
+
+Speaker A: Yes, but where do I get those kind those alerts? Because I haven't got any alerts of excess fee being charged.
+
+Speaker B: You mean overstock fee.
+
+Speaker A: Yeah. Yeah. Well is there a way to track that in portal or is it just based on how they invoice to us?
+
+Speaker B: Yes, that's based on how you can also track which products are under overstock fee, which products are there for more than 90 days. But also you will get to see all of these transactions, all of these fees if you download the transactions report. Right? Not like, not exactly the transactions report. I forgot the name of that report. But
+
+Speaker A: could you send me a link later once you have like once we are done with that meeting. Like if you know where I can then probably I just. I'll try to see where it is and then I can start a discussion with finance on that.
+
+Speaker B: Sure.
+
+Speaker C: Yeah.
+
+Speaker B: And the report that I was talking about is the all statements, the statements that they issue. From the payments page.
+
+Speaker C: Okay. Yeah. So for this discussion because yeah to your point there Annabelle, this we we just need to do even internally a little more investigation on understanding the differences and the different costs to ship to this AWD versus what we're doing right now. So this is kind of bringing up show homes brought up maybe opportunity for improvements in how we ship to the US For Amazon, there might be a different way.
+
+Speaker A: Okay.
+
+Speaker C: Yeah. And so show home, standby for more questions. Because maybe if you can, if you have.
+
+Speaker A: And even I would like.
+
+Speaker C: Or you're saying it's in the back end, show home. We can see bit of info on that, right? Okay.
+
+Speaker B: Yeah. Can I show you something? Let me show you something. Okay, here. So if you go to your shipments page, inventory and then shipments, you. You will see this page, right? And here you have two options. Now, one is fulfillment center shipments. Another one is Amazon. Oh, you are not in.
+
+Speaker C: So maybe this is where our barrier is, right?
+
+Speaker A: What is do we think?
+
+Speaker D: Are they trying to push us into these? Like, does that make more sense for Amazon? Do you know what I mean? Like, are they trying to charge absorbant fees on a fulfillment center so that we're forced to go in here?
+
+Speaker C: And this kind of begs my question. I'm saying, what's the criteria to get there? Because I wonder if we meet the criteria. It looks like we don't. We're either not set up or. Because if this is a. My just my basic knowledge of just how warehousing is. So AWD sounds like it's a bigger warehouse in a more central location so that Amazon can be more efficient. So ideally they're likely pushing a lot of their vendors there. However, there's probably a specific vendor that they want going there. And so that's kind of where my question is. Like, do we meet the criteria?
+
+Speaker B: You know what, if you click on Learn more, then this is a page you come to. And if you click on Create shipment, you'll see these. Now they're saying send to Amazon warehousing and distribution AWD and how you can create the shipments from here.
+
+Speaker A: But is there an impact? So what I was hearing different terminologies being tossed around when we were shipping. Let's say, even when I used to interact with ERP companies for Amazon integration, they were always asking the first question, where do you send? Do you send it to fulfillment centers only? And then you say we just send to fulfillment center. So does things change in terms of coding or anything? Because as per that page, nothing changes. It's the same portal.
+
+Speaker B: It's the same portal, yes. All you have to check for is where you are sending it. And that is all but one thing to consider. If you send it here, send it for, let's say, six months of inventory, not three months.
+
+Speaker C: Okay, so you're saying show home. If you send to this, send more stock. Okay.
+
+Speaker B: And you can also see probably we'll have to. I also have to look into it a little bit more but I think we can learn a little bit more about these costs and everything. It claims that easy, efficient, cost effective upstream bulk storage and distribution solutions. So we'll have to check all of these things and how they charge and if that makes sense for us.
+
+Speaker C: So the takeaway here, Annabelle, if we could dig a little deeper and learn internally how this differs from what we're currently doing in terms of just methodology and logistics and cost. That's what we want to understand. And then the second thing to understand is if we like this, how do we become part of it and which sounds like we just. It sounds like we have to set something up. So let's take this away. Annabelle, if you could dig in a little further and then what we might need to have is just a conversation in between our next meeting on. On what we learned. You'll probably have to take this to. If you can just get a little more information out above, you can bring it to Natasha and myself and then we'll probably have to loop and show home for some more questions too.
+
+Speaker B: Okay.
+
+Speaker C: Yeah.
+
+Speaker B: Yes.
+
+Speaker C: But this is USA only is what we're saying to you.
+
+Speaker B: Yeah.
+
+Speaker C: And in the meantime, in the meantime that cost. Are we just going to have to eat it right now, Annabelle, to start fulfilling and see if the cost is the same next time. Like maybe it's only on the first shipment that it's so high.
+
+Speaker A: Why I brought to everyone's attention because I haven't seen this kind of placement tree ever and that too for one sq. And I'm sending just 20 cases, you know.
+
+Speaker C: Yeah. And that's my question. I wonder if it is because it is a new sku. I wonder if a fulfilling. So the initial fulfill it almost is like it's a new SKU going in. So it's like a listing fee or a premium and then I don't know if the next one will come back down. Right.
+
+Speaker B: I don't think so.
+
+Speaker D: Amazon's also beefing Amazon's also beefing with the White House right now. Hey, did you see that yesterday Amazon said that they're going to start putting like literal like a sticker of tab basically that says you are being charged this much because of Trump's tariffs. And so that was like the big White House.
+
+Speaker C: That's awesome.
+
+Speaker D: Yeah. And so then the obviously the press secretary was like this is a political.
+
+Speaker C: You know.
+
+Speaker D: So then that was the big topic
+
+Speaker C: in the White House yesterday. So I sort of wonder if this
+
+Speaker D: has something to do with Amazon sticking it to Trump, even though he only
+
+Speaker C: shipment we have going into the US Right now, Annabelle, is the other ones, you're saying. So you've created several shipments into the US and the only item that you're seeing this, this premium on is the new one.
+
+Speaker A: No. So we don't have any other shipment from this. So we'll be planning. Because we were just finalizing on which skus right. To refill and discontinue. So the others are yet to be planned.
+
+Speaker B: And by the way, this is just not. I don't think this is direct related because even US companies has to pay this placement.
+
+Speaker C: Pardon me?
+
+Speaker B: I'm saying even the US Companies, they have to pay this placement fee. So it's not tariff related.
+
+Speaker D: Yeah.
+
+Speaker A: Yeah. Okay.
+
+Speaker D: Okay.
+
+Speaker C: Yeah. Because my question here is is this all of a sudden an increase that just happened overnight on everything, or does this have to do with the fact that it's a new item? But we don't really know that because we don't have a simultaneous. We don't have a recent shipment. So I'm saying if we go now, when we send our next shipment, we'll know if this is related to the fact that it's a new item or if this is just a new. An increase in the fees. Meanwhile, we need to figure out this ADW thing.
+
+Speaker B: Yeah, I can, I can answer that question. It's not related to this new item. I. I'll see that this will continue to be like this.
+
+Speaker C: Okay.
+
+Speaker A: Okay.
+
+Speaker C: So that's why we need to look at this.
+
+Speaker A: Aw, I haven't seen so many suggestions on splits. Like, I haven't seen more than three ever. And this was like 20 cases, five different shipments. I'm like, okay, that's not happening any which ways.
+
+Speaker C: Okay, okay. So we might have to fulfill. We don't want to hold up the launch of the item man above. I would have to break down the cost of like how significant that is in. In actually fulfilling. But we definitely want to figure out this AWD thing quicker than possible, quicker than later to know if it's a more efficient, effective way. Yeah. Okay.
+
+Speaker A: So aside that three. So let us come back to the inventory discussion.
+
+Speaker C: Just.
+
+Speaker A: Sorry, I just dropped my headphones.
+
+Speaker C: That's okay. So in terms of the inventory discussion, we probably can just. The reason we like to pull this up at every meeting is we just want to flag or make sure. Does anybody see any concerns of overages or underages in. In any of the items here we discussed last time? I think we're and above. Do you have any issues in fulfilling like 5 liters gonna be fulfilled soon? We're gonna run down the five packs the snacks to go. We've upped things and the new ones going in.
+
+Speaker A: Yeah. So based on the for Soham's visibility also. So the yellow ones are the hero items. Soham and the others are the don't fulfill criterias. So only item missing on this list is that three pack power which I will be investigating. So for the new snacks to go six pack. We dispatched 50 master cases recently to Canada. Then we did. We are planning to send more of snacks to go like 800 units for Amazon Canada. So last month we sold close to 850. And then including everything in transit and available we have 1700 units there. And this is our plan. But if I go by their recommendation. There is recommendation is to send 2000. I don't know why they would have that numbers like even for me to.
+
+Speaker C: That's fine. Again show home said last time don't listen to their numbers. We know. Yeah. Because they're just trying to get fees for overstocks. Yeah.
+
+Speaker A: So that was one and then so like yeah, I already plotted 30 units to be sent for 5 liters bag in a box. Then variety pack for lentils. I'm planning to send 20 more. So we have like 50, close to 50 over there and close to 2 months stock. And this includes the 60 units that we dispatched this week. So I'm planning to send 20 more just to keep that number healthy. Unless you think we should send more. This is three packs.
+
+Speaker B: Yeah.
+
+Speaker C: That's not getting a huge amount of budget. So yeah.
+
+Speaker A: Okay. So yeah, I'll just trim it to my my plan of just sending 20 units more just to keep numbers flowing. And I'm just waiting on stocks for two pack oil. So like we have a production run happening at TA Foods only in the week of 12th of May. So fingers crossed as soon as I'm able to get those I can't replenish them. So we are waiting that for Costco, for Amazon for everything and all our current stocks.
+
+Speaker C: Oh second week of May waiting for bottling socket TF who is in second week of May. So two weeks almost probably three or four weeks before we'll have stock in annaboub.
+
+Speaker A: Yeah.
+
+Speaker C: Okay. So we want to watch that line item really closely how fast the Camelina starts selling because we are spending against it. Yeah.
+
+Speaker A: Okay. Yeah. And this is across both like for both US and Canada because all my current inventory is reserved for MRG going for an export order and we were expecting they'll delay the PO but they just issued the PO as soon as we asked them. So we can't even divert that store. Like I have 300 plus cases sitting in the warehouse but all are being reserved for that export order so we can't divert it. So that's the only problematic SKU across both marketplaces.
+
+Speaker B: One thing quickly for the variety pack, could you please send 1100 instead of 800? I would have.
+
+Speaker A: Okay. I will have to check the possibility based on our production resources also. But let me review that. Okay. Or maybe I can send another run a week later. You know like and I can add a schedule for. But yeah,
+
+Speaker C: so yeah, good point there, Annabelle. So if it's scheduled to do 800 basically show home saying you might want to buff up or make sure the frequency of the next one is really close. Yeah, yeah. And we'll want to watch as soon as that new variety hits. We'll need to watch that really closely because you're filling with oh 300 units of 50 miles. Okay. So 300 units are going in. So but let's just watch that closely because I know it'll take a bit to ramp it up. But hopefully like it is our top sellers. It has dill pickle in it.
+
+Speaker A: So I assume that forecasted quantities was also determine my inventory planning for the boxes. Like how many.
+
+Speaker C: Yeah.
+
+Speaker A: Will it ramp up? So do we have you have the
+
+Speaker C: link to show homes Forecast.
+
+Speaker A: Forecast. So I'll just. I'll just rely on those numbers to make sure that. Yeah numbers are accounted for. Okay.
+
+Speaker C: Yeah.
+
+Speaker A: Okay. Coming to Amazon US. So for like we sent 20 right on the new. Sorry, this is the old one K. So yeah we already have your recommendation on this one. So for 140amonth. So we are already planned for 300 units to be sent. Then again oil we will come back later. But oil is low. Oil is literally low in us. We don't have oil.
+
+Speaker C: So watch your spend on that item. Show home. You could slow it down until we get stock back up.
+
+Speaker B: Sure.
+
+Speaker A: This is the new snacks to go variety pack that we just discussed that we are. It's in just picked yesterday. So one body units of those then the variety pack chickpeas. We are low on this one. So I'm planning to send 60 but again I'll verify with your forecasting figures. So I'm planning to club both the shipments with the snacks to go 300 with this chickpeas variety pack and club it all and send it out Sounds good.
+
+Speaker C: Perfect.
+
+Speaker A: Okay.
+
+Speaker B: And
+
+Speaker A: we are keeping this active, right? The three pack powers. That is what we discussed, correct?
+
+Speaker C: Yeah.
+
+Speaker A: Okay, awesome. Thanks. Yeah, Soham, I'll reach out to you with that list so that you can focus on your ad spend accordingly.
+
+Speaker B: Yeah, sounds good.
+
+Speaker A: Thanks. I think I killed most of your time. So whatever little time you have,
+
+Speaker C: honestly the priority right now is cleaning up and rationalizing. So this is all relevant conversation.
+
+Speaker A: Yeah, thanks.
+
+Speaker C: Yeah, thanks so much.
+
+Speaker B: Thank you.
+
+Speaker C: Okay, awesome. So for our discussion points. So I think show home again just because like as I mentioned there, cleaning up and rationalizing is huge. So I'm glad we're going through all those points. There's some change happening in some key items to include the new variety pack fulfillment, that 5 liter camelina oil which like once it's finally fulfilled, that's a high revenue item for Camelina oil. And if you have horse owners buying that. So maybe let's just jump in over to Camelin oil. So I sent you the email, sorry, I couldn't figure out how to like copy right in there. And because it's such a, it's a bit clinical Camelina oil, we need to make sure that we, the how we talk about it is factual and right. And I will not be shocked if once you load the new copy, there's some rejections in there from Amazon. We'll see. Like,
+
+Speaker B: okay, we'll see. Yes. Yeah. Let me pull up your email.
+
+Speaker C: And so what I did was I just kind of rewrote all of your, your bullet copy there and just highlighted in red where I changed whether there was a word edit or how we spoke edit. So that's kind of like your new copy to put in there. And then just a few things I made that like there's no QR code on the 5 liter, only on the bottle. So just making sure those things are clear.
+
+Speaker B: Sure. Yeah. These, all of these are. Okay. I, I, one thing I would say is this one probably will not be able to put everything, keep everything because it's a bit lengthy. We need to keep it below 250 characters. So it's around 330 I think. So we need to shorten a little bit and then I'll just use it on Amazon.
+
+Speaker C: Okay. Okay. And then Brittany's brief. So I updated Brittany on our conversation about the images and she saw your updates there. The only one I thought which would be good to add or work with was that infographic that I showed in the email there. It's a pretty powerful visual that we use lots in other Sales or it's on the video too. So she's working on those. And they'll probably be some back and forth with you guys on those.
+
+Speaker B: Okay.
+
+Speaker C: Okay. And then did you want show home just to pull up the dashboard and do a quick how are things going? You also have the additional thousand dollars starting this month, correct?
+
+Speaker B: That's right. Yes.
+
+Speaker C: Yeah. Okay.
+
+Speaker B: All right. So let me just pull up the dashboard. It's. It's for Canada. I'll just switch it to monthly view. I was working on it, make sure everything is okay. So. So give me one second.
+
+Speaker C: And your I don't know if I saw the new Snacks to Go item. Is the copy pretty much exactly the same for like the strategy copy, like the same as the current Snacks to Go?
+
+Speaker B: Yes, almost the same. So let me pull that up if you want to take a look at that quickly. One second. I'll just stop sharing my screen. Okay, I'll share my screen now.
+
+Speaker C: Because what I'm really hoping for, that snacks to go show home to. And this is another question I have is we need to get our reviews up because our current one is 3.8. It can't even take prime days. I think that our. Our new one with Dill pickle, it just has our hero items in it. I think it has a better opportunity to be at your 4 to 5. But on the current one, how can we get our Reviews up past 4? Like do we need to do the vine review thing or like what are some strategies we could do to get that up?
+
+Speaker B: Well, first of all, on that one, we are trying to increase our sales. Right. First of all, you have to fix the product. Right. And if we fix the product, we can at least ensure whatever reviews we are getting in the future, it's going to be. It's going to help us improve the rating. Overall rating.
+
+Speaker C: Yeah.
+
+Speaker B: And we are also boosting ourselves. So at the. The rate at which we'll receive the reviews will also go up. So hopefully in the long run it will help you improve your rating. And it has already happened, by the way. Dropped to. I'm not saying it's happened since we started working. It's happening. It dropped to 3.6 at some point. Now it has improved to 3.8. You can also see the timeline. So yes, one thing is, yes, we have to keep on. We have to make sure the product is fixed and since our sales volume is going up, we'll keep on receiving more reviews that will help us boost that review in the long run. Another thing that we could do is use a tool like Feedback quiz. What it does is whenever people order and we have the we can set up an automated flow. It will use Amazon's automated template and send that review request to the customers. So what that will do is that will increase the review conversion rate. So I mean review to the number of orders that we get.
+
+Speaker A: That ratio.
+
+Speaker B: It will improve that ratio.
+
+Speaker C: Okay, what's that tool called?
+
+Speaker B: It's called Feedback Wheeze.
+
+Speaker C: Okay. And that's an Amazon tool, is it? There's probably a cost to it.
+
+Speaker B: There's a cost to it. Yes. It's very reasonable, I would say.
+
+Speaker C: Yeah. And so you're saying once they've purchased it just sends them a note to say, hey, do you want to leave a review?
+
+Speaker B: Yes, after a while. So you can also save that duration after how many days do you want to send these all of those flows and it will keep on sending those automated emails.
+
+Speaker C: Okay, do you want to mind just confirming show home. And again, it can be after this just what the cost is to add that on. Is there any work to you or it's just turning it on?
+
+Speaker B: It's just turning it on.
+
+Speaker C: Okay, we should talk about that. Brittany, that might be something we want to do. Let's get the new one up and see how it's gaining because we might even want to do it on that new one just to get the reviews up faster.
+
+Speaker B: Well, you can. Once you set it up, you can do it for all of your products.
+
+Speaker C: Yeah. Yeah.
+
+Speaker D: Okay.
+
+Speaker C: Sorry.
+
+Speaker D: I assume that's us. Yeah,
+
+Speaker C: that's in US and Canada. That option to do that,
+
+Speaker D: I just assume it's a us.
+
+Speaker B: No, you can do it for all of your marketplaces, all of your products. There's some limitations.
+
+Speaker C: Okay. Okay, sorry I disrupted. Go ahead and jump into. I'm already thinking about how do we get more sales before even seeing what we are.
+
+Speaker B: Okay. So the only thing that I have changed here is this first positioning element key message basically. So instead of the previous one, because the protein amount of protein was not that high, I was positioning it as a high protein diet complement here because the pack sizes are higher. I mean we have more product. It's 28 gram pack compared to 15 gram. And also because of fava, the protein is higher than other chickpeas and lentils. So I want to say that it's a high protein and high fiber snack as compared to what I said before, which was hyperten diet compliments. So that's the only change that I have made and that's why you Will see the first bullet point has changed Roasted high protein and fiber. That's the headline. That's how it's starting. And we have also changed the images to reflect the same thing. Along with that, what I have done is since this is a new listing, we have to create a. An A plus content anyway. So I thought, why not do it properly? So I suggested that we do the premium A plus content. And if we do the Premium plus content for this one, you can also implement the same thing for the old snack table. Similar. And I have given you those copies. For those modules, we're going to use six modules. And I have given you.
+
+Speaker C: So this is down at the bottom, the A content.
+
+Speaker B: Yeah.
+
+Speaker C: Okay. Did you see these, Brittany, for briefing images and stuff? Okay.
+
+Speaker B: And I have one walkthrough video. So I just wanted to describe the basic concept, why Premium plus is better and all. I've given you two examples and I recorded one video. You can watch it to see how I basically think about the A plus content, the premium.
+
+Speaker C: Okay. And then in terms of execution on this A plus content, show home. So you give us the recommendation here, but if we come up with all of the stuff, will you go load it or do you need to show our team?
+
+Speaker B: It can work either way.
+
+Speaker C: Okay. As long as we just get all the copy and stuff.
+
+Speaker B: Yeah.
+
+Speaker C: Okay.
+
+Speaker B: So that's it. About this and this.
+
+Speaker C: A just again, just for my A plus content. So that's at the very bottom. I'm just going to pull up. Where does that go? Because we do have A plus content on all our listings. Hey, we do.
+
+Speaker B: That's the basic A and this is a premium A plus. And also the way the basic A plus is done, I'd say the information, all of those are okay, but the format could be improved for schemability. No one is going to sit and read all of this information. Okay, that's fine.
+
+Speaker D: Could you also resend. Can you just resend this notion? I have the Camelina one, but I
+
+Speaker C: don't have this one.
+
+Speaker D: I just checked.
+
+Speaker B: Yeah, sure. All right. Yeah, I resend it to you.
+
+Speaker D: Thank you.
+
+Speaker B: Yeah.
+
+Speaker C: And why do you call them modules?
+
+Speaker B: That's what Amazon. Amazon calls them.
+
+Speaker C: Okay. Because I'm just gonna. Again, just for my own understanding, because here's the current snacks to go on Canada, for instance. So A plus content is all this pretty stuff down here right on the page. So when you say module, does that mean like section?
+
+Speaker B: Yes, section.
+
+Speaker C: Okay. Yeah. Okay. Okay. Okay, Brittany, so you want to take some of that and start looking at That a little bit and go to Show Home with questions.
+
+Speaker D: We have locked in with Lindsay.
+
+Speaker B: So much to do.
+
+Speaker C: Yeah.
+
+Speaker D: But we have time, right? So if it's like two weeks, that's totally fine. Yeah, yeah.
+
+Speaker C: The key thing is get the page A plus content can happen next. Yeah.
+
+Speaker B: But by the way, more than the A content, the listing images are more important.
+
+Speaker D: Yeah.
+
+Speaker B: In terms of priority.
+
+Speaker C: Yeah, yeah.
+
+Speaker B: Right. And you know what? I, I would like to talk about the business pricing first. I know you would also like to take a look at the report, but how about we discuss that first so that you can just Implemented. It's very simple to implement.
+
+Speaker C: Yep. Okay. Yep.
+
+Speaker B: So the business pricing is. I answered your questions. So yes, it's going to be visible to just business customers, whoever. Business customers are basically those companies who register with Amazon Business. It's a business account and if you offer business pricing, they get a blue teak or something, blue badge that highlights. Oh. These products have a special business pricing that makes it more lucrative. And the reason I'm suggesting this is because the distribution between the business purchases versus the individual customers, that ratio is quite unusual for your snack to go.
+
+Speaker C: Okay, that was going to be my question. Yeah, I really like this insight though because I have a feeling show home that it's because the occasion in all the business pricing. So the business is buying snacks for. Yeah, their office is our hope. Yeah,
+
+Speaker B: yeah. I would say the businesses are buying because it literally has to be a business account. And then I mean you need to
+
+Speaker C: look into that more because this is a great insight because initially just what went through my head was like, okay, so the business is buying these snacks. So the business is purchasing our snacks online. The only reason I think businesses would. Are we able to see who the business customers are like the name of them. Oh, shoot. Okay. Yeah. So because my assumption would be because the occasion of our snacks is very much a daytime fuel, healthy snack. If I'm a business buying the snack, it's because it's going in my, my office for my cafeteria, my little snack corner that I have set up for my staff. Right. So that's my assumption. But is there a way we can understand that better?
+
+Speaker B: No, we don't have any more insight on that. We just can't see how many business purchases we're getting.
+
+Speaker C: And so you're recommending saying can we for the business account specifically give them a 5% discount for the fact that their business on any single purchase, but they get 10% if they purchase, I think you said in multiples of Three plus more or two. Three.
+
+Speaker B: Three or more. Yeah. We can also create different packages. So for example, for 3, 10% if you want to do more. Let's say for 5 if you want to give more discount. That also is option in case they want to buy that.
+
+Speaker C: Okay. Yeah, no, I'm totally, I'm totally open to tests. I go ahead and turn that so it's just with the business accounts only. And then we could do it for the month of May and see if that has what we're able to see the balance in revenue. Has that increased?
+
+Speaker A: Okay, yeah, yeah, I'm open to that.
+
+Speaker C: And then. Yeah, I would love to dig a little deeper if there's any way to dig on understanding more who. Who those businesses are even where they are. Are we able to see like are they Ontario. Are they. Are we able to see any data behind who. Where those business transactions are going to.
+
+Speaker B: Okay, here's what I can do. We can see where we cannot see the names. That's the. That's a problem.
+
+Speaker C: Can't see the names, but you can see the address or the. The areas.
+
+Speaker B: Yeah.
+
+Speaker C: Could you pull that data show home even if it's just in an Excel to just see in a general area or a graph like, hey, these are in. You know, 60% of businesses are in Ontario. Like just something it's in the order to our marketing discussions.
+
+Speaker B: Sure. That's a good analysis. It's. You can find it in many reports. It will be in the transactions report or the order support that I sent you. You will find it even in that one.
+
+Speaker C: Oh yeah. Okay, I see. And you saw. Did I put you on. I put that email to my finance team. So I told them if they wanted to have a quick call with you or just pulled the order report themselves to do their own. But. Okay. And so. Sorry, what is that percent right now? Business to. It's. It was like 15 or something like 12. 12.
+
+Speaker A: Okay.
+
+Speaker C: Yeah. No, I'm totally interested in testing something here and diving a little deeper on that because I don't even know if that influences even keywords a little bit or anything like that, but it definitely influences some campaign ideas for sampling and for. Yeah. Audience. Yeah.
+
+Speaker B: Yeah. That's an interesting one because what do you.
+
+Speaker C: What's. What have you seen otherwise show home like the business versus like less.
+
+Speaker B: Not in five or I just ignore it. It's that.
+
+Speaker C: Yeah. Okay.
+
+Speaker A: Yeah.
+
+Speaker C: Well, good job identifying that insight and bringing that. Thank you.
+
+Speaker A: No problem.
+
+Speaker B: Okay, so do you want to quickly look at the reports right now?
+
+Speaker C: Yeah.
+
+Speaker B: Okay. So this is our report. Maybe we'll just look at this one. This is cleaner.
+
+Speaker C: Sorry, just one more question. So show home that business insight too. That is specifically on the snacks to go item, right?
+
+Speaker B: That's right. Yes.
+
+Speaker C: Okay. Yeah. Okay.
+
+Speaker B: All right. So let's just go item by item. I know this is not important for us. This sold just one unit. Probably we don't have any inventory for this. That's why it's happening.
+
+Speaker C: Okay. Is this US Or Canada?
+
+Speaker B: It's in Canada right now.
+
+Speaker A: We're looking.
+
+Speaker C: This is Canada. Okay.
+
+Speaker B: So probably we should even. We should probably. If it is something, we'll have to verify if it is something, we're not going to Lentil Toppers. Probably we're discontinuing it. If we are, we'll probably remove the forecasts.
+
+Speaker C: Yeah. So you're saying I should zero that out sooner. You should zero that out sooner. Show home even in May. Because that was one of the, the don't fulfill items.
+
+Speaker B: Okay. All right. And let's now take a look at this one. We have the varieties here, and I think I, I, this is also discontinued.
+
+Speaker C: Yeah.
+
+Speaker B: We sold some in April. I'm not sure if we're going to sell some in May. So how about you keep it for now and then we'll discontinue after it runs out of stock.
+
+Speaker D: Yeah.
+
+Speaker B: Okay. Now snack to go. Let's see how many we did. This is. We'll have to add another 43 units to it. I'll say so 920. Okay. So almost equal to what you forecasted.
+
+Speaker A: Wow.
+
+Speaker B: For this product.
+
+Speaker C: Yeah. That's great.
+
+Speaker B: Yeah.
+
+Speaker C: When we hit a thousand in a month.
+
+Speaker D: Yeah.
+
+Speaker C: That's it. That's an internal win. Yes, we'll announce that very soon.
+
+Speaker B: Yeah.
+
+Speaker A: All right.
+
+Speaker B: And this one, I think we, for some reason we started selling very well, but we are going to stop it. It stop selling this item or whatever.
+
+Speaker C: Like. Yeah, sell it through. Well, that's great. And then hopefully they move into the variety pack after that. But yeah.
+
+Speaker B: Yeah. Okay.
+
+Speaker A: And
+
+Speaker C: so this is the item we were talking about. Show home the five pack fava. I'd rather it be the three pack because eventually we're going to be discontinuing the jalapeno lime. So we'll look at that and maybe revive the three pack and. And this one will go down. Yeah.
+
+Speaker B: Okay. Sounds good. It it nothing too drastic. I'll say they are. Okay. One day sales is still missing. So probably 35 something around that. I'm just assuming probably that many units versus 40 that we forecasted and we're going to discontinue these and we are selling better than ever right now. Okay, how about this one? We sold more than what you forecasted this month.
+
+Speaker C: This one is the roasted lentils, right? No, this is staying for a while.
+
+Speaker A: Yeah.
+
+Speaker B: Okay. And this one hasn't sold as many. This is.
+
+Speaker C: Is that the buy box issue?
+
+Speaker B: I'm sorry, I don't remember off the top of my head.
+
+Speaker C: Okay, we should dig into that just again, just because. Yeah, it's like it's softening quite a bit, so we might just want to revisit. Just do a check on that.
+
+Speaker B: Sure. Okay, I'll do that.
+
+Speaker A: I'll do that.
+
+Speaker B: I'll need to look into this comparison, how the sales are comparing, and also see what we need to do from here. All right, now for the Camelina, it's. I'd say probably a little bit more than that. Yeah, yeah.
+
+Speaker A: On track.
+
+Speaker B: Almost on track. I probably could do a little bit better, but yeah.
+
+Speaker C: Okay.
+
+Speaker A: Not bad.
+
+Speaker C: He's got to get a fulfilled show home. Watch out for that inventory because.
+
+Speaker B: Yeah, that's right. And we're discontinuing this one, so. So don't need to talk about that. This one. Okay. This one is also going to be discontinued and we are not selling this one at all. I'm not sure exactly why.
+
+Speaker C: Okay. Yeah, check into that one too. Lentils, variety.
+
+Speaker B: We don't have any stock.
+
+Speaker C: Oh, is it out?
+
+Speaker B: Yeah.
+
+Speaker D: Okay. Why was that?
+
+Speaker C: Not. I need to relook at that inventory report we just went to. Because he didn't say we were out of stock on any of the ones that we.
+
+Speaker B: Yeah, let him send it to us, then we'll go over it.
+
+Speaker C: Okay.
+
+Speaker B: And this is a new one, of course, no sales. And this is a 5 liter, no cells yet. Yeah, that's, that's the overall report. If you want to look at the USA version. Okay, let's just go to this.
+
+Speaker A: All right.
+
+Speaker B: It's less than what we forecasted for this item and we're going to continue that. So. Well, we have a really, we really have a budget issue in the US right now, so. And even in Canada, you know, for some of the best performing campaigns, some of them only run 70% of the time. The entire time they run out of. They stay out of budget 30% of the time. And that especially during the evenings. And if we had more budget, we could spend more on them and probably that would have boosted ourselves. That's, that's the same situation even in the US Primarily for snack to go and especially because it's taking off.
+
+Speaker C: And so what are. Well, what are our total sales monthly right now in the US because we're 850 is 10%, isn't it?
+
+Speaker B: Okay, let's see. Our overall revenue this month was lower, probably a little bit more. Let's say 5,500 US dollar. That's how much we're doing right now.
+
+Speaker C: Okay. Because that's just my question to you to show home because we are at 10% in both markets right now because the thousand that you're getting this month, they're the thousand that we said in addition to this month.
+
+Speaker B: Yes, that's right. But in the US we need to spend 20%. That was also what I suggested initially. USA is more competitive and if you want to really take off, then we need to allocate that percentage.
+
+Speaker C: Okay. So right now, so just so I know that we're at 10% and again, when we relook at our budget, I can put that target in and saying ideally we spend more in the US for growth, basically is what you're saying.
+
+Speaker B: That's right.
+
+Speaker C: Okay.
+
+Speaker A: Yeah.
+
+Speaker B: All right, so let's do the comparison here. Okay. This doesn't really matter. This also doesn't matter. This one, it's way lower than what we forecasted half almost. So not doing well. This one is going to be discontinued. I'm not sure if it is because we are out of stock. It's fine. I guess. This one is on track. Camelina more than forecasted. Slightly more than that. On track, probably. It's also going to be discontinued, so it doesn't really matter. This one is also going to be discontinued. Doesn't really matter. This one is. This is the one that you wanted to continue, but oh, this one will
+
+Speaker C: also be discoed as well because it's not a variety, so it's kind of soft.
+
+Speaker A: Yeah.
+
+Speaker C: So it will also go away. Yeah.
+
+Speaker B: And. Well, this one too. This one too.
+
+Speaker A: Yeah.
+
+Speaker C: Big rationalization going on here. This is the, this is the lentil one that I know. It was one of our top sellers. That was the discussion I had with them in saying it is a top seller. So if we choose not to fulfill. And. But again, these things do show home. Like you can see the huge rationalization going on where at least you only have a few ASINs for this budget. It's not going to be right. So. But yeah, this was the question I brought to the team and saying if we the lentils are the only thing selling right now in the US but we're hoping the Snacks to Go. The Snacks to Go Fulfillment will start taking off. So we'd rather focus there.
+
+Speaker A: Sure.
+
+Speaker B: Yeah. All right, moving on. We're on track to selling almost 100 units, I'll say based on the weekly rates. But this month, Overall, we did 71, which is more than forecasted. And we have already taken this into account. Yeah. We have assumed 140 units this each month from now on. So I think we're okay on that front. Oh, that. I think this. How come we sold this product. I think this is something wrong or change this phone.
+
+Speaker C: Oh, I think you must have just. Yeah. So it's obviously pulling the wrong info or something because it's just repeating.
+
+Speaker B: Yeah, yeah.
+
+Speaker D: Oh, my gosh. That's the other.
+
+Speaker C: I was like, what did I do?
+
+Speaker D: Oh, shit.
+
+Speaker B: Yeah. So, yeah, we'll. We'll look into that. The formula, the same formula was copied. That is all that is about the two reports.
+
+Speaker C: Okay, so in terms of sales right now. So two things in Canada, if you can look at.
+
+Speaker A: Look.
+
+Speaker C: So we confirmed we're soft on the lentil variety because we're out of stock. We need to look at animals.
+
+Speaker D: Sorry, I'm confused. Which one you meant? So, because we do have lentils in stock. Is it the fathers
+
+Speaker C: lentil variety in Canada? Are you in Canada right now?
+
+Speaker B: It's in the usa. No, this is the usa.
+
+Speaker C: Okay. Yeah, but in Canada, the one before
+
+Speaker D: you said, like, why. When we said why wasn't it in our inventory report? Which one was that?
+
+Speaker C: That was three pack lentils variety, Canada.
+
+Speaker D: This one a four two.
+
+Speaker B: But you sold none.
+
+Speaker D: Why does it come up as. Okay, so something's wrong? Because when you look in the back end, it comes up as favas. Yeah.
+
+Speaker B: Oh, oh, something's wrong with lentils in this formula then. Okay, okay. All right.
+
+Speaker C: Okay. So where is the lentil one? No show. Okay, so show home. You need to do an audit of your. Your dashboard.
+
+Speaker D: I just freaked a new bottle. Thank you for nothing.
+
+Speaker C: You're a good call, Brittany. Okay. Because there is a variety pack lentils. How many did we sell, Brittany?
+
+Speaker D: No, that one's the lentil topper.
+
+Speaker C: Oh.
+
+Speaker D: Oh, so that's still not it.
+
+Speaker C: That's wholesome variety. Wholesome variety. Oh, down to roasted lemon variety.
+
+Speaker D: Pack this one under the variation. Yeah. And there is some in stock.
+
+Speaker C: 30. Yeah.
+
+Speaker D: And more is on the way.
+
+Speaker B: Okay. Now we're doing well on this one.
+
+Speaker C: Okay. Yeah.
+
+Speaker D: So that code is supposed to be there, like. Yeah, okay.
+
+Speaker C: Okay. Right. Okay. So the. The biggest one Then you're looking into. So just make sure the dashboard's pulling the right asins. But the Chickpea variety packs softness in Canada, you were just going to dig a little bit on that just to. Is that a buy box issue or is there another issue there? Okay. Okay. So I gotta take my little one to a doctor's appointment, so. But yeah, in between this and our next touch point, it's finalizing some of the Camelina oil stuff. So whatever questions you have there. And Annabel will take to his ops team talking about the US AWD warehouse. And yeah, I'm looking forward to seeing how that new variety pack goes because I think it's going to do well.
+
+Speaker B: Yeah. And you know what? I am sorry. This is not how it's supposed to be. Usually I'm supposed to give you a quote first for the product detail, page work and then start the work. Right. If you agree. But that's not how it has.
+
+Speaker C: Okay, for which product? For which product?
+
+Speaker B: The Camelina oil and.
+
+Speaker A: Oh, you did.
+
+Speaker B: Let's see, did I give you the quotation? No, I don't.
+
+Speaker C: You mean for the, for the audit and review of the page?
+
+Speaker B: Yeah, there are content.
+
+Speaker D: Yeah.
+
+Speaker C: Well, isn't it the thousand dollars to, to do an item
+
+Speaker B: that was just for the first product? So I'll have to give you. It will be less than thousand.
+
+Speaker C: Okay. Yes. No, but I, I, I do think we did talk about the Camelin oil show home because you said it's the thousand dollar fee to review any new item page.
+
+Speaker B: No, I, Yeah, you came up with that. But then, then I said that no, it's not going to be that much because the initial product was, it was more work, basically. But I didn't really get back to you with a. Okay, I'll do that.
+
+Speaker C: So if you can. Yeah, okay. Don't worry. I'm expecting a little bit extra. But like not crazy.
+
+Speaker B: Yeah, yeah, yes.
+
+Speaker C: If you want to just finalize that to make sure that it's contracted there properly or like conversed properly, that would be perfect.
+
+Speaker B: Sure. Yes. All right, thank you so much.
+
+Speaker C: Great chat soon. Thanks so much. Bye, guys.
+
+Speaker B: Yeah, bye.
+
+Speaker C: Oh, and wait. Show home. So you'll start the business test this month?
+
+Speaker B: Yes.
+
+Speaker C: Okay, perfect.
+
+Speaker B: All right, awesome.
+
+Speaker C: Okay, chat soon. Bye Bye.
+
+Speaker B: Yeah, bye now.
+

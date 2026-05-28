@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "transcripts": {
+      "command": "uv",
+      "args": ["--directory", "/Users/sprosad/Downloads/others/new_idea/video_transcript_kb", "run", "python", "-m", "transcripts.mcp_server"],
+      "env": {
+        "TRANSCRIPTS_DATA_DIR": "/Users/sprosad/Downloads/others/new_idea/video_transcript_kb/data"
+      }
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "id": "980611b3-c622-4d61-97bf-2b28f9a036d3",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "speech_understanding": null,
+  "translated_texts": null,
+  "status": "completed",
+  "audio_url": "https://cdn.assemblyai.com/upload/370fa6a9d1e91dec78811f53a06beaa23f535eb99f47117441660d75aad845d7/bcb38e7b-95bf-4175-9c72-fddfef25908f",
+  "text": "It's, it's. It.",
+  "words": [
+    {
+      "text": "It's,",
+      "start": 160,
+      "end": 31910,
+      "confidence": 0.8284505,
+      "speaker": "A"
+    },
+    {
+      "text": "it's.",
+      "start": 32060,
+      "end": 63810,
+      "confidence": 0.78304034,
+      "speaker": "A"
+    },
+    {
+      "text": "It.",
+      "start": 63960,
+      "end": 64200,
+      "confidence": 0.5517578,
+      "speaker": "A"
+    }
+  ],
+  "utterances": [
+    {
+      "speaker": "A",
+      "text": "It's, it's. It.",
+      "confidence": 0.7210829,
+      "start": 160,
+      "end": 64200,
+      "words": [
+        {
+          "text": "It's,",
+          "start": 160,
+          "end": 31910,
+          "confidence": 0.8284505,
+          "speaker": "A"
+        },
+        {
+          "text": "it's.",
+          "start": 32060,
+          "end": 63810,
+          "confidence": 0.78304034,
+          "speaker": "A"
+        },
+        {
+          "text": "It.",
+          "start": 63960,
+          "end": 64200,
+          "confidence": 0.5517578,
+          "speaker": "A"
+        }
+      ]
+    }
+  ],
+  "confidence": 0.7210829,
+  "audio_duration": 89,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": {
+    "status": "success"
+  },
+  "auto_highlights": true,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "prompt": null,
+  "keyterms_prompt": [],
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_audio_options": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "speaker_options": null,
+  "content_safety": false,
+  "iab_categories": false,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "iab_categories_result": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_options": null,
+  "language_detection_results": null,
+  "language_confidence_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": null,
+  "speech_models": [
+    "universal-2"
+  ],
+  "speech_model_used": "universal-2",
+  "temperature": null,
+  "remove_audio_tags": "all",
+  "chapters": [
+    {
+      "summary": "It's, it's. It.",
+      "headline": "It's, it's. It.",
+      "gist": "How to Eat",
+      "start": 160,
+      "end": 64200
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": true,
+  "sentiment_analysis": true,
+  "sentiment_analysis_results": [
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "It's, it's.",
+      "start": 160,
+      "end": 63810,
+      "confidence": 0.65994537
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "It.",
+      "start": 63960,
+      "end": 64200,
+      "confidence": 0.54286855
+    }
+  ],
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "multichannel": null,
+  "project_id": 553667,
+  "token_id": 555720
+}

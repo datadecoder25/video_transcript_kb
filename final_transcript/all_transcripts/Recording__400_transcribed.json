@@ -1,0 +1,416 @@
+{
+  "id": "fe6b0a7e-f247-4bdb-bb15-bfb3768c2bee",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "speech_understanding": null,
+  "translated_texts": null,
+  "status": "completed",
+  "audio_url": "https://cdn.assemblyai.com/upload/d0bf98fdd8cd7b893706bbe13005baf5ad7b4d2b40be6bea7c55e57b1c600e92/6a1172c0-c47a-4157-8482-08fa3840a6cf",
+  "text": "Hey. I'm just recording a test video to see if the body is fine. I believe 10 seconds.",
+  "words": [
+    {
+      "text": "Hey.",
+      "start": 240,
+      "end": 480,
+      "confidence": 0.9980469,
+      "speaker": "A"
+    },
+    {
+      "text": "I'm",
+      "start": 480,
+      "end": 800,
+      "confidence": 0.90494794,
+      "speaker": "A"
+    },
+    {
+      "text": "just",
+      "start": 800,
+      "end": 1080,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "recording",
+      "start": 1080,
+      "end": 1600,
+      "confidence": 0.92578125,
+      "speaker": "A"
+    },
+    {
+      "text": "a",
+      "start": 1600,
+      "end": 1800,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "test",
+      "start": 1800,
+      "end": 2080,
+      "confidence": 0.98339844,
+      "speaker": "A"
+    },
+    {
+      "text": "video",
+      "start": 2400,
+      "end": 2800,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 3600,
+      "end": 3920,
+      "confidence": 0.62841797,
+      "speaker": "A"
+    },
+    {
+      "text": "see",
+      "start": 3920,
+      "end": 4200,
+      "confidence": 0.99560547,
+      "speaker": "A"
+    },
+    {
+      "text": "if",
+      "start": 4200,
+      "end": 4480,
+      "confidence": 0.83496094,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 4480,
+      "end": 4680,
+      "confidence": 0.6303711,
+      "speaker": "A"
+    },
+    {
+      "text": "body",
+      "start": 4680,
+      "end": 4920,
+      "confidence": 0.6845703,
+      "speaker": "A"
+    },
+    {
+      "text": "is",
+      "start": 4920,
+      "end": 5200,
+      "confidence": 0.828125,
+      "speaker": "A"
+    },
+    {
+      "text": "fine.",
+      "start": 5200,
+      "end": 5760,
+      "confidence": 0.96606445,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 6160,
+      "end": 6480,
+      "confidence": 0.9819336,
+      "speaker": "A"
+    },
+    {
+      "text": "believe",
+      "start": 6480,
+      "end": 6800,
+      "confidence": 0.9897461,
+      "speaker": "A"
+    },
+    {
+      "text": "10",
+      "start": 6960,
+      "end": 7280,
+      "confidence": 0.97852,
+      "speaker": "A"
+    },
+    {
+      "text": "seconds.",
+      "start": 7280,
+      "end": 7840,
+      "confidence": 0.9589844,
+      "speaker": "A"
+    }
+  ],
+  "utterances": [
+    {
+      "speaker": "A",
+      "text": "Hey. I'm just recording a test video to see if the body is fine. I believe 10 seconds.",
+      "confidence": 0.9048623,
+      "start": 240,
+      "end": 7840,
+      "words": [
+        {
+          "text": "Hey.",
+          "start": 240,
+          "end": 480,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "I'm",
+          "start": 480,
+          "end": 800,
+          "confidence": 0.90494794,
+          "speaker": "A"
+        },
+        {
+          "text": "just",
+          "start": 800,
+          "end": 1080,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "recording",
+          "start": 1080,
+          "end": 1600,
+          "confidence": 0.92578125,
+          "speaker": "A"
+        },
+        {
+          "text": "a",
+          "start": 1600,
+          "end": 1800,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "test",
+          "start": 1800,
+          "end": 2080,
+          "confidence": 0.98339844,
+          "speaker": "A"
+        },
+        {
+          "text": "video",
+          "start": 2400,
+          "end": 2800,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 3600,
+          "end": 3920,
+          "confidence": 0.62841797,
+          "speaker": "A"
+        },
+        {
+          "text": "see",
+          "start": 3920,
+          "end": 4200,
+          "confidence": 0.99560547,
+          "speaker": "A"
+        },
+        {
+          "text": "if",
+          "start": 4200,
+          "end": 4480,
+          "confidence": 0.83496094,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 4480,
+          "end": 4680,
+          "confidence": 0.6303711,
+          "speaker": "A"
+        },
+        {
+          "text": "body",
+          "start": 4680,
+          "end": 4920,
+          "confidence": 0.6845703,
+          "speaker": "A"
+        },
+        {
+          "text": "is",
+          "start": 4920,
+          "end": 5200,
+          "confidence": 0.828125,
+          "speaker": "A"
+        },
+        {
+          "text": "fine.",
+          "start": 5200,
+          "end": 5760,
+          "confidence": 0.96606445,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 6160,
+          "end": 6480,
+          "confidence": 0.9819336,
+          "speaker": "A"
+        },
+        {
+          "text": "believe",
+          "start": 6480,
+          "end": 6800,
+          "confidence": 0.9897461,
+          "speaker": "A"
+        },
+        {
+          "text": "10",
+          "start": 6960,
+          "end": 7280,
+          "confidence": 0.97852,
+          "speaker": "A"
+        },
+        {
+          "text": "seconds.",
+          "start": 7280,
+          "end": 7840,
+          "confidence": 0.9589844,
+          "speaker": "A"
+        }
+      ]
+    }
+  ],
+  "confidence": 0.9048623,
+  "audio_duration": 12,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": {
+    "status": "success",
+    "results": [
+      {
+        "count": 1,
+        "rank": 0.14,
+        "text": "test video",
+        "timestamps": [
+          {
+            "start": 1800,
+            "end": 2800
+          }
+        ]
+      },
+      {
+        "count": 1,
+        "rank": 0.09,
+        "text": "body",
+        "timestamps": [
+          {
+            "start": 4680,
+            "end": 4920
+          }
+        ]
+      }
+    ]
+  },
+  "auto_highlights": true,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "prompt": null,
+  "keyterms_prompt": [],
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_audio_options": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "speaker_options": null,
+  "content_safety": false,
+  "iab_categories": false,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "iab_categories_result": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_options": null,
+  "language_detection_results": null,
+  "language_confidence_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": null,
+  "speech_models": [
+    "universal-2"
+  ],
+  "speech_model_used": "universal-2",
+  "temperature": null,
+  "remove_audio_tags": "all",
+  "chapters": [
+    {
+      "summary": "Hey. I'm just recording a test video to see if the body is fine. I believe 10 seconds.",
+      "headline": "Hey. I'm just recording a test video to see if the body is fine",
+      "gist": "Is It Bad If You Test Yourself?",
+      "start": 240,
+      "end": 7840
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": true,
+  "sentiment_analysis": true,
+  "sentiment_analysis_results": [
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Hey.",
+      "start": 240,
+      "end": 480,
+      "confidence": 0.5456085
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "I'm just recording a test video to see if the body is fine.",
+      "start": 480,
+      "end": 5760,
+      "confidence": 0.8262675
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "I believe 10 seconds.",
+      "start": 6160,
+      "end": 7840,
+      "confidence": 0.8350399
+    }
+  ],
+  "entities": [
+    {
+      "entity_type": "duration",
+      "text": "10 seconds",
+      "start": 6960,
+      "end": 7840,
+      "speaker": "A"
+    }
+  ],
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "multichannel": null,
+  "project_id": 553667,
+  "token_id": 555720
+}

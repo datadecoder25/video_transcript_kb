@@ -1,0 +1,8641 @@
+{
+  "id": "21e69a83-208e-4083-b92e-35ee21c32387",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "speech_understanding": null,
+  "translated_texts": null,
+  "status": "completed",
+  "audio_url": "https://cdn.assemblyai.com/upload/c8c9350b7d6ef771ed476e9039be42b4a550f74f1d80c3db7357d342a1ec6024/b49a9acd-9e9d-44da-ac77-f87ae686aa2c",
+  "text": "Hey Sama. So I'm making this video to talk about the challenge that we are having about the weekly, monthly and quarterly data. Now I have thought of something that is. I think it will be very simple and you won't have to go through much challenges like aggregating the data and all this. Now here, what I have done, when you download the data, you definitely don't have these columns, but you will have a date column. Right now I have been, I am showing you the example for months. So what I have done is whenever, whatever date it shows for month, there should be a month column that will basically show just the month and the year. That's it. I don't need anything. That's all. And here for the week, for example, you don't have to do it exactly in the same way. But I found this. Just a second. I was just googling it and. Oh. So this formula here, we can num. Weeknum and then the date, it actually gives the week number of the year. So let me go to that page. Actually. It will show 1 to 54. Now what we can do is since we may have data for several years eventually it's probably better to keep the week number and the year. So we can just, we can just take this date and then maintain number and year. That that will do for quarter, it's even more simpler. But I don't know how I actually didn't give it a thought how I can do it next year. But let's say so the first quarter that is Q1, we can just say Q1, then the year 2022, something like this. But June is in, I think January, February, March, May, June, April, May, June. So that will be Q2 here. So it will just judge which month it is. And if it falls in Q2, then it will just go Q2 and the year. And similarly we'll keep filling out all the cells. So if we do this, you don't need to aggregate any data. I will get my. My purpose from this API is I'm getting the time series data. So the daily time series, weekly time series data, monthly time series and quarter. And now I can do anything after I get the report from the. That's all now. And. And I believe this will actually also save the space, isn't it? You don't have to go for. Go and create another report. You just have to add three more columns. That's it. Now one more thing that I wanted to mention is I probably. You have already seen these. Just one second. Yeah, so what they have done is you will probably see that there is a in the reporting. There are two version now they have released the version three and I think the version two will be eliminated next year after March 30th. So would you be able to do everything that you are doing for ad report from version three itself? That will be better. So let me know about this one and also let me know about the solution that I just talked about here in this video. How do you feel about this? That's all. Thank you so much.",
+  "words": [
+    {
+      "text": "Hey",
+      "start": 400,
+      "end": 640,
+      "confidence": 0.9724121,
+      "speaker": "A"
+    },
+    {
+      "text": "Sama.",
+      "start": 640,
+      "end": 1040,
+      "confidence": 0.75268555,
+      "speaker": "A"
+    },
+    {
+      "text": "So",
+      "start": 1120,
+      "end": 1440,
+      "confidence": 0.9692383,
+      "speaker": "A"
+    },
+    {
+      "text": "I'm",
+      "start": 1440,
+      "end": 1720,
+      "confidence": 0.9399414,
+      "speaker": "A"
+    },
+    {
+      "text": "making",
+      "start": 1720,
+      "end": 1920,
+      "confidence": 0.9951172,
+      "speaker": "A"
+    },
+    {
+      "text": "this",
+      "start": 1920,
+      "end": 2120,
+      "confidence": 0.9746094,
+      "speaker": "A"
+    },
+    {
+      "text": "video",
+      "start": 2120,
+      "end": 2400,
+      "confidence": 0.9921875,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 2400,
+      "end": 2680,
+      "confidence": 0.99072266,
+      "speaker": "A"
+    },
+    {
+      "text": "talk",
+      "start": 2680,
+      "end": 2840,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "about",
+      "start": 2840,
+      "end": 3080,
+      "confidence": 0.99658203,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 3080,
+      "end": 3440,
+      "confidence": 0.9941406,
+      "speaker": "A"
+    },
+    {
+      "text": "challenge",
+      "start": 4560,
+      "end": 5080,
+      "confidence": 0.93115234,
+      "speaker": "A"
+    },
+    {
+      "text": "that",
+      "start": 5080,
+      "end": 5240,
+      "confidence": 0.9892578,
+      "speaker": "A"
+    },
+    {
+      "text": "we",
+      "start": 5240,
+      "end": 5400,
+      "confidence": 0.64697266,
+      "speaker": "A"
+    },
+    {
+      "text": "are",
+      "start": 5400,
+      "end": 5560,
+      "confidence": 0.5498047,
+      "speaker": "A"
+    },
+    {
+      "text": "having",
+      "start": 5560,
+      "end": 5840,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "about",
+      "start": 5840,
+      "end": 6200,
+      "confidence": 0.9951172,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 6200,
+      "end": 6560,
+      "confidence": 0.98291016,
+      "speaker": "A"
+    },
+    {
+      "text": "weekly,",
+      "start": 6560,
+      "end": 7120,
+      "confidence": 0.998291,
+      "speaker": "A"
+    },
+    {
+      "text": "monthly",
+      "start": 7120,
+      "end": 7520,
+      "confidence": 0.9890137,
+      "speaker": "A"
+    },
+    {
+      "text": "and",
+      "start": 7520,
+      "end": 7640,
+      "confidence": 0.98339844,
+      "speaker": "A"
+    },
+    {
+      "text": "quarterly",
+      "start": 7640,
+      "end": 8080,
+      "confidence": 0.97558594,
+      "speaker": "A"
+    },
+    {
+      "text": "data.",
+      "start": 8080,
+      "end": 8400,
+      "confidence": 0.9902344,
+      "speaker": "A"
+    },
+    {
+      "text": "Now",
+      "start": 9280,
+      "end": 9600,
+      "confidence": 0.97021484,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 9600,
+      "end": 9920,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "have",
+      "start": 10080,
+      "end": 10440,
+      "confidence": 0.99658203,
+      "speaker": "A"
+    },
+    {
+      "text": "thought",
+      "start": 10440,
+      "end": 10720,
+      "confidence": 0.9711914,
+      "speaker": "A"
+    },
+    {
+      "text": "of",
+      "start": 10720,
+      "end": 10960,
+      "confidence": 0.9902344,
+      "speaker": "A"
+    },
+    {
+      "text": "something",
+      "start": 10960,
+      "end": 11280,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "that",
+      "start": 11280,
+      "end": 11600,
+      "confidence": 0.9848633,
+      "speaker": "A"
+    },
+    {
+      "text": "is.",
+      "start": 11600,
+      "end": 11920,
+      "confidence": 0.7734375,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 12480,
+      "end": 12760,
+      "confidence": 0.99121094,
+      "speaker": "A"
+    },
+    {
+      "text": "think",
+      "start": 12760,
+      "end": 13040,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "it",
+      "start": 13040,
+      "end": 13320,
+      "confidence": 0.95996094,
+      "speaker": "A"
+    },
+    {
+      "text": "will",
+      "start": 13320,
+      "end": 13520,
+      "confidence": 0.97558594,
+      "speaker": "A"
+    },
+    {
+      "text": "be",
+      "start": 13520,
+      "end": 13760,
+      "confidence": 0.99609375,
+      "speaker": "A"
+    },
+    {
+      "text": "very",
+      "start": 13760,
+      "end": 14000,
+      "confidence": 0.99072266,
+      "speaker": "A"
+    },
+    {
+      "text": "simple",
+      "start": 14000,
+      "end": 14560,
+      "confidence": 0.99975586,
+      "speaker": "A"
+    },
+    {
+      "text": "and",
+      "start": 15520,
+      "end": 15920,
+      "confidence": 0.9814453,
+      "speaker": "A"
+    },
+    {
+      "text": "you",
+      "start": 16160,
+      "end": 16480,
+      "confidence": 0.9946289,
+      "speaker": "A"
+    },
+    {
+      "text": "won't",
+      "start": 16480,
+      "end": 16800,
+      "confidence": 0.9161784,
+      "speaker": "A"
+    },
+    {
+      "text": "have",
+      "start": 16800,
+      "end": 16960,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 16960,
+      "end": 17080,
+      "confidence": 0.9980469,
+      "speaker": "A"
+    },
+    {
+      "text": "go",
+      "start": 17080,
+      "end": 17240,
+      "confidence": 0.99658203,
+      "speaker": "A"
+    },
+    {
+      "text": "through",
+      "start": 17240,
+      "end": 17440,
+      "confidence": 0.7871094,
+      "speaker": "A"
+    },
+    {
+      "text": "much",
+      "start": 17440,
+      "end": 17680,
+      "confidence": 0.95996094,
+      "speaker": "A"
+    },
+    {
+      "text": "challenges",
+      "start": 17680,
+      "end": 18240,
+      "confidence": 0.8621419,
+      "speaker": "A"
+    },
+    {
+      "text": "like",
+      "start": 18240,
+      "end": 18480,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "aggregating",
+      "start": 18480,
+      "end": 19120,
+      "confidence": 0.94677734,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 19120,
+      "end": 19320,
+      "confidence": 0.9121094,
+      "speaker": "A"
+    },
+    {
+      "text": "data",
+      "start": 19320,
+      "end": 19600,
+      "confidence": 0.99121094,
+      "speaker": "A"
+    },
+    {
+      "text": "and",
+      "start": 19600,
+      "end": 19880,
+      "confidence": 0.89160156,
+      "speaker": "A"
+    },
+    {
+      "text": "all",
+      "start": 19880,
+      "end": 20080,
+      "confidence": 0.93359375,
+      "speaker": "A"
+    },
+    {
+      "text": "this.",
+      "start": 20080,
+      "end": 20400,
+      "confidence": 0.84033203,
+      "speaker": "A"
+    },
+    {
+      "text": "Now",
+      "start": 21920,
+      "end": 22320,
+      "confidence": 0.9794922,
+      "speaker": "A"
+    },
+    {
+      "text": "here,",
+      "start": 23440,
+      "end": 23840,
+      "confidence": 0.98046875,
+      "speaker": "A"
+    },
+    {
+      "text": "what",
+      "start": 24160,
+      "end": 24480,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 24480,
+      "end": 24680,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "have",
+      "start": 24680,
+      "end": 24880,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "done,",
+      "start": 24880,
+      "end": 25200,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "when",
+      "start": 26090,
+      "end": 26250,
+      "confidence": 0.97021484,
+      "speaker": "A"
+    },
+    {
+      "text": "you",
+      "start": 26250,
+      "end": 26490,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "download",
+      "start": 26490,
+      "end": 27090,
+      "confidence": 0.9996745,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 27090,
+      "end": 27250,
+      "confidence": 0.9790039,
+      "speaker": "A"
+    },
+    {
+      "text": "data,",
+      "start": 27250,
+      "end": 27530,
+      "confidence": 0.9892578,
+      "speaker": "A"
+    },
+    {
+      "text": "you",
+      "start": 27530,
+      "end": 27890,
+      "confidence": 0.99658203,
+      "speaker": "A"
+    },
+    {
+      "text": "definitely",
+      "start": 27890,
+      "end": 28450,
+      "confidence": 0.9538574,
+      "speaker": "A"
+    },
+    {
+      "text": "don't",
+      "start": 28450,
+      "end": 28690,
+      "confidence": 0.9967448,
+      "speaker": "A"
+    },
+    {
+      "text": "have",
+      "start": 28690,
+      "end": 28890,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "these",
+      "start": 28890,
+      "end": 29210,
+      "confidence": 0.9897461,
+      "speaker": "A"
+    },
+    {
+      "text": "columns,",
+      "start": 29290,
+      "end": 30010,
+      "confidence": 0.9362793,
+      "speaker": "A"
+    },
+    {
+      "text": "but",
+      "start": 30810,
+      "end": 31090,
+      "confidence": 0.9921875,
+      "speaker": "A"
+    },
+    {
+      "text": "you",
+      "start": 31090,
+      "end": 31250,
+      "confidence": 0.9848633,
+      "speaker": "A"
+    },
+    {
+      "text": "will",
+      "start": 31250,
+      "end": 31410,
+      "confidence": 0.9868164,
+      "speaker": "A"
+    },
+    {
+      "text": "have",
+      "start": 31410,
+      "end": 31570,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "a",
+      "start": 31570,
+      "end": 31730,
+      "confidence": 0.9848633,
+      "speaker": "A"
+    },
+    {
+      "text": "date",
+      "start": 31730,
+      "end": 32050,
+      "confidence": 0.9897461,
+      "speaker": "A"
+    },
+    {
+      "text": "column.",
+      "start": 32050,
+      "end": 32450,
+      "confidence": 0.98811847,
+      "speaker": "A"
+    },
+    {
+      "text": "Right",
+      "start": 32450,
+      "end": 32730,
+      "confidence": 0.9003906,
+      "speaker": "A"
+    },
+    {
+      "text": "now",
+      "start": 33210,
+      "end": 33610,
+      "confidence": 0.9921875,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 33930,
+      "end": 34210,
+      "confidence": 0.7055664,
+      "speaker": "A"
+    },
+    {
+      "text": "have",
+      "start": 34210,
+      "end": 34410,
+      "confidence": 0.9819336,
+      "speaker": "A"
+    },
+    {
+      "text": "been,",
+      "start": 34410,
+      "end": 34730,
+      "confidence": 0.97998047,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 34890,
+      "end": 35170,
+      "confidence": 0.9824219,
+      "speaker": "A"
+    },
+    {
+      "text": "am",
+      "start": 35170,
+      "end": 35330,
+      "confidence": 0.9692383,
+      "speaker": "A"
+    },
+    {
+      "text": "showing",
+      "start": 35330,
+      "end": 35610,
+      "confidence": 0.99365234,
+      "speaker": "A"
+    },
+    {
+      "text": "you",
+      "start": 35610,
+      "end": 35730,
+      "confidence": 0.9873047,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 35730,
+      "end": 35890,
+      "confidence": 0.99072266,
+      "speaker": "A"
+    },
+    {
+      "text": "example",
+      "start": 35890,
+      "end": 36250,
+      "confidence": 0.99690753,
+      "speaker": "A"
+    },
+    {
+      "text": "for",
+      "start": 36250,
+      "end": 36450,
+      "confidence": 0.9736328,
+      "speaker": "A"
+    },
+    {
+      "text": "months.",
+      "start": 36450,
+      "end": 36690,
+      "confidence": 0.9604492,
+      "speaker": "A"
+    },
+    {
+      "text": "So",
+      "start": 36690,
+      "end": 36930,
+      "confidence": 0.9013672,
+      "speaker": "A"
+    },
+    {
+      "text": "what",
+      "start": 36930,
+      "end": 37130,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 37130,
+      "end": 37290,
+      "confidence": 0.98339844,
+      "speaker": "A"
+    },
+    {
+      "text": "have",
+      "start": 37290,
+      "end": 37410,
+      "confidence": 0.5180664,
+      "speaker": "A"
+    },
+    {
+      "text": "done",
+      "start": 37410,
+      "end": 37650,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "is",
+      "start": 37650,
+      "end": 38010,
+      "confidence": 0.9555664,
+      "speaker": "A"
+    },
+    {
+      "text": "whenever,",
+      "start": 38410,
+      "end": 38890,
+      "confidence": 0.8076172,
+      "speaker": "A"
+    },
+    {
+      "text": "whatever",
+      "start": 38890,
+      "end": 39250,
+      "confidence": 0.9904785,
+      "speaker": "A"
+    },
+    {
+      "text": "date",
+      "start": 39250,
+      "end": 39490,
+      "confidence": 0.92871094,
+      "speaker": "A"
+    },
+    {
+      "text": "it",
+      "start": 39490,
+      "end": 39650,
+      "confidence": 0.9711914,
+      "speaker": "A"
+    },
+    {
+      "text": "shows",
+      "start": 39650,
+      "end": 40170,
+      "confidence": 0.8498535,
+      "speaker": "A"
+    },
+    {
+      "text": "for",
+      "start": 40410,
+      "end": 40810,
+      "confidence": 0.96435547,
+      "speaker": "A"
+    },
+    {
+      "text": "month,",
+      "start": 40810,
+      "end": 41210,
+      "confidence": 0.5131836,
+      "speaker": "A"
+    },
+    {
+      "text": "there",
+      "start": 41850,
+      "end": 42130,
+      "confidence": 0.9921875,
+      "speaker": "A"
+    },
+    {
+      "text": "should",
+      "start": 42130,
+      "end": 42290,
+      "confidence": 0.99658203,
+      "speaker": "A"
+    },
+    {
+      "text": "be",
+      "start": 42290,
+      "end": 42450,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "a",
+      "start": 42450,
+      "end": 42610,
+      "confidence": 0.9941406,
+      "speaker": "A"
+    },
+    {
+      "text": "month",
+      "start": 42610,
+      "end": 42850,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "column",
+      "start": 42850,
+      "end": 43410,
+      "confidence": 0.89941406,
+      "speaker": "A"
+    },
+    {
+      "text": "that",
+      "start": 43410,
+      "end": 43650,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "will",
+      "start": 43650,
+      "end": 43890,
+      "confidence": 0.99560547,
+      "speaker": "A"
+    },
+    {
+      "text": "basically",
+      "start": 43890,
+      "end": 44370,
+      "confidence": 0.99609375,
+      "speaker": "A"
+    },
+    {
+      "text": "show",
+      "start": 44370,
+      "end": 44690,
+      "confidence": 0.6816406,
+      "speaker": "A"
+    },
+    {
+      "text": "just",
+      "start": 44690,
+      "end": 44970,
+      "confidence": 0.99365234,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 44970,
+      "end": 45210,
+      "confidence": 0.5058594,
+      "speaker": "A"
+    },
+    {
+      "text": "month",
+      "start": 45210,
+      "end": 45530,
+      "confidence": 0.99316406,
+      "speaker": "A"
+    },
+    {
+      "text": "and",
+      "start": 45530,
+      "end": 45850,
+      "confidence": 0.9941406,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 45850,
+      "end": 46050,
+      "confidence": 0.96240234,
+      "speaker": "A"
+    },
+    {
+      "text": "year.",
+      "start": 46050,
+      "end": 46330,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "That's",
+      "start": 46810,
+      "end": 47210,
+      "confidence": 0.99283856,
+      "speaker": "A"
+    },
+    {
+      "text": "it.",
+      "start": 47210,
+      "end": 47450,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 47690,
+      "end": 47970,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "don't",
+      "start": 47970,
+      "end": 48170,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "need",
+      "start": 48170,
+      "end": 48330,
+      "confidence": 0.9926758,
+      "speaker": "A"
+    },
+    {
+      "text": "anything.",
+      "start": 48330,
+      "end": 48810,
+      "confidence": 0.9772949,
+      "speaker": "A"
+    },
+    {
+      "text": "That's",
+      "start": 49930,
+      "end": 50330,
+      "confidence": 0.98095703,
+      "speaker": "A"
+    },
+    {
+      "text": "all.",
+      "start": 50330,
+      "end": 50570,
+      "confidence": 0.93408203,
+      "speaker": "A"
+    },
+    {
+      "text": "And",
+      "start": 51380,
+      "end": 51620,
+      "confidence": 0.9873047,
+      "speaker": "A"
+    },
+    {
+      "text": "here",
+      "start": 54100,
+      "end": 54500,
+      "confidence": 0.99609375,
+      "speaker": "A"
+    },
+    {
+      "text": "for",
+      "start": 56180,
+      "end": 56460,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 56460,
+      "end": 56660,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "week,",
+      "start": 56660,
+      "end": 56940,
+      "confidence": 0.9482422,
+      "speaker": "A"
+    },
+    {
+      "text": "for",
+      "start": 56940,
+      "end": 57180,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "example,",
+      "start": 57180,
+      "end": 57700,
+      "confidence": 0.9601237,
+      "speaker": "A"
+    },
+    {
+      "text": "you",
+      "start": 59140,
+      "end": 59420,
+      "confidence": 0.9921875,
+      "speaker": "A"
+    },
+    {
+      "text": "don't",
+      "start": 59420,
+      "end": 59660,
+      "confidence": 0.99934894,
+      "speaker": "A"
+    },
+    {
+      "text": "have",
+      "start": 59660,
+      "end": 59780,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 59780,
+      "end": 59900,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "do",
+      "start": 59900,
+      "end": 60060,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "it",
+      "start": 60060,
+      "end": 60220,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "exactly",
+      "start": 60220,
+      "end": 60700,
+      "confidence": 0.8435872,
+      "speaker": "A"
+    },
+    {
+      "text": "in",
+      "start": 60700,
+      "end": 60860,
+      "confidence": 0.99560547,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 60860,
+      "end": 60980,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "same",
+      "start": 60980,
+      "end": 61140,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "way.",
+      "start": 61140,
+      "end": 61380,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "But",
+      "start": 61380,
+      "end": 61580,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 61580,
+      "end": 61740,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "found",
+      "start": 61740,
+      "end": 62020,
+      "confidence": 0.5620117,
+      "speaker": "A"
+    },
+    {
+      "text": "this.",
+      "start": 62100,
+      "end": 62500,
+      "confidence": 0.61376953,
+      "speaker": "A"
+    },
+    {
+      "text": "Just",
+      "start": 68580,
+      "end": 68900,
+      "confidence": 0.875,
+      "speaker": "A"
+    },
+    {
+      "text": "a",
+      "start": 68900,
+      "end": 69140,
+      "confidence": 0.9790039,
+      "speaker": "A"
+    },
+    {
+      "text": "second.",
+      "start": 69140,
+      "end": 69460,
+      "confidence": 0.8984375,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 79390,
+      "end": 79470,
+      "confidence": 0.92871094,
+      "speaker": "A"
+    },
+    {
+      "text": "was",
+      "start": 79470,
+      "end": 79630,
+      "confidence": 0.9897461,
+      "speaker": "A"
+    },
+    {
+      "text": "just",
+      "start": 79630,
+      "end": 79830,
+      "confidence": 0.88183594,
+      "speaker": "A"
+    },
+    {
+      "text": "googling",
+      "start": 79830,
+      "end": 80190,
+      "confidence": 0.99283856,
+      "speaker": "A"
+    },
+    {
+      "text": "it",
+      "start": 80190,
+      "end": 80430,
+      "confidence": 0.9863281,
+      "speaker": "A"
+    },
+    {
+      "text": "and.",
+      "start": 80430,
+      "end": 80750,
+      "confidence": 0.89160156,
+      "speaker": "A"
+    },
+    {
+      "text": "Oh.",
+      "start": 80750,
+      "end": 81230,
+      "confidence": 0.67419434,
+      "speaker": "A"
+    },
+    {
+      "text": "So",
+      "start": 81230,
+      "end": 81630,
+      "confidence": 0.9736328,
+      "speaker": "A"
+    },
+    {
+      "text": "this",
+      "start": 82270,
+      "end": 82590,
+      "confidence": 0.9921875,
+      "speaker": "A"
+    },
+    {
+      "text": "formula",
+      "start": 82590,
+      "end": 83030,
+      "confidence": 0.9790039,
+      "speaker": "A"
+    },
+    {
+      "text": "here,",
+      "start": 83030,
+      "end": 83310,
+      "confidence": 0.92089844,
+      "speaker": "A"
+    },
+    {
+      "text": "we",
+      "start": 84030,
+      "end": 84310,
+      "confidence": 0.72802734,
+      "speaker": "A"
+    },
+    {
+      "text": "can",
+      "start": 84310,
+      "end": 84510,
+      "confidence": 0.97558594,
+      "speaker": "A"
+    },
+    {
+      "text": "num.",
+      "start": 84510,
+      "end": 84830,
+      "confidence": 0.64990234,
+      "speaker": "A"
+    },
+    {
+      "text": "Weeknum",
+      "start": 85310,
+      "end": 86030,
+      "confidence": 0.68725586,
+      "speaker": "A"
+    },
+    {
+      "text": "and",
+      "start": 86270,
+      "end": 86670,
+      "confidence": 0.90283203,
+      "speaker": "A"
+    },
+    {
+      "text": "then",
+      "start": 86910,
+      "end": 87310,
+      "confidence": 0.97509766,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 87310,
+      "end": 87630,
+      "confidence": 0.9926758,
+      "speaker": "A"
+    },
+    {
+      "text": "date,",
+      "start": 87630,
+      "end": 88030,
+      "confidence": 0.98535156,
+      "speaker": "A"
+    },
+    {
+      "text": "it",
+      "start": 88110,
+      "end": 88430,
+      "confidence": 0.9921875,
+      "speaker": "A"
+    },
+    {
+      "text": "actually",
+      "start": 88430,
+      "end": 88710,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "gives",
+      "start": 88710,
+      "end": 89070,
+      "confidence": 0.9772949,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 89070,
+      "end": 89270,
+      "confidence": 0.9946289,
+      "speaker": "A"
+    },
+    {
+      "text": "week",
+      "start": 89270,
+      "end": 89630,
+      "confidence": 0.97998047,
+      "speaker": "A"
+    },
+    {
+      "text": "number",
+      "start": 89950,
+      "end": 90350,
+      "confidence": 0.9946289,
+      "speaker": "A"
+    },
+    {
+      "text": "of",
+      "start": 90430,
+      "end": 90750,
+      "confidence": 0.99560547,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 90750,
+      "end": 91030,
+      "confidence": 0.9848633,
+      "speaker": "A"
+    },
+    {
+      "text": "year.",
+      "start": 91030,
+      "end": 91390,
+      "confidence": 0.9848633,
+      "speaker": "A"
+    },
+    {
+      "text": "So",
+      "start": 91710,
+      "end": 91990,
+      "confidence": 0.97021484,
+      "speaker": "A"
+    },
+    {
+      "text": "let",
+      "start": 91990,
+      "end": 92190,
+      "confidence": 0.98291016,
+      "speaker": "A"
+    },
+    {
+      "text": "me",
+      "start": 92190,
+      "end": 92390,
+      "confidence": 0.9394531,
+      "speaker": "A"
+    },
+    {
+      "text": "go",
+      "start": 92390,
+      "end": 92590,
+      "confidence": 0.99316406,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 92590,
+      "end": 92830,
+      "confidence": 0.94433594,
+      "speaker": "A"
+    },
+    {
+      "text": "that",
+      "start": 92830,
+      "end": 93070,
+      "confidence": 0.9916992,
+      "speaker": "A"
+    },
+    {
+      "text": "page.",
+      "start": 93070,
+      "end": 93390,
+      "confidence": 0.99609375,
+      "speaker": "A"
+    },
+    {
+      "text": "Actually.",
+      "start": 93390,
+      "end": 93709,
+      "confidence": 0.96875,
+      "speaker": "A"
+    },
+    {
+      "text": "It",
+      "start": 97950,
+      "end": 98230,
+      "confidence": 0.99609375,
+      "speaker": "A"
+    },
+    {
+      "text": "will",
+      "start": 98230,
+      "end": 98430,
+      "confidence": 0.97509766,
+      "speaker": "A"
+    },
+    {
+      "text": "show",
+      "start": 98430,
+      "end": 98670,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "1",
+      "start": 98670,
+      "end": 98910,
+      "confidence": 0.521,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 98910,
+      "end": 99150,
+      "confidence": 0.6191406,
+      "speaker": "A"
+    },
+    {
+      "text": "54.",
+      "start": 99150,
+      "end": 99710,
+      "confidence": 0.99707,
+      "speaker": "A"
+    },
+    {
+      "text": "Now",
+      "start": 100430,
+      "end": 100830,
+      "confidence": 0.9736328,
+      "speaker": "A"
+    },
+    {
+      "text": "what",
+      "start": 100910,
+      "end": 101270,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "we",
+      "start": 101270,
+      "end": 101470,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "can",
+      "start": 101470,
+      "end": 101590,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "do",
+      "start": 101590,
+      "end": 101750,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "is",
+      "start": 101750,
+      "end": 101990,
+      "confidence": 0.9819336,
+      "speaker": "A"
+    },
+    {
+      "text": "since",
+      "start": 101990,
+      "end": 102310,
+      "confidence": 0.9707031,
+      "speaker": "A"
+    },
+    {
+      "text": "we",
+      "start": 102310,
+      "end": 102590,
+      "confidence": 0.99365234,
+      "speaker": "A"
+    },
+    {
+      "text": "may",
+      "start": 102590,
+      "end": 102830,
+      "confidence": 0.9946289,
+      "speaker": "A"
+    },
+    {
+      "text": "have",
+      "start": 102830,
+      "end": 103070,
+      "confidence": 0.99658203,
+      "speaker": "A"
+    },
+    {
+      "text": "data",
+      "start": 103070,
+      "end": 103350,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "for",
+      "start": 103350,
+      "end": 103670,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "several",
+      "start": 103670,
+      "end": 104030,
+      "confidence": 0.99560547,
+      "speaker": "A"
+    },
+    {
+      "text": "years",
+      "start": 104190,
+      "end": 104590,
+      "confidence": 0.9980469,
+      "speaker": "A"
+    },
+    {
+      "text": "eventually",
+      "start": 104750,
+      "end": 105390,
+      "confidence": 0.8317871,
+      "speaker": "A"
+    },
+    {
+      "text": "it's",
+      "start": 107130,
+      "end": 107410,
+      "confidence": 0.8305664,
+      "speaker": "A"
+    },
+    {
+      "text": "probably",
+      "start": 107410,
+      "end": 107770,
+      "confidence": 0.88134766,
+      "speaker": "A"
+    },
+    {
+      "text": "better",
+      "start": 107770,
+      "end": 108050,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 108050,
+      "end": 108410,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "keep",
+      "start": 108410,
+      "end": 108730,
+      "confidence": 0.98339844,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 108730,
+      "end": 108930,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "week",
+      "start": 108930,
+      "end": 109210,
+      "confidence": 0.9760742,
+      "speaker": "A"
+    },
+    {
+      "text": "number",
+      "start": 109210,
+      "end": 109610,
+      "confidence": 0.9980469,
+      "speaker": "A"
+    },
+    {
+      "text": "and",
+      "start": 110090,
+      "end": 110410,
+      "confidence": 0.99609375,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 110410,
+      "end": 110650,
+      "confidence": 0.98828125,
+      "speaker": "A"
+    },
+    {
+      "text": "year.",
+      "start": 110650,
+      "end": 110970,
+      "confidence": 0.984375,
+      "speaker": "A"
+    },
+    {
+      "text": "So",
+      "start": 111930,
+      "end": 112170,
+      "confidence": 0.98876953,
+      "speaker": "A"
+    },
+    {
+      "text": "we",
+      "start": 112170,
+      "end": 112290,
+      "confidence": 0.86376953,
+      "speaker": "A"
+    },
+    {
+      "text": "can",
+      "start": 112290,
+      "end": 112450,
+      "confidence": 0.99560547,
+      "speaker": "A"
+    },
+    {
+      "text": "just,",
+      "start": 112450,
+      "end": 112730,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "we",
+      "start": 113930,
+      "end": 114210,
+      "confidence": 0.9550781,
+      "speaker": "A"
+    },
+    {
+      "text": "can",
+      "start": 114210,
+      "end": 114370,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "just",
+      "start": 114370,
+      "end": 114650,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "take",
+      "start": 115210,
+      "end": 115570,
+      "confidence": 0.98535156,
+      "speaker": "A"
+    },
+    {
+      "text": "this",
+      "start": 115570,
+      "end": 115930,
+      "confidence": 0.64404297,
+      "speaker": "A"
+    },
+    {
+      "text": "date",
+      "start": 116090,
+      "end": 116570,
+      "confidence": 0.9387207,
+      "speaker": "A"
+    },
+    {
+      "text": "and",
+      "start": 116810,
+      "end": 117210,
+      "confidence": 0.7548828,
+      "speaker": "A"
+    },
+    {
+      "text": "then",
+      "start": 117210,
+      "end": 117610,
+      "confidence": 0.99121094,
+      "speaker": "A"
+    },
+    {
+      "text": "maintain",
+      "start": 117610,
+      "end": 118170,
+      "confidence": 0.76782227,
+      "speaker": "A"
+    },
+    {
+      "text": "number",
+      "start": 118890,
+      "end": 119210,
+      "confidence": 0.98291016,
+      "speaker": "A"
+    },
+    {
+      "text": "and",
+      "start": 119210,
+      "end": 119450,
+      "confidence": 0.9511719,
+      "speaker": "A"
+    },
+    {
+      "text": "year.",
+      "start": 119450,
+      "end": 119770,
+      "confidence": 0.9604492,
+      "speaker": "A"
+    },
+    {
+      "text": "That",
+      "start": 120250,
+      "end": 120570,
+      "confidence": 0.90185547,
+      "speaker": "A"
+    },
+    {
+      "text": "that",
+      "start": 120570,
+      "end": 120770,
+      "confidence": 0.99658203,
+      "speaker": "A"
+    },
+    {
+      "text": "will",
+      "start": 120770,
+      "end": 120970,
+      "confidence": 0.97558594,
+      "speaker": "A"
+    },
+    {
+      "text": "do",
+      "start": 120970,
+      "end": 121290,
+      "confidence": 0.97021484,
+      "speaker": "A"
+    },
+    {
+      "text": "for",
+      "start": 121769,
+      "end": 122170,
+      "confidence": 0.8305664,
+      "speaker": "A"
+    },
+    {
+      "text": "quarter,",
+      "start": 122170,
+      "end": 122570,
+      "confidence": 0.99316406,
+      "speaker": "A"
+    },
+    {
+      "text": "it's",
+      "start": 122650,
+      "end": 123050,
+      "confidence": 0.99365234,
+      "speaker": "A"
+    },
+    {
+      "text": "even",
+      "start": 123050,
+      "end": 123330,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "more",
+      "start": 123330,
+      "end": 123610,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "simpler.",
+      "start": 123610,
+      "end": 124010,
+      "confidence": 0.99975586,
+      "speaker": "A"
+    },
+    {
+      "text": "But",
+      "start": 124010,
+      "end": 124250,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 124250,
+      "end": 124450,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "don't",
+      "start": 124450,
+      "end": 124650,
+      "confidence": 0.99886066,
+      "speaker": "A"
+    },
+    {
+      "text": "know",
+      "start": 124650,
+      "end": 124770,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "how",
+      "start": 124770,
+      "end": 125050,
+      "confidence": 0.9951172,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 125530,
+      "end": 125930,
+      "confidence": 0.9321289,
+      "speaker": "A"
+    },
+    {
+      "text": "actually",
+      "start": 126170,
+      "end": 126530,
+      "confidence": 0.99560547,
+      "speaker": "A"
+    },
+    {
+      "text": "didn't",
+      "start": 126530,
+      "end": 126810,
+      "confidence": 0.9816081,
+      "speaker": "A"
+    },
+    {
+      "text": "give",
+      "start": 126810,
+      "end": 126930,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "it",
+      "start": 126930,
+      "end": 127090,
+      "confidence": 0.9560547,
+      "speaker": "A"
+    },
+    {
+      "text": "a",
+      "start": 127090,
+      "end": 127250,
+      "confidence": 0.98876953,
+      "speaker": "A"
+    },
+    {
+      "text": "thought",
+      "start": 127250,
+      "end": 127490,
+      "confidence": 0.99609375,
+      "speaker": "A"
+    },
+    {
+      "text": "how",
+      "start": 127490,
+      "end": 127730,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 127730,
+      "end": 127850,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "can",
+      "start": 127850,
+      "end": 127970,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "do",
+      "start": 127970,
+      "end": 128090,
+      "confidence": 0.99560547,
+      "speaker": "A"
+    },
+    {
+      "text": "it",
+      "start": 128090,
+      "end": 128210,
+      "confidence": 0.9526367,
+      "speaker": "A"
+    },
+    {
+      "text": "next",
+      "start": 128210,
+      "end": 128450,
+      "confidence": 0.77978516,
+      "speaker": "A"
+    },
+    {
+      "text": "year.",
+      "start": 128450,
+      "end": 128690,
+      "confidence": 0.25585938,
+      "speaker": "A"
+    },
+    {
+      "text": "But",
+      "start": 128690,
+      "end": 128970,
+      "confidence": 0.97021484,
+      "speaker": "A"
+    },
+    {
+      "text": "let's",
+      "start": 130250,
+      "end": 130650,
+      "confidence": 0.99690753,
+      "speaker": "A"
+    },
+    {
+      "text": "say",
+      "start": 130650,
+      "end": 130890,
+      "confidence": 0.98339844,
+      "speaker": "A"
+    },
+    {
+      "text": "so",
+      "start": 131460,
+      "end": 131580,
+      "confidence": 0.88671875,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 131580,
+      "end": 131780,
+      "confidence": 0.9824219,
+      "speaker": "A"
+    },
+    {
+      "text": "first",
+      "start": 131780,
+      "end": 132020,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "quarter",
+      "start": 132020,
+      "end": 132300,
+      "confidence": 0.99560547,
+      "speaker": "A"
+    },
+    {
+      "text": "that",
+      "start": 132300,
+      "end": 132500,
+      "confidence": 0.9980469,
+      "speaker": "A"
+    },
+    {
+      "text": "is",
+      "start": 132500,
+      "end": 132660,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "Q1,",
+      "start": 132660,
+      "end": 133100,
+      "confidence": 0.99829,
+      "speaker": "A"
+    },
+    {
+      "text": "we",
+      "start": 133100,
+      "end": 133260,
+      "confidence": 0.98876953,
+      "speaker": "A"
+    },
+    {
+      "text": "can",
+      "start": 133260,
+      "end": 133420,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "just",
+      "start": 133420,
+      "end": 133620,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "say",
+      "start": 133620,
+      "end": 133940,
+      "confidence": 0.97216797,
+      "speaker": "A"
+    },
+    {
+      "text": "Q1,",
+      "start": 133940,
+      "end": 134660,
+      "confidence": 0.99805,
+      "speaker": "A"
+    },
+    {
+      "text": "then",
+      "start": 135060,
+      "end": 135380,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 135380,
+      "end": 135580,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "year",
+      "start": 135580,
+      "end": 135860,
+      "confidence": 0.9897461,
+      "speaker": "A"
+    },
+    {
+      "text": "2022,",
+      "start": 136820,
+      "end": 138020,
+      "confidence": 0.87386,
+      "speaker": "A"
+    },
+    {
+      "text": "something",
+      "start": 139620,
+      "end": 139980,
+      "confidence": 0.98876953,
+      "speaker": "A"
+    },
+    {
+      "text": "like",
+      "start": 139980,
+      "end": 140220,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "this.",
+      "start": 140220,
+      "end": 140420,
+      "confidence": 0.98828125,
+      "speaker": "A"
+    },
+    {
+      "text": "But",
+      "start": 140420,
+      "end": 140620,
+      "confidence": 0.9980469,
+      "speaker": "A"
+    },
+    {
+      "text": "June",
+      "start": 140620,
+      "end": 140860,
+      "confidence": 0.99560547,
+      "speaker": "A"
+    },
+    {
+      "text": "is",
+      "start": 140860,
+      "end": 141140,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "in,",
+      "start": 141140,
+      "end": 141460,
+      "confidence": 0.9946289,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 141620,
+      "end": 141860,
+      "confidence": 0.9902344,
+      "speaker": "A"
+    },
+    {
+      "text": "think",
+      "start": 141860,
+      "end": 142020,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "January,",
+      "start": 142020,
+      "end": 142340,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "February,",
+      "start": 142420,
+      "end": 142940,
+      "confidence": 0.9947917,
+      "speaker": "A"
+    },
+    {
+      "text": "March,",
+      "start": 142940,
+      "end": 143300,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "May,",
+      "start": 144500,
+      "end": 144900,
+      "confidence": 0.96728516,
+      "speaker": "A"
+    },
+    {
+      "text": "June,",
+      "start": 145540,
+      "end": 145940,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "April,",
+      "start": 149860,
+      "end": 150260,
+      "confidence": 0.97021484,
+      "speaker": "A"
+    },
+    {
+      "text": "May,",
+      "start": 150260,
+      "end": 150620,
+      "confidence": 0.9951172,
+      "speaker": "A"
+    },
+    {
+      "text": "June.",
+      "start": 150620,
+      "end": 150980,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "So",
+      "start": 151620,
+      "end": 152020,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "that",
+      "start": 152420,
+      "end": 152700,
+      "confidence": 0.9838867,
+      "speaker": "A"
+    },
+    {
+      "text": "will",
+      "start": 152700,
+      "end": 152860,
+      "confidence": 0.90478516,
+      "speaker": "A"
+    },
+    {
+      "text": "be",
+      "start": 152860,
+      "end": 153020,
+      "confidence": 0.9868164,
+      "speaker": "A"
+    },
+    {
+      "text": "Q2",
+      "start": 153020,
+      "end": 153500,
+      "confidence": 0.76562,
+      "speaker": "A"
+    },
+    {
+      "text": "here.",
+      "start": 153500,
+      "end": 153860,
+      "confidence": 0.97509766,
+      "speaker": "A"
+    },
+    {
+      "text": "So",
+      "start": 155620,
+      "end": 156020,
+      "confidence": 0.9394531,
+      "speaker": "A"
+    },
+    {
+      "text": "it",
+      "start": 156420,
+      "end": 156700,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "will",
+      "start": 156700,
+      "end": 156900,
+      "confidence": 0.95996094,
+      "speaker": "A"
+    },
+    {
+      "text": "just",
+      "start": 156900,
+      "end": 157140,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "judge",
+      "start": 157140,
+      "end": 157620,
+      "confidence": 0.9880371,
+      "speaker": "A"
+    },
+    {
+      "text": "which",
+      "start": 158910,
+      "end": 159110,
+      "confidence": 0.94921875,
+      "speaker": "A"
+    },
+    {
+      "text": "month",
+      "start": 159110,
+      "end": 159390,
+      "confidence": 0.9926758,
+      "speaker": "A"
+    },
+    {
+      "text": "it",
+      "start": 159390,
+      "end": 159590,
+      "confidence": 0.99365234,
+      "speaker": "A"
+    },
+    {
+      "text": "is.",
+      "start": 159590,
+      "end": 159870,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "And",
+      "start": 160110,
+      "end": 160390,
+      "confidence": 0.9941406,
+      "speaker": "A"
+    },
+    {
+      "text": "if",
+      "start": 160390,
+      "end": 160550,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "it",
+      "start": 160550,
+      "end": 160710,
+      "confidence": 0.99072266,
+      "speaker": "A"
+    },
+    {
+      "text": "falls",
+      "start": 160710,
+      "end": 161070,
+      "confidence": 0.9182129,
+      "speaker": "A"
+    },
+    {
+      "text": "in",
+      "start": 161070,
+      "end": 161190,
+      "confidence": 0.96972656,
+      "speaker": "A"
+    },
+    {
+      "text": "Q2,",
+      "start": 161190,
+      "end": 161710,
+      "confidence": 0.98267,
+      "speaker": "A"
+    },
+    {
+      "text": "then",
+      "start": 161710,
+      "end": 161910,
+      "confidence": 0.99121094,
+      "speaker": "A"
+    },
+    {
+      "text": "it",
+      "start": 161910,
+      "end": 162070,
+      "confidence": 0.7114258,
+      "speaker": "A"
+    },
+    {
+      "text": "will",
+      "start": 162070,
+      "end": 162230,
+      "confidence": 0.89697266,
+      "speaker": "A"
+    },
+    {
+      "text": "just",
+      "start": 162230,
+      "end": 162390,
+      "confidence": 0.9902344,
+      "speaker": "A"
+    },
+    {
+      "text": "go",
+      "start": 162390,
+      "end": 162630,
+      "confidence": 0.5444336,
+      "speaker": "A"
+    },
+    {
+      "text": "Q2",
+      "start": 162630,
+      "end": 163310,
+      "confidence": 0.9668,
+      "speaker": "A"
+    },
+    {
+      "text": "and",
+      "start": 163630,
+      "end": 163950,
+      "confidence": 0.99609375,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 163950,
+      "end": 164190,
+      "confidence": 0.99365234,
+      "speaker": "A"
+    },
+    {
+      "text": "year.",
+      "start": 164190,
+      "end": 164510,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "And",
+      "start": 164750,
+      "end": 165070,
+      "confidence": 0.9873047,
+      "speaker": "A"
+    },
+    {
+      "text": "similarly",
+      "start": 165070,
+      "end": 165590,
+      "confidence": 0.9433594,
+      "speaker": "A"
+    },
+    {
+      "text": "we'll",
+      "start": 165590,
+      "end": 165910,
+      "confidence": 0.77718097,
+      "speaker": "A"
+    },
+    {
+      "text": "keep",
+      "start": 165910,
+      "end": 166190,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "filling",
+      "start": 166510,
+      "end": 166990,
+      "confidence": 0.7614746,
+      "speaker": "A"
+    },
+    {
+      "text": "out",
+      "start": 166990,
+      "end": 167230,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "all",
+      "start": 167230,
+      "end": 167430,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 167430,
+      "end": 167630,
+      "confidence": 0.9355469,
+      "speaker": "A"
+    },
+    {
+      "text": "cells.",
+      "start": 167630,
+      "end": 168190,
+      "confidence": 0.921875,
+      "speaker": "A"
+    },
+    {
+      "text": "So",
+      "start": 169230,
+      "end": 169510,
+      "confidence": 0.9765625,
+      "speaker": "A"
+    },
+    {
+      "text": "if",
+      "start": 169510,
+      "end": 169670,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "we",
+      "start": 169670,
+      "end": 169870,
+      "confidence": 0.9628906,
+      "speaker": "A"
+    },
+    {
+      "text": "do",
+      "start": 169870,
+      "end": 170070,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "this,",
+      "start": 170070,
+      "end": 170310,
+      "confidence": 0.98046875,
+      "speaker": "A"
+    },
+    {
+      "text": "you",
+      "start": 170310,
+      "end": 170550,
+      "confidence": 0.9790039,
+      "speaker": "A"
+    },
+    {
+      "text": "don't",
+      "start": 170550,
+      "end": 170750,
+      "confidence": 0.9977214,
+      "speaker": "A"
+    },
+    {
+      "text": "need",
+      "start": 170750,
+      "end": 170870,
+      "confidence": 0.98291016,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 170870,
+      "end": 171030,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "aggregate",
+      "start": 171030,
+      "end": 171510,
+      "confidence": 0.9945313,
+      "speaker": "A"
+    },
+    {
+      "text": "any",
+      "start": 171510,
+      "end": 171670,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "data.",
+      "start": 171670,
+      "end": 171950,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 172510,
+      "end": 172790,
+      "confidence": 0.9238281,
+      "speaker": "A"
+    },
+    {
+      "text": "will",
+      "start": 172790,
+      "end": 172990,
+      "confidence": 0.9946289,
+      "speaker": "A"
+    },
+    {
+      "text": "get",
+      "start": 172990,
+      "end": 173230,
+      "confidence": 0.9926758,
+      "speaker": "A"
+    },
+    {
+      "text": "my.",
+      "start": 173230,
+      "end": 173550,
+      "confidence": 0.96875,
+      "speaker": "A"
+    },
+    {
+      "text": "My",
+      "start": 173789,
+      "end": 174070,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "purpose",
+      "start": 174070,
+      "end": 174430,
+      "confidence": 0.99316406,
+      "speaker": "A"
+    },
+    {
+      "text": "from",
+      "start": 174430,
+      "end": 174630,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "this",
+      "start": 174630,
+      "end": 174790,
+      "confidence": 0.8823242,
+      "speaker": "A"
+    },
+    {
+      "text": "API",
+      "start": 174790,
+      "end": 175190,
+      "confidence": 0.9885254,
+      "speaker": "A"
+    },
+    {
+      "text": "is",
+      "start": 175190,
+      "end": 175350,
+      "confidence": 0.9658203,
+      "speaker": "A"
+    },
+    {
+      "text": "I'm",
+      "start": 175350,
+      "end": 175550,
+      "confidence": 0.9798177,
+      "speaker": "A"
+    },
+    {
+      "text": "getting",
+      "start": 175550,
+      "end": 175710,
+      "confidence": 0.9946289,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 175710,
+      "end": 176030,
+      "confidence": 0.99365234,
+      "speaker": "A"
+    },
+    {
+      "text": "time",
+      "start": 176430,
+      "end": 176790,
+      "confidence": 0.9897461,
+      "speaker": "A"
+    },
+    {
+      "text": "series",
+      "start": 176790,
+      "end": 177110,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "data.",
+      "start": 177110,
+      "end": 177430,
+      "confidence": 0.9609375,
+      "speaker": "A"
+    },
+    {
+      "text": "So",
+      "start": 177430,
+      "end": 177670,
+      "confidence": 0.94921875,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 177670,
+      "end": 177870,
+      "confidence": 0.98339844,
+      "speaker": "A"
+    },
+    {
+      "text": "daily",
+      "start": 177870,
+      "end": 178190,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "time",
+      "start": 178190,
+      "end": 178430,
+      "confidence": 0.9511719,
+      "speaker": "A"
+    },
+    {
+      "text": "series,",
+      "start": 178430,
+      "end": 178750,
+      "confidence": 0.9980469,
+      "speaker": "A"
+    },
+    {
+      "text": "weekly",
+      "start": 178830,
+      "end": 179350,
+      "confidence": 0.9848633,
+      "speaker": "A"
+    },
+    {
+      "text": "time",
+      "start": 179350,
+      "end": 179510,
+      "confidence": 0.94970703,
+      "speaker": "A"
+    },
+    {
+      "text": "series",
+      "start": 179510,
+      "end": 179750,
+      "confidence": 0.99609375,
+      "speaker": "A"
+    },
+    {
+      "text": "data,",
+      "start": 179750,
+      "end": 180110,
+      "confidence": 0.98095703,
+      "speaker": "A"
+    },
+    {
+      "text": "monthly",
+      "start": 180190,
+      "end": 180670,
+      "confidence": 0.99121094,
+      "speaker": "A"
+    },
+    {
+      "text": "time",
+      "start": 180670,
+      "end": 180830,
+      "confidence": 0.9506836,
+      "speaker": "A"
+    },
+    {
+      "text": "series",
+      "start": 180830,
+      "end": 181110,
+      "confidence": 0.99365234,
+      "speaker": "A"
+    },
+    {
+      "text": "and",
+      "start": 181110,
+      "end": 181390,
+      "confidence": 0.84472656,
+      "speaker": "A"
+    },
+    {
+      "text": "quarter.",
+      "start": 181390,
+      "end": 181710,
+      "confidence": 0.71533203,
+      "speaker": "A"
+    },
+    {
+      "text": "And",
+      "start": 182910,
+      "end": 183190,
+      "confidence": 0.9946289,
+      "speaker": "A"
+    },
+    {
+      "text": "now",
+      "start": 183190,
+      "end": 183350,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 183350,
+      "end": 183510,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "can",
+      "start": 183510,
+      "end": 183670,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "do",
+      "start": 183670,
+      "end": 183830,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "anything",
+      "start": 183830,
+      "end": 184150,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "after",
+      "start": 184150,
+      "end": 184430,
+      "confidence": 0.98828125,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 185240,
+      "end": 185360,
+      "confidence": 0.95751953,
+      "speaker": "A"
+    },
+    {
+      "text": "get",
+      "start": 185360,
+      "end": 185520,
+      "confidence": 0.9682617,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 185520,
+      "end": 185680,
+      "confidence": 0.9926758,
+      "speaker": "A"
+    },
+    {
+      "text": "report",
+      "start": 185680,
+      "end": 185960,
+      "confidence": 0.9394531,
+      "speaker": "A"
+    },
+    {
+      "text": "from",
+      "start": 185960,
+      "end": 186240,
+      "confidence": 0.9550781,
+      "speaker": "A"
+    },
+    {
+      "text": "the.",
+      "start": 186240,
+      "end": 186520,
+      "confidence": 0.5644531,
+      "speaker": "A"
+    },
+    {
+      "text": "That's",
+      "start": 187400,
+      "end": 187840,
+      "confidence": 0.93082684,
+      "speaker": "A"
+    },
+    {
+      "text": "all",
+      "start": 187840,
+      "end": 188120,
+      "confidence": 0.8847656,
+      "speaker": "A"
+    },
+    {
+      "text": "now.",
+      "start": 188760,
+      "end": 189160,
+      "confidence": 0.81640625,
+      "speaker": "A"
+    },
+    {
+      "text": "And.",
+      "start": 190840,
+      "end": 191160,
+      "confidence": 0.7519531,
+      "speaker": "A"
+    },
+    {
+      "text": "And",
+      "start": 191160,
+      "end": 191400,
+      "confidence": 0.98779297,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 191400,
+      "end": 191560,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "believe",
+      "start": 191560,
+      "end": 191800,
+      "confidence": 0.9980469,
+      "speaker": "A"
+    },
+    {
+      "text": "this",
+      "start": 191800,
+      "end": 192160,
+      "confidence": 0.5600586,
+      "speaker": "A"
+    },
+    {
+      "text": "will",
+      "start": 192160,
+      "end": 192400,
+      "confidence": 0.97802734,
+      "speaker": "A"
+    },
+    {
+      "text": "actually",
+      "start": 192400,
+      "end": 192680,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "also",
+      "start": 192760,
+      "end": 193080,
+      "confidence": 0.98291016,
+      "speaker": "A"
+    },
+    {
+      "text": "save",
+      "start": 193080,
+      "end": 193400,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 193400,
+      "end": 193600,
+      "confidence": 0.98876953,
+      "speaker": "A"
+    },
+    {
+      "text": "space,",
+      "start": 193600,
+      "end": 193880,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "isn't",
+      "start": 193960,
+      "end": 194400,
+      "confidence": 0.97302246,
+      "speaker": "A"
+    },
+    {
+      "text": "it?",
+      "start": 194400,
+      "end": 194640,
+      "confidence": 0.99072266,
+      "speaker": "A"
+    },
+    {
+      "text": "You",
+      "start": 194640,
+      "end": 194880,
+      "confidence": 0.9838867,
+      "speaker": "A"
+    },
+    {
+      "text": "don't",
+      "start": 194880,
+      "end": 195080,
+      "confidence": 0.99886066,
+      "speaker": "A"
+    },
+    {
+      "text": "have",
+      "start": 195080,
+      "end": 195160,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 195160,
+      "end": 195280,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "go",
+      "start": 195280,
+      "end": 195480,
+      "confidence": 0.97314453,
+      "speaker": "A"
+    },
+    {
+      "text": "for.",
+      "start": 195480,
+      "end": 195800,
+      "confidence": 0.95458984,
+      "speaker": "A"
+    },
+    {
+      "text": "Go",
+      "start": 196040,
+      "end": 196400,
+      "confidence": 0.99609375,
+      "speaker": "A"
+    },
+    {
+      "text": "and",
+      "start": 196400,
+      "end": 196680,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "create",
+      "start": 196680,
+      "end": 196920,
+      "confidence": 0.9946289,
+      "speaker": "A"
+    },
+    {
+      "text": "another",
+      "start": 196920,
+      "end": 197240,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "report.",
+      "start": 197240,
+      "end": 197640,
+      "confidence": 0.80810547,
+      "speaker": "A"
+    },
+    {
+      "text": "You",
+      "start": 198440,
+      "end": 198720,
+      "confidence": 0.92822266,
+      "speaker": "A"
+    },
+    {
+      "text": "just",
+      "start": 198720,
+      "end": 198920,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "have",
+      "start": 198920,
+      "end": 199080,
+      "confidence": 0.93603516,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 199080,
+      "end": 199200,
+      "confidence": 0.99121094,
+      "speaker": "A"
+    },
+    {
+      "text": "add",
+      "start": 199200,
+      "end": 199360,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "three",
+      "start": 199360,
+      "end": 199560,
+      "confidence": 0.9794922,
+      "speaker": "A"
+    },
+    {
+      "text": "more",
+      "start": 199560,
+      "end": 199800,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "columns.",
+      "start": 199800,
+      "end": 200280,
+      "confidence": 0.94885254,
+      "speaker": "A"
+    },
+    {
+      "text": "That's",
+      "start": 200280,
+      "end": 200560,
+      "confidence": 0.96272784,
+      "speaker": "A"
+    },
+    {
+      "text": "it.",
+      "start": 200560,
+      "end": 200840,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "Now",
+      "start": 201640,
+      "end": 201960,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "one",
+      "start": 201960,
+      "end": 202200,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "more",
+      "start": 202200,
+      "end": 202400,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "thing",
+      "start": 202400,
+      "end": 202600,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "that",
+      "start": 202600,
+      "end": 202800,
+      "confidence": 0.98046875,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 202800,
+      "end": 202920,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "wanted",
+      "start": 202920,
+      "end": 203200,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 203200,
+      "end": 203360,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "mention",
+      "start": 203360,
+      "end": 203800,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "is",
+      "start": 204120,
+      "end": 204520,
+      "confidence": 0.93603516,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 204760,
+      "end": 205160,
+      "confidence": 0.8881836,
+      "speaker": "A"
+    },
+    {
+      "text": "probably.",
+      "start": 206760,
+      "end": 207240,
+      "confidence": 0.9819336,
+      "speaker": "A"
+    },
+    {
+      "text": "You",
+      "start": 207240,
+      "end": 207440,
+      "confidence": 0.89404297,
+      "speaker": "A"
+    },
+    {
+      "text": "have",
+      "start": 207440,
+      "end": 207640,
+      "confidence": 0.9916992,
+      "speaker": "A"
+    },
+    {
+      "text": "already",
+      "start": 207640,
+      "end": 207960,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "seen",
+      "start": 208120,
+      "end": 208520,
+      "confidence": 0.96191406,
+      "speaker": "A"
+    },
+    {
+      "text": "these.",
+      "start": 208520,
+      "end": 208920,
+      "confidence": 0.44750977,
+      "speaker": "A"
+    },
+    {
+      "text": "Just",
+      "start": 212050,
+      "end": 212290,
+      "confidence": 0.88134766,
+      "speaker": "A"
+    },
+    {
+      "text": "one",
+      "start": 212450,
+      "end": 212850,
+      "confidence": 0.9951172,
+      "speaker": "A"
+    },
+    {
+      "text": "second.",
+      "start": 212850,
+      "end": 213250,
+      "confidence": 0.9892578,
+      "speaker": "A"
+    },
+    {
+      "text": "Yeah,",
+      "start": 215410,
+      "end": 215970,
+      "confidence": 0.86832684,
+      "speaker": "A"
+    },
+    {
+      "text": "so",
+      "start": 216770,
+      "end": 217170,
+      "confidence": 0.9819336,
+      "speaker": "A"
+    },
+    {
+      "text": "what",
+      "start": 217250,
+      "end": 217570,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "they",
+      "start": 217570,
+      "end": 217810,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "have",
+      "start": 217810,
+      "end": 218010,
+      "confidence": 0.99560547,
+      "speaker": "A"
+    },
+    {
+      "text": "done",
+      "start": 218010,
+      "end": 218250,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "is",
+      "start": 218250,
+      "end": 218570,
+      "confidence": 0.8959961,
+      "speaker": "A"
+    },
+    {
+      "text": "you",
+      "start": 218570,
+      "end": 218930,
+      "confidence": 0.9819336,
+      "speaker": "A"
+    },
+    {
+      "text": "will",
+      "start": 219010,
+      "end": 219330,
+      "confidence": 0.9819336,
+      "speaker": "A"
+    },
+    {
+      "text": "probably",
+      "start": 219330,
+      "end": 219690,
+      "confidence": 0.8385417,
+      "speaker": "A"
+    },
+    {
+      "text": "see",
+      "start": 219690,
+      "end": 219970,
+      "confidence": 0.7661133,
+      "speaker": "A"
+    },
+    {
+      "text": "that",
+      "start": 219970,
+      "end": 220210,
+      "confidence": 0.8925781,
+      "speaker": "A"
+    },
+    {
+      "text": "there",
+      "start": 220210,
+      "end": 220450,
+      "confidence": 0.9711914,
+      "speaker": "A"
+    },
+    {
+      "text": "is",
+      "start": 220450,
+      "end": 220770,
+      "confidence": 0.9902344,
+      "speaker": "A"
+    },
+    {
+      "text": "a",
+      "start": 220850,
+      "end": 221250,
+      "confidence": 0.92578125,
+      "speaker": "A"
+    },
+    {
+      "text": "in",
+      "start": 223490,
+      "end": 223770,
+      "confidence": 0.9926758,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 223770,
+      "end": 223930,
+      "confidence": 0.9946289,
+      "speaker": "A"
+    },
+    {
+      "text": "reporting.",
+      "start": 223930,
+      "end": 224450,
+      "confidence": 0.99487305,
+      "speaker": "A"
+    },
+    {
+      "text": "There",
+      "start": 224450,
+      "end": 224650,
+      "confidence": 0.9946289,
+      "speaker": "A"
+    },
+    {
+      "text": "are",
+      "start": 224650,
+      "end": 224930,
+      "confidence": 0.99658203,
+      "speaker": "A"
+    },
+    {
+      "text": "two",
+      "start": 225010,
+      "end": 225370,
+      "confidence": 0.98876953,
+      "speaker": "A"
+    },
+    {
+      "text": "version",
+      "start": 225370,
+      "end": 225850,
+      "confidence": 0.8331299,
+      "speaker": "A"
+    },
+    {
+      "text": "now",
+      "start": 225850,
+      "end": 226210,
+      "confidence": 0.99316406,
+      "speaker": "A"
+    },
+    {
+      "text": "they",
+      "start": 226530,
+      "end": 226810,
+      "confidence": 0.9980469,
+      "speaker": "A"
+    },
+    {
+      "text": "have",
+      "start": 226810,
+      "end": 226970,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "released",
+      "start": 226970,
+      "end": 227330,
+      "confidence": 0.9958496,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 227330,
+      "end": 227450,
+      "confidence": 0.83447266,
+      "speaker": "A"
+    },
+    {
+      "text": "version",
+      "start": 227450,
+      "end": 227810,
+      "confidence": 0.99658203,
+      "speaker": "A"
+    },
+    {
+      "text": "three",
+      "start": 227810,
+      "end": 228130,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "and",
+      "start": 228770,
+      "end": 229170,
+      "confidence": 0.9873047,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 230050,
+      "end": 230330,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "think",
+      "start": 230330,
+      "end": 230490,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 230490,
+      "end": 230650,
+      "confidence": 0.98339844,
+      "speaker": "A"
+    },
+    {
+      "text": "version",
+      "start": 230650,
+      "end": 231010,
+      "confidence": 0.9815674,
+      "speaker": "A"
+    },
+    {
+      "text": "two",
+      "start": 231010,
+      "end": 231250,
+      "confidence": 0.9428711,
+      "speaker": "A"
+    },
+    {
+      "text": "will",
+      "start": 231250,
+      "end": 231450,
+      "confidence": 0.9980469,
+      "speaker": "A"
+    },
+    {
+      "text": "be",
+      "start": 231450,
+      "end": 231610,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "eliminated",
+      "start": 231610,
+      "end": 232370,
+      "confidence": 0.98896486,
+      "speaker": "A"
+    },
+    {
+      "text": "next",
+      "start": 233490,
+      "end": 233810,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "year",
+      "start": 233810,
+      "end": 234130,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "after",
+      "start": 236780,
+      "end": 237020,
+      "confidence": 0.97509766,
+      "speaker": "A"
+    },
+    {
+      "text": "March",
+      "start": 237020,
+      "end": 237380,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "30th.",
+      "start": 237380,
+      "end": 237980,
+      "confidence": 0.97302,
+      "speaker": "A"
+    },
+    {
+      "text": "So",
+      "start": 238860,
+      "end": 239260,
+      "confidence": 0.9736328,
+      "speaker": "A"
+    },
+    {
+      "text": "would",
+      "start": 239740,
+      "end": 240060,
+      "confidence": 0.9433594,
+      "speaker": "A"
+    },
+    {
+      "text": "you",
+      "start": 240060,
+      "end": 240300,
+      "confidence": 0.99609375,
+      "speaker": "A"
+    },
+    {
+      "text": "be",
+      "start": 240300,
+      "end": 240500,
+      "confidence": 0.98779297,
+      "speaker": "A"
+    },
+    {
+      "text": "able",
+      "start": 240500,
+      "end": 240700,
+      "confidence": 0.9892578,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 240700,
+      "end": 240940,
+      "confidence": 0.9951172,
+      "speaker": "A"
+    },
+    {
+      "text": "do",
+      "start": 240940,
+      "end": 241260,
+      "confidence": 0.9897461,
+      "speaker": "A"
+    },
+    {
+      "text": "everything",
+      "start": 241740,
+      "end": 242100,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "that",
+      "start": 242100,
+      "end": 242340,
+      "confidence": 0.9897461,
+      "speaker": "A"
+    },
+    {
+      "text": "you",
+      "start": 242340,
+      "end": 242500,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "are",
+      "start": 242500,
+      "end": 242660,
+      "confidence": 0.87158203,
+      "speaker": "A"
+    },
+    {
+      "text": "doing",
+      "start": 242660,
+      "end": 242820,
+      "confidence": 0.9951172,
+      "speaker": "A"
+    },
+    {
+      "text": "for",
+      "start": 242820,
+      "end": 242980,
+      "confidence": 0.99316406,
+      "speaker": "A"
+    },
+    {
+      "text": "ad",
+      "start": 242980,
+      "end": 243180,
+      "confidence": 0.953125,
+      "speaker": "A"
+    },
+    {
+      "text": "report",
+      "start": 243180,
+      "end": 243500,
+      "confidence": 0.9604492,
+      "speaker": "A"
+    },
+    {
+      "text": "from",
+      "start": 243660,
+      "end": 243980,
+      "confidence": 0.91503906,
+      "speaker": "A"
+    },
+    {
+      "text": "version",
+      "start": 243980,
+      "end": 244340,
+      "confidence": 0.98461914,
+      "speaker": "A"
+    },
+    {
+      "text": "three",
+      "start": 244340,
+      "end": 244580,
+      "confidence": 0.52246094,
+      "speaker": "A"
+    },
+    {
+      "text": "itself?",
+      "start": 244580,
+      "end": 245020,
+      "confidence": 0.8051758,
+      "speaker": "A"
+    },
+    {
+      "text": "That",
+      "start": 247020,
+      "end": 247300,
+      "confidence": 0.99560547,
+      "speaker": "A"
+    },
+    {
+      "text": "will",
+      "start": 247300,
+      "end": 247460,
+      "confidence": 0.8828125,
+      "speaker": "A"
+    },
+    {
+      "text": "be",
+      "start": 247460,
+      "end": 247620,
+      "confidence": 0.97265625,
+      "speaker": "A"
+    },
+    {
+      "text": "better.",
+      "start": 247620,
+      "end": 247900,
+      "confidence": 0.96533203,
+      "speaker": "A"
+    },
+    {
+      "text": "So",
+      "start": 249580,
+      "end": 249980,
+      "confidence": 0.96240234,
+      "speaker": "A"
+    },
+    {
+      "text": "let",
+      "start": 250380,
+      "end": 250660,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "me",
+      "start": 250660,
+      "end": 250820,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "know",
+      "start": 250820,
+      "end": 250980,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "about",
+      "start": 250980,
+      "end": 251180,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "this",
+      "start": 251180,
+      "end": 251420,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "one",
+      "start": 251420,
+      "end": 251740,
+      "confidence": 0.9951172,
+      "speaker": "A"
+    },
+    {
+      "text": "and",
+      "start": 251740,
+      "end": 252099,
+      "confidence": 0.99365234,
+      "speaker": "A"
+    },
+    {
+      "text": "also",
+      "start": 252099,
+      "end": 252380,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "let",
+      "start": 252380,
+      "end": 252580,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "me",
+      "start": 252580,
+      "end": 252740,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "know",
+      "start": 252740,
+      "end": 252900,
+      "confidence": 0.9980469,
+      "speaker": "A"
+    },
+    {
+      "text": "about",
+      "start": 252900,
+      "end": 253100,
+      "confidence": 0.96972656,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 253100,
+      "end": 253260,
+      "confidence": 0.98583984,
+      "speaker": "A"
+    },
+    {
+      "text": "solution",
+      "start": 253260,
+      "end": 253700,
+      "confidence": 0.99243164,
+      "speaker": "A"
+    },
+    {
+      "text": "that",
+      "start": 253700,
+      "end": 253940,
+      "confidence": 0.99365234,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 253940,
+      "end": 254220,
+      "confidence": 0.99658203,
+      "speaker": "A"
+    },
+    {
+      "text": "just",
+      "start": 254540,
+      "end": 254860,
+      "confidence": 0.99365234,
+      "speaker": "A"
+    },
+    {
+      "text": "talked",
+      "start": 254860,
+      "end": 255220,
+      "confidence": 0.9597168,
+      "speaker": "A"
+    },
+    {
+      "text": "about",
+      "start": 255220,
+      "end": 255460,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "here",
+      "start": 255460,
+      "end": 255820,
+      "confidence": 0.9951172,
+      "speaker": "A"
+    },
+    {
+      "text": "in",
+      "start": 255820,
+      "end": 256100,
+      "confidence": 0.9946289,
+      "speaker": "A"
+    },
+    {
+      "text": "this",
+      "start": 256100,
+      "end": 256260,
+      "confidence": 0.9946289,
+      "speaker": "A"
+    },
+    {
+      "text": "video.",
+      "start": 256260,
+      "end": 256540,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "How",
+      "start": 257420,
+      "end": 257700,
+      "confidence": 0.6855469,
+      "speaker": "A"
+    },
+    {
+      "text": "do",
+      "start": 257700,
+      "end": 257820,
+      "confidence": 0.9453125,
+      "speaker": "A"
+    },
+    {
+      "text": "you",
+      "start": 257820,
+      "end": 257940,
+      "confidence": 0.75390625,
+      "speaker": "A"
+    },
+    {
+      "text": "feel",
+      "start": 257940,
+      "end": 258140,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "about",
+      "start": 258140,
+      "end": 258380,
+      "confidence": 0.9980469,
+      "speaker": "A"
+    },
+    {
+      "text": "this?",
+      "start": 258380,
+      "end": 258700,
+      "confidence": 0.99560547,
+      "speaker": "A"
+    },
+    {
+      "text": "That's",
+      "start": 259580,
+      "end": 259940,
+      "confidence": 0.8595378,
+      "speaker": "A"
+    },
+    {
+      "text": "all.",
+      "start": 259940,
+      "end": 260220,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "Thank",
+      "start": 260300,
+      "end": 260660,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "you",
+      "start": 260660,
+      "end": 260820,
+      "confidence": 0.99658203,
+      "speaker": "A"
+    },
+    {
+      "text": "so",
+      "start": 260820,
+      "end": 260980,
+      "confidence": 0.99316406,
+      "speaker": "A"
+    },
+    {
+      "text": "much.",
+      "start": 260980,
+      "end": 261260,
+      "confidence": 0.9941406,
+      "speaker": "A"
+    }
+  ],
+  "utterances": [
+    {
+      "speaker": "A",
+      "text": "Hey Sama. So I'm making this video to talk about the challenge that we are having about the weekly, monthly and quarterly data. Now I have thought of something that is. I think it will be very simple and you won't have to go through much challenges like aggregating the data and all this. Now here, what I have done, when you download the data, you definitely don't have these columns, but you will have a date column. Right now I have been, I am showing you the example for months. So what I have done is whenever, whatever date it shows for month, there should be a month column that will basically show just the month and the year. That's it. I don't need anything. That's all. And here for the week, for example, you don't have to do it exactly in the same way. But I found this. Just a second. I was just googling it and. Oh. So this formula here, we can num. Weeknum and then the date, it actually gives the week number of the year. So let me go to that page. Actually. It will show 1 to 54. Now what we can do is since we may have data for several years eventually it's probably better to keep the week number and the year. So we can just, we can just take this date and then maintain number and year. That that will do for quarter, it's even more simpler. But I don't know how I actually didn't give it a thought how I can do it next year. But let's say so the first quarter that is Q1, we can just say Q1, then the year 2022, something like this. But June is in, I think January, February, March, May, June, April, May, June. So that will be Q2 here. So it will just judge which month it is. And if it falls in Q2, then it will just go Q2 and the year. And similarly we'll keep filling out all the cells. So if we do this, you don't need to aggregate any data. I will get my. My purpose from this API is I'm getting the time series data. So the daily time series, weekly time series data, monthly time series and quarter. And now I can do anything after I get the report from the. That's all now. And. And I believe this will actually also save the space, isn't it? You don't have to go for. Go and create another report. You just have to add three more columns. That's it. Now one more thing that I wanted to mention is I probably. You have already seen these. Just one second. Yeah, so what they have done is you will probably see that there is a in the reporting. There are two version now they have released the version three and I think the version two will be eliminated next year after March 30th. So would you be able to do everything that you are doing for ad report from version three itself? That will be better. So let me know about this one and also let me know about the solution that I just talked about here in this video. How do you feel about this? That's all. Thank you so much.",
+      "confidence": 0.95405453,
+      "start": 400,
+      "end": 261260,
+      "words": [
+        {
+          "text": "Hey",
+          "start": 400,
+          "end": 640,
+          "confidence": 0.9724121,
+          "speaker": "A"
+        },
+        {
+          "text": "Sama.",
+          "start": 640,
+          "end": 1040,
+          "confidence": 0.75268555,
+          "speaker": "A"
+        },
+        {
+          "text": "So",
+          "start": 1120,
+          "end": 1440,
+          "confidence": 0.9692383,
+          "speaker": "A"
+        },
+        {
+          "text": "I'm",
+          "start": 1440,
+          "end": 1720,
+          "confidence": 0.9399414,
+          "speaker": "A"
+        },
+        {
+          "text": "making",
+          "start": 1720,
+          "end": 1920,
+          "confidence": 0.9951172,
+          "speaker": "A"
+        },
+        {
+          "text": "this",
+          "start": 1920,
+          "end": 2120,
+          "confidence": 0.9746094,
+          "speaker": "A"
+        },
+        {
+          "text": "video",
+          "start": 2120,
+          "end": 2400,
+          "confidence": 0.9921875,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 2400,
+          "end": 2680,
+          "confidence": 0.99072266,
+          "speaker": "A"
+        },
+        {
+          "text": "talk",
+          "start": 2680,
+          "end": 2840,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "about",
+          "start": 2840,
+          "end": 3080,
+          "confidence": 0.99658203,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 3080,
+          "end": 3440,
+          "confidence": 0.9941406,
+          "speaker": "A"
+        },
+        {
+          "text": "challenge",
+          "start": 4560,
+          "end": 5080,
+          "confidence": 0.93115234,
+          "speaker": "A"
+        },
+        {
+          "text": "that",
+          "start": 5080,
+          "end": 5240,
+          "confidence": 0.9892578,
+          "speaker": "A"
+        },
+        {
+          "text": "we",
+          "start": 5240,
+          "end": 5400,
+          "confidence": 0.64697266,
+          "speaker": "A"
+        },
+        {
+          "text": "are",
+          "start": 5400,
+          "end": 5560,
+          "confidence": 0.5498047,
+          "speaker": "A"
+        },
+        {
+          "text": "having",
+          "start": 5560,
+          "end": 5840,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "about",
+          "start": 5840,
+          "end": 6200,
+          "confidence": 0.9951172,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 6200,
+          "end": 6560,
+          "confidence": 0.98291016,
+          "speaker": "A"
+        },
+        {
+          "text": "weekly,",
+          "start": 6560,
+          "end": 7120,
+          "confidence": 0.998291,
+          "speaker": "A"
+        },
+        {
+          "text": "monthly",
+          "start": 7120,
+          "end": 7520,
+          "confidence": 0.9890137,
+          "speaker": "A"
+        },
+        {
+          "text": "and",
+          "start": 7520,
+          "end": 7640,
+          "confidence": 0.98339844,
+          "speaker": "A"
+        },
+        {
+          "text": "quarterly",
+          "start": 7640,
+          "end": 8080,
+          "confidence": 0.97558594,
+          "speaker": "A"
+        },
+        {
+          "text": "data.",
+          "start": 8080,
+          "end": 8400,
+          "confidence": 0.9902344,
+          "speaker": "A"
+        },
+        {
+          "text": "Now",
+          "start": 9280,
+          "end": 9600,
+          "confidence": 0.97021484,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 9600,
+          "end": 9920,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "have",
+          "start": 10080,
+          "end": 10440,
+          "confidence": 0.99658203,
+          "speaker": "A"
+        },
+        {
+          "text": "thought",
+          "start": 10440,
+          "end": 10720,
+          "confidence": 0.9711914,
+          "speaker": "A"
+        },
+        {
+          "text": "of",
+          "start": 10720,
+          "end": 10960,
+          "confidence": 0.9902344,
+          "speaker": "A"
+        },
+        {
+          "text": "something",
+          "start": 10960,
+          "end": 11280,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "that",
+          "start": 11280,
+          "end": 11600,
+          "confidence": 0.9848633,
+          "speaker": "A"
+        },
+        {
+          "text": "is.",
+          "start": 11600,
+          "end": 11920,
+          "confidence": 0.7734375,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 12480,
+          "end": 12760,
+          "confidence": 0.99121094,
+          "speaker": "A"
+        },
+        {
+          "text": "think",
+          "start": 12760,
+          "end": 13040,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "it",
+          "start": 13040,
+          "end": 13320,
+          "confidence": 0.95996094,
+          "speaker": "A"
+        },
+        {
+          "text": "will",
+          "start": 13320,
+          "end": 13520,
+          "confidence": 0.97558594,
+          "speaker": "A"
+        },
+        {
+          "text": "be",
+          "start": 13520,
+          "end": 13760,
+          "confidence": 0.99609375,
+          "speaker": "A"
+        },
+        {
+          "text": "very",
+          "start": 13760,
+          "end": 14000,
+          "confidence": 0.99072266,
+          "speaker": "A"
+        },
+        {
+          "text": "simple",
+          "start": 14000,
+          "end": 14560,
+          "confidence": 0.99975586,
+          "speaker": "A"
+        },
+        {
+          "text": "and",
+          "start": 15520,
+          "end": 15920,
+          "confidence": 0.9814453,
+          "speaker": "A"
+        },
+        {
+          "text": "you",
+          "start": 16160,
+          "end": 16480,
+          "confidence": 0.9946289,
+          "speaker": "A"
+        },
+        {
+          "text": "won't",
+          "start": 16480,
+          "end": 16800,
+          "confidence": 0.9161784,
+          "speaker": "A"
+        },
+        {
+          "text": "have",
+          "start": 16800,
+          "end": 16960,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 16960,
+          "end": 17080,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "go",
+          "start": 17080,
+          "end": 17240,
+          "confidence": 0.99658203,
+          "speaker": "A"
+        },
+        {
+          "text": "through",
+          "start": 17240,
+          "end": 17440,
+          "confidence": 0.7871094,
+          "speaker": "A"
+        },
+        {
+          "text": "much",
+          "start": 17440,
+          "end": 17680,
+          "confidence": 0.95996094,
+          "speaker": "A"
+        },
+        {
+          "text": "challenges",
+          "start": 17680,
+          "end": 18240,
+          "confidence": 0.8621419,
+          "speaker": "A"
+        },
+        {
+          "text": "like",
+          "start": 18240,
+          "end": 18480,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "aggregating",
+          "start": 18480,
+          "end": 19120,
+          "confidence": 0.94677734,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 19120,
+          "end": 19320,
+          "confidence": 0.9121094,
+          "speaker": "A"
+        },
+        {
+          "text": "data",
+          "start": 19320,
+          "end": 19600,
+          "confidence": 0.99121094,
+          "speaker": "A"
+        },
+        {
+          "text": "and",
+          "start": 19600,
+          "end": 19880,
+          "confidence": 0.89160156,
+          "speaker": "A"
+        },
+        {
+          "text": "all",
+          "start": 19880,
+          "end": 20080,
+          "confidence": 0.93359375,
+          "speaker": "A"
+        },
+        {
+          "text": "this.",
+          "start": 20080,
+          "end": 20400,
+          "confidence": 0.84033203,
+          "speaker": "A"
+        },
+        {
+          "text": "Now",
+          "start": 21920,
+          "end": 22320,
+          "confidence": 0.9794922,
+          "speaker": "A"
+        },
+        {
+          "text": "here,",
+          "start": 23440,
+          "end": 23840,
+          "confidence": 0.98046875,
+          "speaker": "A"
+        },
+        {
+          "text": "what",
+          "start": 24160,
+          "end": 24480,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 24480,
+          "end": 24680,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "have",
+          "start": 24680,
+          "end": 24880,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "done,",
+          "start": 24880,
+          "end": 25200,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "when",
+          "start": 26090,
+          "end": 26250,
+          "confidence": 0.97021484,
+          "speaker": "A"
+        },
+        {
+          "text": "you",
+          "start": 26250,
+          "end": 26490,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "download",
+          "start": 26490,
+          "end": 27090,
+          "confidence": 0.9996745,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 27090,
+          "end": 27250,
+          "confidence": 0.9790039,
+          "speaker": "A"
+        },
+        {
+          "text": "data,",
+          "start": 27250,
+          "end": 27530,
+          "confidence": 0.9892578,
+          "speaker": "A"
+        },
+        {
+          "text": "you",
+          "start": 27530,
+          "end": 27890,
+          "confidence": 0.99658203,
+          "speaker": "A"
+        },
+        {
+          "text": "definitely",
+          "start": 27890,
+          "end": 28450,
+          "confidence": 0.9538574,
+          "speaker": "A"
+        },
+        {
+          "text": "don't",
+          "start": 28450,
+          "end": 28690,
+          "confidence": 0.9967448,
+          "speaker": "A"
+        },
+        {
+          "text": "have",
+          "start": 28690,
+          "end": 28890,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "these",
+          "start": 28890,
+          "end": 29210,
+          "confidence": 0.9897461,
+          "speaker": "A"
+        },
+        {
+          "text": "columns,",
+          "start": 29290,
+          "end": 30010,
+          "confidence": 0.9362793,
+          "speaker": "A"
+        },
+        {
+          "text": "but",
+          "start": 30810,
+          "end": 31090,
+          "confidence": 0.9921875,
+          "speaker": "A"
+        },
+        {
+          "text": "you",
+          "start": 31090,
+          "end": 31250,
+          "confidence": 0.9848633,
+          "speaker": "A"
+        },
+        {
+          "text": "will",
+          "start": 31250,
+          "end": 31410,
+          "confidence": 0.9868164,
+          "speaker": "A"
+        },
+        {
+          "text": "have",
+          "start": 31410,
+          "end": 31570,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "a",
+          "start": 31570,
+          "end": 31730,
+          "confidence": 0.9848633,
+          "speaker": "A"
+        },
+        {
+          "text": "date",
+          "start": 31730,
+          "end": 32050,
+          "confidence": 0.9897461,
+          "speaker": "A"
+        },
+        {
+          "text": "column.",
+          "start": 32050,
+          "end": 32450,
+          "confidence": 0.98811847,
+          "speaker": "A"
+        },
+        {
+          "text": "Right",
+          "start": 32450,
+          "end": 32730,
+          "confidence": 0.9003906,
+          "speaker": "A"
+        },
+        {
+          "text": "now",
+          "start": 33210,
+          "end": 33610,
+          "confidence": 0.9921875,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 33930,
+          "end": 34210,
+          "confidence": 0.7055664,
+          "speaker": "A"
+        },
+        {
+          "text": "have",
+          "start": 34210,
+          "end": 34410,
+          "confidence": 0.9819336,
+          "speaker": "A"
+        },
+        {
+          "text": "been,",
+          "start": 34410,
+          "end": 34730,
+          "confidence": 0.97998047,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 34890,
+          "end": 35170,
+          "confidence": 0.9824219,
+          "speaker": "A"
+        },
+        {
+          "text": "am",
+          "start": 35170,
+          "end": 35330,
+          "confidence": 0.9692383,
+          "speaker": "A"
+        },
+        {
+          "text": "showing",
+          "start": 35330,
+          "end": 35610,
+          "confidence": 0.99365234,
+          "speaker": "A"
+        },
+        {
+          "text": "you",
+          "start": 35610,
+          "end": 35730,
+          "confidence": 0.9873047,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 35730,
+          "end": 35890,
+          "confidence": 0.99072266,
+          "speaker": "A"
+        },
+        {
+          "text": "example",
+          "start": 35890,
+          "end": 36250,
+          "confidence": 0.99690753,
+          "speaker": "A"
+        },
+        {
+          "text": "for",
+          "start": 36250,
+          "end": 36450,
+          "confidence": 0.9736328,
+          "speaker": "A"
+        },
+        {
+          "text": "months.",
+          "start": 36450,
+          "end": 36690,
+          "confidence": 0.9604492,
+          "speaker": "A"
+        },
+        {
+          "text": "So",
+          "start": 36690,
+          "end": 36930,
+          "confidence": 0.9013672,
+          "speaker": "A"
+        },
+        {
+          "text": "what",
+          "start": 36930,
+          "end": 37130,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 37130,
+          "end": 37290,
+          "confidence": 0.98339844,
+          "speaker": "A"
+        },
+        {
+          "text": "have",
+          "start": 37290,
+          "end": 37410,
+          "confidence": 0.5180664,
+          "speaker": "A"
+        },
+        {
+          "text": "done",
+          "start": 37410,
+          "end": 37650,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "is",
+          "start": 37650,
+          "end": 38010,
+          "confidence": 0.9555664,
+          "speaker": "A"
+        },
+        {
+          "text": "whenever,",
+          "start": 38410,
+          "end": 38890,
+          "confidence": 0.8076172,
+          "speaker": "A"
+        },
+        {
+          "text": "whatever",
+          "start": 38890,
+          "end": 39250,
+          "confidence": 0.9904785,
+          "speaker": "A"
+        },
+        {
+          "text": "date",
+          "start": 39250,
+          "end": 39490,
+          "confidence": 0.92871094,
+          "speaker": "A"
+        },
+        {
+          "text": "it",
+          "start": 39490,
+          "end": 39650,
+          "confidence": 0.9711914,
+          "speaker": "A"
+        },
+        {
+          "text": "shows",
+          "start": 39650,
+          "end": 40170,
+          "confidence": 0.8498535,
+          "speaker": "A"
+        },
+        {
+          "text": "for",
+          "start": 40410,
+          "end": 40810,
+          "confidence": 0.96435547,
+          "speaker": "A"
+        },
+        {
+          "text": "month,",
+          "start": 40810,
+          "end": 41210,
+          "confidence": 0.5131836,
+          "speaker": "A"
+        },
+        {
+          "text": "there",
+          "start": 41850,
+          "end": 42130,
+          "confidence": 0.9921875,
+          "speaker": "A"
+        },
+        {
+          "text": "should",
+          "start": 42130,
+          "end": 42290,
+          "confidence": 0.99658203,
+          "speaker": "A"
+        },
+        {
+          "text": "be",
+          "start": 42290,
+          "end": 42450,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "a",
+          "start": 42450,
+          "end": 42610,
+          "confidence": 0.9941406,
+          "speaker": "A"
+        },
+        {
+          "text": "month",
+          "start": 42610,
+          "end": 42850,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "column",
+          "start": 42850,
+          "end": 43410,
+          "confidence": 0.89941406,
+          "speaker": "A"
+        },
+        {
+          "text": "that",
+          "start": 43410,
+          "end": 43650,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "will",
+          "start": 43650,
+          "end": 43890,
+          "confidence": 0.99560547,
+          "speaker": "A"
+        },
+        {
+          "text": "basically",
+          "start": 43890,
+          "end": 44370,
+          "confidence": 0.99609375,
+          "speaker": "A"
+        },
+        {
+          "text": "show",
+          "start": 44370,
+          "end": 44690,
+          "confidence": 0.6816406,
+          "speaker": "A"
+        },
+        {
+          "text": "just",
+          "start": 44690,
+          "end": 44970,
+          "confidence": 0.99365234,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 44970,
+          "end": 45210,
+          "confidence": 0.5058594,
+          "speaker": "A"
+        },
+        {
+          "text": "month",
+          "start": 45210,
+          "end": 45530,
+          "confidence": 0.99316406,
+          "speaker": "A"
+        },
+        {
+          "text": "and",
+          "start": 45530,
+          "end": 45850,
+          "confidence": 0.9941406,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 45850,
+          "end": 46050,
+          "confidence": 0.96240234,
+          "speaker": "A"
+        },
+        {
+          "text": "year.",
+          "start": 46050,
+          "end": 46330,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "That's",
+          "start": 46810,
+          "end": 47210,
+          "confidence": 0.99283856,
+          "speaker": "A"
+        },
+        {
+          "text": "it.",
+          "start": 47210,
+          "end": 47450,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 47690,
+          "end": 47970,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "don't",
+          "start": 47970,
+          "end": 48170,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "need",
+          "start": 48170,
+          "end": 48330,
+          "confidence": 0.9926758,
+          "speaker": "A"
+        },
+        {
+          "text": "anything.",
+          "start": 48330,
+          "end": 48810,
+          "confidence": 0.9772949,
+          "speaker": "A"
+        },
+        {
+          "text": "That's",
+          "start": 49930,
+          "end": 50330,
+          "confidence": 0.98095703,
+          "speaker": "A"
+        },
+        {
+          "text": "all.",
+          "start": 50330,
+          "end": 50570,
+          "confidence": 0.93408203,
+          "speaker": "A"
+        },
+        {
+          "text": "And",
+          "start": 51380,
+          "end": 51620,
+          "confidence": 0.9873047,
+          "speaker": "A"
+        },
+        {
+          "text": "here",
+          "start": 54100,
+          "end": 54500,
+          "confidence": 0.99609375,
+          "speaker": "A"
+        },
+        {
+          "text": "for",
+          "start": 56180,
+          "end": 56460,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 56460,
+          "end": 56660,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "week,",
+          "start": 56660,
+          "end": 56940,
+          "confidence": 0.9482422,
+          "speaker": "A"
+        },
+        {
+          "text": "for",
+          "start": 56940,
+          "end": 57180,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "example,",
+          "start": 57180,
+          "end": 57700,
+          "confidence": 0.9601237,
+          "speaker": "A"
+        },
+        {
+          "text": "you",
+          "start": 59140,
+          "end": 59420,
+          "confidence": 0.9921875,
+          "speaker": "A"
+        },
+        {
+          "text": "don't",
+          "start": 59420,
+          "end": 59660,
+          "confidence": 0.99934894,
+          "speaker": "A"
+        },
+        {
+          "text": "have",
+          "start": 59660,
+          "end": 59780,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 59780,
+          "end": 59900,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "do",
+          "start": 59900,
+          "end": 60060,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "it",
+          "start": 60060,
+          "end": 60220,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "exactly",
+          "start": 60220,
+          "end": 60700,
+          "confidence": 0.8435872,
+          "speaker": "A"
+        },
+        {
+          "text": "in",
+          "start": 60700,
+          "end": 60860,
+          "confidence": 0.99560547,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 60860,
+          "end": 60980,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "same",
+          "start": 60980,
+          "end": 61140,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "way.",
+          "start": 61140,
+          "end": 61380,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "But",
+          "start": 61380,
+          "end": 61580,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 61580,
+          "end": 61740,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "found",
+          "start": 61740,
+          "end": 62020,
+          "confidence": 0.5620117,
+          "speaker": "A"
+        },
+        {
+          "text": "this.",
+          "start": 62100,
+          "end": 62500,
+          "confidence": 0.61376953,
+          "speaker": "A"
+        },
+        {
+          "text": "Just",
+          "start": 68580,
+          "end": 68900,
+          "confidence": 0.875,
+          "speaker": "A"
+        },
+        {
+          "text": "a",
+          "start": 68900,
+          "end": 69140,
+          "confidence": 0.9790039,
+          "speaker": "A"
+        },
+        {
+          "text": "second.",
+          "start": 69140,
+          "end": 69460,
+          "confidence": 0.8984375,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 79390,
+          "end": 79470,
+          "confidence": 0.92871094,
+          "speaker": "A"
+        },
+        {
+          "text": "was",
+          "start": 79470,
+          "end": 79630,
+          "confidence": 0.9897461,
+          "speaker": "A"
+        },
+        {
+          "text": "just",
+          "start": 79630,
+          "end": 79830,
+          "confidence": 0.88183594,
+          "speaker": "A"
+        },
+        {
+          "text": "googling",
+          "start": 79830,
+          "end": 80190,
+          "confidence": 0.99283856,
+          "speaker": "A"
+        },
+        {
+          "text": "it",
+          "start": 80190,
+          "end": 80430,
+          "confidence": 0.9863281,
+          "speaker": "A"
+        },
+        {
+          "text": "and.",
+          "start": 80430,
+          "end": 80750,
+          "confidence": 0.89160156,
+          "speaker": "A"
+        },
+        {
+          "text": "Oh.",
+          "start": 80750,
+          "end": 81230,
+          "confidence": 0.67419434,
+          "speaker": "A"
+        },
+        {
+          "text": "So",
+          "start": 81230,
+          "end": 81630,
+          "confidence": 0.9736328,
+          "speaker": "A"
+        },
+        {
+          "text": "this",
+          "start": 82270,
+          "end": 82590,
+          "confidence": 0.9921875,
+          "speaker": "A"
+        },
+        {
+          "text": "formula",
+          "start": 82590,
+          "end": 83030,
+          "confidence": 0.9790039,
+          "speaker": "A"
+        },
+        {
+          "text": "here,",
+          "start": 83030,
+          "end": 83310,
+          "confidence": 0.92089844,
+          "speaker": "A"
+        },
+        {
+          "text": "we",
+          "start": 84030,
+          "end": 84310,
+          "confidence": 0.72802734,
+          "speaker": "A"
+        },
+        {
+          "text": "can",
+          "start": 84310,
+          "end": 84510,
+          "confidence": 0.97558594,
+          "speaker": "A"
+        },
+        {
+          "text": "num.",
+          "start": 84510,
+          "end": 84830,
+          "confidence": 0.64990234,
+          "speaker": "A"
+        },
+        {
+          "text": "Weeknum",
+          "start": 85310,
+          "end": 86030,
+          "confidence": 0.68725586,
+          "speaker": "A"
+        },
+        {
+          "text": "and",
+          "start": 86270,
+          "end": 86670,
+          "confidence": 0.90283203,
+          "speaker": "A"
+        },
+        {
+          "text": "then",
+          "start": 86910,
+          "end": 87310,
+          "confidence": 0.97509766,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 87310,
+          "end": 87630,
+          "confidence": 0.9926758,
+          "speaker": "A"
+        },
+        {
+          "text": "date,",
+          "start": 87630,
+          "end": 88030,
+          "confidence": 0.98535156,
+          "speaker": "A"
+        },
+        {
+          "text": "it",
+          "start": 88110,
+          "end": 88430,
+          "confidence": 0.9921875,
+          "speaker": "A"
+        },
+        {
+          "text": "actually",
+          "start": 88430,
+          "end": 88710,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "gives",
+          "start": 88710,
+          "end": 89070,
+          "confidence": 0.9772949,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 89070,
+          "end": 89270,
+          "confidence": 0.9946289,
+          "speaker": "A"
+        },
+        {
+          "text": "week",
+          "start": 89270,
+          "end": 89630,
+          "confidence": 0.97998047,
+          "speaker": "A"
+        },
+        {
+          "text": "number",
+          "start": 89950,
+          "end": 90350,
+          "confidence": 0.9946289,
+          "speaker": "A"
+        },
+        {
+          "text": "of",
+          "start": 90430,
+          "end": 90750,
+          "confidence": 0.99560547,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 90750,
+          "end": 91030,
+          "confidence": 0.9848633,
+          "speaker": "A"
+        },
+        {
+          "text": "year.",
+          "start": 91030,
+          "end": 91390,
+          "confidence": 0.9848633,
+          "speaker": "A"
+        },
+        {
+          "text": "So",
+          "start": 91710,
+          "end": 91990,
+          "confidence": 0.97021484,
+          "speaker": "A"
+        },
+        {
+          "text": "let",
+          "start": 91990,
+          "end": 92190,
+          "confidence": 0.98291016,
+          "speaker": "A"
+        },
+        {
+          "text": "me",
+          "start": 92190,
+          "end": 92390,
+          "confidence": 0.9394531,
+          "speaker": "A"
+        },
+        {
+          "text": "go",
+          "start": 92390,
+          "end": 92590,
+          "confidence": 0.99316406,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 92590,
+          "end": 92830,
+          "confidence": 0.94433594,
+          "speaker": "A"
+        },
+        {
+          "text": "that",
+          "start": 92830,
+          "end": 93070,
+          "confidence": 0.9916992,
+          "speaker": "A"
+        },
+        {
+          "text": "page.",
+          "start": 93070,
+          "end": 93390,
+          "confidence": 0.99609375,
+          "speaker": "A"
+        },
+        {
+          "text": "Actually.",
+          "start": 93390,
+          "end": 93709,
+          "confidence": 0.96875,
+          "speaker": "A"
+        },
+        {
+          "text": "It",
+          "start": 97950,
+          "end": 98230,
+          "confidence": 0.99609375,
+          "speaker": "A"
+        },
+        {
+          "text": "will",
+          "start": 98230,
+          "end": 98430,
+          "confidence": 0.97509766,
+          "speaker": "A"
+        },
+        {
+          "text": "show",
+          "start": 98430,
+          "end": 98670,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "1",
+          "start": 98670,
+          "end": 98910,
+          "confidence": 0.521,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 98910,
+          "end": 99150,
+          "confidence": 0.6191406,
+          "speaker": "A"
+        },
+        {
+          "text": "54.",
+          "start": 99150,
+          "end": 99710,
+          "confidence": 0.99707,
+          "speaker": "A"
+        },
+        {
+          "text": "Now",
+          "start": 100430,
+          "end": 100830,
+          "confidence": 0.9736328,
+          "speaker": "A"
+        },
+        {
+          "text": "what",
+          "start": 100910,
+          "end": 101270,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "we",
+          "start": 101270,
+          "end": 101470,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "can",
+          "start": 101470,
+          "end": 101590,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "do",
+          "start": 101590,
+          "end": 101750,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "is",
+          "start": 101750,
+          "end": 101990,
+          "confidence": 0.9819336,
+          "speaker": "A"
+        },
+        {
+          "text": "since",
+          "start": 101990,
+          "end": 102310,
+          "confidence": 0.9707031,
+          "speaker": "A"
+        },
+        {
+          "text": "we",
+          "start": 102310,
+          "end": 102590,
+          "confidence": 0.99365234,
+          "speaker": "A"
+        },
+        {
+          "text": "may",
+          "start": 102590,
+          "end": 102830,
+          "confidence": 0.9946289,
+          "speaker": "A"
+        },
+        {
+          "text": "have",
+          "start": 102830,
+          "end": 103070,
+          "confidence": 0.99658203,
+          "speaker": "A"
+        },
+        {
+          "text": "data",
+          "start": 103070,
+          "end": 103350,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "for",
+          "start": 103350,
+          "end": 103670,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "several",
+          "start": 103670,
+          "end": 104030,
+          "confidence": 0.99560547,
+          "speaker": "A"
+        },
+        {
+          "text": "years",
+          "start": 104190,
+          "end": 104590,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "eventually",
+          "start": 104750,
+          "end": 105390,
+          "confidence": 0.8317871,
+          "speaker": "A"
+        },
+        {
+          "text": "it's",
+          "start": 107130,
+          "end": 107410,
+          "confidence": 0.8305664,
+          "speaker": "A"
+        },
+        {
+          "text": "probably",
+          "start": 107410,
+          "end": 107770,
+          "confidence": 0.88134766,
+          "speaker": "A"
+        },
+        {
+          "text": "better",
+          "start": 107770,
+          "end": 108050,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 108050,
+          "end": 108410,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "keep",
+          "start": 108410,
+          "end": 108730,
+          "confidence": 0.98339844,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 108730,
+          "end": 108930,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "week",
+          "start": 108930,
+          "end": 109210,
+          "confidence": 0.9760742,
+          "speaker": "A"
+        },
+        {
+          "text": "number",
+          "start": 109210,
+          "end": 109610,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "and",
+          "start": 110090,
+          "end": 110410,
+          "confidence": 0.99609375,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 110410,
+          "end": 110650,
+          "confidence": 0.98828125,
+          "speaker": "A"
+        },
+        {
+          "text": "year.",
+          "start": 110650,
+          "end": 110970,
+          "confidence": 0.984375,
+          "speaker": "A"
+        },
+        {
+          "text": "So",
+          "start": 111930,
+          "end": 112170,
+          "confidence": 0.98876953,
+          "speaker": "A"
+        },
+        {
+          "text": "we",
+          "start": 112170,
+          "end": 112290,
+          "confidence": 0.86376953,
+          "speaker": "A"
+        },
+        {
+          "text": "can",
+          "start": 112290,
+          "end": 112450,
+          "confidence": 0.99560547,
+          "speaker": "A"
+        },
+        {
+          "text": "just,",
+          "start": 112450,
+          "end": 112730,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "we",
+          "start": 113930,
+          "end": 114210,
+          "confidence": 0.9550781,
+          "speaker": "A"
+        },
+        {
+          "text": "can",
+          "start": 114210,
+          "end": 114370,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "just",
+          "start": 114370,
+          "end": 114650,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "take",
+          "start": 115210,
+          "end": 115570,
+          "confidence": 0.98535156,
+          "speaker": "A"
+        },
+        {
+          "text": "this",
+          "start": 115570,
+          "end": 115930,
+          "confidence": 0.64404297,
+          "speaker": "A"
+        },
+        {
+          "text": "date",
+          "start": 116090,
+          "end": 116570,
+          "confidence": 0.9387207,
+          "speaker": "A"
+        },
+        {
+          "text": "and",
+          "start": 116810,
+          "end": 117210,
+          "confidence": 0.7548828,
+          "speaker": "A"
+        },
+        {
+          "text": "then",
+          "start": 117210,
+          "end": 117610,
+          "confidence": 0.99121094,
+          "speaker": "A"
+        },
+        {
+          "text": "maintain",
+          "start": 117610,
+          "end": 118170,
+          "confidence": 0.76782227,
+          "speaker": "A"
+        },
+        {
+          "text": "number",
+          "start": 118890,
+          "end": 119210,
+          "confidence": 0.98291016,
+          "speaker": "A"
+        },
+        {
+          "text": "and",
+          "start": 119210,
+          "end": 119450,
+          "confidence": 0.9511719,
+          "speaker": "A"
+        },
+        {
+          "text": "year.",
+          "start": 119450,
+          "end": 119770,
+          "confidence": 0.9604492,
+          "speaker": "A"
+        },
+        {
+          "text": "That",
+          "start": 120250,
+          "end": 120570,
+          "confidence": 0.90185547,
+          "speaker": "A"
+        },
+        {
+          "text": "that",
+          "start": 120570,
+          "end": 120770,
+          "confidence": 0.99658203,
+          "speaker": "A"
+        },
+        {
+          "text": "will",
+          "start": 120770,
+          "end": 120970,
+          "confidence": 0.97558594,
+          "speaker": "A"
+        },
+        {
+          "text": "do",
+          "start": 120970,
+          "end": 121290,
+          "confidence": 0.97021484,
+          "speaker": "A"
+        },
+        {
+          "text": "for",
+          "start": 121769,
+          "end": 122170,
+          "confidence": 0.8305664,
+          "speaker": "A"
+        },
+        {
+          "text": "quarter,",
+          "start": 122170,
+          "end": 122570,
+          "confidence": 0.99316406,
+          "speaker": "A"
+        },
+        {
+          "text": "it's",
+          "start": 122650,
+          "end": 123050,
+          "confidence": 0.99365234,
+          "speaker": "A"
+        },
+        {
+          "text": "even",
+          "start": 123050,
+          "end": 123330,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "more",
+          "start": 123330,
+          "end": 123610,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "simpler.",
+          "start": 123610,
+          "end": 124010,
+          "confidence": 0.99975586,
+          "speaker": "A"
+        },
+        {
+          "text": "But",
+          "start": 124010,
+          "end": 124250,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 124250,
+          "end": 124450,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "don't",
+          "start": 124450,
+          "end": 124650,
+          "confidence": 0.99886066,
+          "speaker": "A"
+        },
+        {
+          "text": "know",
+          "start": 124650,
+          "end": 124770,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "how",
+          "start": 124770,
+          "end": 125050,
+          "confidence": 0.9951172,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 125530,
+          "end": 125930,
+          "confidence": 0.9321289,
+          "speaker": "A"
+        },
+        {
+          "text": "actually",
+          "start": 126170,
+          "end": 126530,
+          "confidence": 0.99560547,
+          "speaker": "A"
+        },
+        {
+          "text": "didn't",
+          "start": 126530,
+          "end": 126810,
+          "confidence": 0.9816081,
+          "speaker": "A"
+        },
+        {
+          "text": "give",
+          "start": 126810,
+          "end": 126930,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "it",
+          "start": 126930,
+          "end": 127090,
+          "confidence": 0.9560547,
+          "speaker": "A"
+        },
+        {
+          "text": "a",
+          "start": 127090,
+          "end": 127250,
+          "confidence": 0.98876953,
+          "speaker": "A"
+        },
+        {
+          "text": "thought",
+          "start": 127250,
+          "end": 127490,
+          "confidence": 0.99609375,
+          "speaker": "A"
+        },
+        {
+          "text": "how",
+          "start": 127490,
+          "end": 127730,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 127730,
+          "end": 127850,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "can",
+          "start": 127850,
+          "end": 127970,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "do",
+          "start": 127970,
+          "end": 128090,
+          "confidence": 0.99560547,
+          "speaker": "A"
+        },
+        {
+          "text": "it",
+          "start": 128090,
+          "end": 128210,
+          "confidence": 0.9526367,
+          "speaker": "A"
+        },
+        {
+          "text": "next",
+          "start": 128210,
+          "end": 128450,
+          "confidence": 0.77978516,
+          "speaker": "A"
+        },
+        {
+          "text": "year.",
+          "start": 128450,
+          "end": 128690,
+          "confidence": 0.25585938,
+          "speaker": "A"
+        },
+        {
+          "text": "But",
+          "start": 128690,
+          "end": 128970,
+          "confidence": 0.97021484,
+          "speaker": "A"
+        },
+        {
+          "text": "let's",
+          "start": 130250,
+          "end": 130650,
+          "confidence": 0.99690753,
+          "speaker": "A"
+        },
+        {
+          "text": "say",
+          "start": 130650,
+          "end": 130890,
+          "confidence": 0.98339844,
+          "speaker": "A"
+        },
+        {
+          "text": "so",
+          "start": 131460,
+          "end": 131580,
+          "confidence": 0.88671875,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 131580,
+          "end": 131780,
+          "confidence": 0.9824219,
+          "speaker": "A"
+        },
+        {
+          "text": "first",
+          "start": 131780,
+          "end": 132020,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "quarter",
+          "start": 132020,
+          "end": 132300,
+          "confidence": 0.99560547,
+          "speaker": "A"
+        },
+        {
+          "text": "that",
+          "start": 132300,
+          "end": 132500,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "is",
+          "start": 132500,
+          "end": 132660,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "Q1,",
+          "start": 132660,
+          "end": 133100,
+          "confidence": 0.99829,
+          "speaker": "A"
+        },
+        {
+          "text": "we",
+          "start": 133100,
+          "end": 133260,
+          "confidence": 0.98876953,
+          "speaker": "A"
+        },
+        {
+          "text": "can",
+          "start": 133260,
+          "end": 133420,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "just",
+          "start": 133420,
+          "end": 133620,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "say",
+          "start": 133620,
+          "end": 133940,
+          "confidence": 0.97216797,
+          "speaker": "A"
+        },
+        {
+          "text": "Q1,",
+          "start": 133940,
+          "end": 134660,
+          "confidence": 0.99805,
+          "speaker": "A"
+        },
+        {
+          "text": "then",
+          "start": 135060,
+          "end": 135380,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 135380,
+          "end": 135580,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "year",
+          "start": 135580,
+          "end": 135860,
+          "confidence": 0.9897461,
+          "speaker": "A"
+        },
+        {
+          "text": "2022,",
+          "start": 136820,
+          "end": 138020,
+          "confidence": 0.87386,
+          "speaker": "A"
+        },
+        {
+          "text": "something",
+          "start": 139620,
+          "end": 139980,
+          "confidence": 0.98876953,
+          "speaker": "A"
+        },
+        {
+          "text": "like",
+          "start": 139980,
+          "end": 140220,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "this.",
+          "start": 140220,
+          "end": 140420,
+          "confidence": 0.98828125,
+          "speaker": "A"
+        },
+        {
+          "text": "But",
+          "start": 140420,
+          "end": 140620,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "June",
+          "start": 140620,
+          "end": 140860,
+          "confidence": 0.99560547,
+          "speaker": "A"
+        },
+        {
+          "text": "is",
+          "start": 140860,
+          "end": 141140,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "in,",
+          "start": 141140,
+          "end": 141460,
+          "confidence": 0.9946289,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 141620,
+          "end": 141860,
+          "confidence": 0.9902344,
+          "speaker": "A"
+        },
+        {
+          "text": "think",
+          "start": 141860,
+          "end": 142020,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "January,",
+          "start": 142020,
+          "end": 142340,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "February,",
+          "start": 142420,
+          "end": 142940,
+          "confidence": 0.9947917,
+          "speaker": "A"
+        },
+        {
+          "text": "March,",
+          "start": 142940,
+          "end": 143300,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "May,",
+          "start": 144500,
+          "end": 144900,
+          "confidence": 0.96728516,
+          "speaker": "A"
+        },
+        {
+          "text": "June,",
+          "start": 145540,
+          "end": 145940,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "April,",
+          "start": 149860,
+          "end": 150260,
+          "confidence": 0.97021484,
+          "speaker": "A"
+        },
+        {
+          "text": "May,",
+          "start": 150260,
+          "end": 150620,
+          "confidence": 0.9951172,
+          "speaker": "A"
+        },
+        {
+          "text": "June.",
+          "start": 150620,
+          "end": 150980,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "So",
+          "start": 151620,
+          "end": 152020,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "that",
+          "start": 152420,
+          "end": 152700,
+          "confidence": 0.9838867,
+          "speaker": "A"
+        },
+        {
+          "text": "will",
+          "start": 152700,
+          "end": 152860,
+          "confidence": 0.90478516,
+          "speaker": "A"
+        },
+        {
+          "text": "be",
+          "start": 152860,
+          "end": 153020,
+          "confidence": 0.9868164,
+          "speaker": "A"
+        },
+        {
+          "text": "Q2",
+          "start": 153020,
+          "end": 153500,
+          "confidence": 0.76562,
+          "speaker": "A"
+        },
+        {
+          "text": "here.",
+          "start": 153500,
+          "end": 153860,
+          "confidence": 0.97509766,
+          "speaker": "A"
+        },
+        {
+          "text": "So",
+          "start": 155620,
+          "end": 156020,
+          "confidence": 0.9394531,
+          "speaker": "A"
+        },
+        {
+          "text": "it",
+          "start": 156420,
+          "end": 156700,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "will",
+          "start": 156700,
+          "end": 156900,
+          "confidence": 0.95996094,
+          "speaker": "A"
+        },
+        {
+          "text": "just",
+          "start": 156900,
+          "end": 157140,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "judge",
+          "start": 157140,
+          "end": 157620,
+          "confidence": 0.9880371,
+          "speaker": "A"
+        },
+        {
+          "text": "which",
+          "start": 158910,
+          "end": 159110,
+          "confidence": 0.94921875,
+          "speaker": "A"
+        },
+        {
+          "text": "month",
+          "start": 159110,
+          "end": 159390,
+          "confidence": 0.9926758,
+          "speaker": "A"
+        },
+        {
+          "text": "it",
+          "start": 159390,
+          "end": 159590,
+          "confidence": 0.99365234,
+          "speaker": "A"
+        },
+        {
+          "text": "is.",
+          "start": 159590,
+          "end": 159870,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "And",
+          "start": 160110,
+          "end": 160390,
+          "confidence": 0.9941406,
+          "speaker": "A"
+        },
+        {
+          "text": "if",
+          "start": 160390,
+          "end": 160550,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "it",
+          "start": 160550,
+          "end": 160710,
+          "confidence": 0.99072266,
+          "speaker": "A"
+        },
+        {
+          "text": "falls",
+          "start": 160710,
+          "end": 161070,
+          "confidence": 0.9182129,
+          "speaker": "A"
+        },
+        {
+          "text": "in",
+          "start": 161070,
+          "end": 161190,
+          "confidence": 0.96972656,
+          "speaker": "A"
+        },
+        {
+          "text": "Q2,",
+          "start": 161190,
+          "end": 161710,
+          "confidence": 0.98267,
+          "speaker": "A"
+        },
+        {
+          "text": "then",
+          "start": 161710,
+          "end": 161910,
+          "confidence": 0.99121094,
+          "speaker": "A"
+        },
+        {
+          "text": "it",
+          "start": 161910,
+          "end": 162070,
+          "confidence": 0.7114258,
+          "speaker": "A"
+        },
+        {
+          "text": "will",
+          "start": 162070,
+          "end": 162230,
+          "confidence": 0.89697266,
+          "speaker": "A"
+        },
+        {
+          "text": "just",
+          "start": 162230,
+          "end": 162390,
+          "confidence": 0.9902344,
+          "speaker": "A"
+        },
+        {
+          "text": "go",
+          "start": 162390,
+          "end": 162630,
+          "confidence": 0.5444336,
+          "speaker": "A"
+        },
+        {
+          "text": "Q2",
+          "start": 162630,
+          "end": 163310,
+          "confidence": 0.9668,
+          "speaker": "A"
+        },
+        {
+          "text": "and",
+          "start": 163630,
+          "end": 163950,
+          "confidence": 0.99609375,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 163950,
+          "end": 164190,
+          "confidence": 0.99365234,
+          "speaker": "A"
+        },
+        {
+          "text": "year.",
+          "start": 164190,
+          "end": 164510,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "And",
+          "start": 164750,
+          "end": 165070,
+          "confidence": 0.9873047,
+          "speaker": "A"
+        },
+        {
+          "text": "similarly",
+          "start": 165070,
+          "end": 165590,
+          "confidence": 0.9433594,
+          "speaker": "A"
+        },
+        {
+          "text": "we'll",
+          "start": 165590,
+          "end": 165910,
+          "confidence": 0.77718097,
+          "speaker": "A"
+        },
+        {
+          "text": "keep",
+          "start": 165910,
+          "end": 166190,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "filling",
+          "start": 166510,
+          "end": 166990,
+          "confidence": 0.7614746,
+          "speaker": "A"
+        },
+        {
+          "text": "out",
+          "start": 166990,
+          "end": 167230,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "all",
+          "start": 167230,
+          "end": 167430,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 167430,
+          "end": 167630,
+          "confidence": 0.9355469,
+          "speaker": "A"
+        },
+        {
+          "text": "cells.",
+          "start": 167630,
+          "end": 168190,
+          "confidence": 0.921875,
+          "speaker": "A"
+        },
+        {
+          "text": "So",
+          "start": 169230,
+          "end": 169510,
+          "confidence": 0.9765625,
+          "speaker": "A"
+        },
+        {
+          "text": "if",
+          "start": 169510,
+          "end": 169670,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "we",
+          "start": 169670,
+          "end": 169870,
+          "confidence": 0.9628906,
+          "speaker": "A"
+        },
+        {
+          "text": "do",
+          "start": 169870,
+          "end": 170070,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "this,",
+          "start": 170070,
+          "end": 170310,
+          "confidence": 0.98046875,
+          "speaker": "A"
+        },
+        {
+          "text": "you",
+          "start": 170310,
+          "end": 170550,
+          "confidence": 0.9790039,
+          "speaker": "A"
+        },
+        {
+          "text": "don't",
+          "start": 170550,
+          "end": 170750,
+          "confidence": 0.9977214,
+          "speaker": "A"
+        },
+        {
+          "text": "need",
+          "start": 170750,
+          "end": 170870,
+          "confidence": 0.98291016,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 170870,
+          "end": 171030,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "aggregate",
+          "start": 171030,
+          "end": 171510,
+          "confidence": 0.9945313,
+          "speaker": "A"
+        },
+        {
+          "text": "any",
+          "start": 171510,
+          "end": 171670,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "data.",
+          "start": 171670,
+          "end": 171950,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 172510,
+          "end": 172790,
+          "confidence": 0.9238281,
+          "speaker": "A"
+        },
+        {
+          "text": "will",
+          "start": 172790,
+          "end": 172990,
+          "confidence": 0.9946289,
+          "speaker": "A"
+        },
+        {
+          "text": "get",
+          "start": 172990,
+          "end": 173230,
+          "confidence": 0.9926758,
+          "speaker": "A"
+        },
+        {
+          "text": "my.",
+          "start": 173230,
+          "end": 173550,
+          "confidence": 0.96875,
+          "speaker": "A"
+        },
+        {
+          "text": "My",
+          "start": 173789,
+          "end": 174070,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "purpose",
+          "start": 174070,
+          "end": 174430,
+          "confidence": 0.99316406,
+          "speaker": "A"
+        },
+        {
+          "text": "from",
+          "start": 174430,
+          "end": 174630,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "this",
+          "start": 174630,
+          "end": 174790,
+          "confidence": 0.8823242,
+          "speaker": "A"
+        },
+        {
+          "text": "API",
+          "start": 174790,
+          "end": 175190,
+          "confidence": 0.9885254,
+          "speaker": "A"
+        },
+        {
+          "text": "is",
+          "start": 175190,
+          "end": 175350,
+          "confidence": 0.9658203,
+          "speaker": "A"
+        },
+        {
+          "text": "I'm",
+          "start": 175350,
+          "end": 175550,
+          "confidence": 0.9798177,
+          "speaker": "A"
+        },
+        {
+          "text": "getting",
+          "start": 175550,
+          "end": 175710,
+          "confidence": 0.9946289,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 175710,
+          "end": 176030,
+          "confidence": 0.99365234,
+          "speaker": "A"
+        },
+        {
+          "text": "time",
+          "start": 176430,
+          "end": 176790,
+          "confidence": 0.9897461,
+          "speaker": "A"
+        },
+        {
+          "text": "series",
+          "start": 176790,
+          "end": 177110,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "data.",
+          "start": 177110,
+          "end": 177430,
+          "confidence": 0.9609375,
+          "speaker": "A"
+        },
+        {
+          "text": "So",
+          "start": 177430,
+          "end": 177670,
+          "confidence": 0.94921875,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 177670,
+          "end": 177870,
+          "confidence": 0.98339844,
+          "speaker": "A"
+        },
+        {
+          "text": "daily",
+          "start": 177870,
+          "end": 178190,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "time",
+          "start": 178190,
+          "end": 178430,
+          "confidence": 0.9511719,
+          "speaker": "A"
+        },
+        {
+          "text": "series,",
+          "start": 178430,
+          "end": 178750,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "weekly",
+          "start": 178830,
+          "end": 179350,
+          "confidence": 0.9848633,
+          "speaker": "A"
+        },
+        {
+          "text": "time",
+          "start": 179350,
+          "end": 179510,
+          "confidence": 0.94970703,
+          "speaker": "A"
+        },
+        {
+          "text": "series",
+          "start": 179510,
+          "end": 179750,
+          "confidence": 0.99609375,
+          "speaker": "A"
+        },
+        {
+          "text": "data,",
+          "start": 179750,
+          "end": 180110,
+          "confidence": 0.98095703,
+          "speaker": "A"
+        },
+        {
+          "text": "monthly",
+          "start": 180190,
+          "end": 180670,
+          "confidence": 0.99121094,
+          "speaker": "A"
+        },
+        {
+          "text": "time",
+          "start": 180670,
+          "end": 180830,
+          "confidence": 0.9506836,
+          "speaker": "A"
+        },
+        {
+          "text": "series",
+          "start": 180830,
+          "end": 181110,
+          "confidence": 0.99365234,
+          "speaker": "A"
+        },
+        {
+          "text": "and",
+          "start": 181110,
+          "end": 181390,
+          "confidence": 0.84472656,
+          "speaker": "A"
+        },
+        {
+          "text": "quarter.",
+          "start": 181390,
+          "end": 181710,
+          "confidence": 0.71533203,
+          "speaker": "A"
+        },
+        {
+          "text": "And",
+          "start": 182910,
+          "end": 183190,
+          "confidence": 0.9946289,
+          "speaker": "A"
+        },
+        {
+          "text": "now",
+          "start": 183190,
+          "end": 183350,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 183350,
+          "end": 183510,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "can",
+          "start": 183510,
+          "end": 183670,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "do",
+          "start": 183670,
+          "end": 183830,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "anything",
+          "start": 183830,
+          "end": 184150,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "after",
+          "start": 184150,
+          "end": 184430,
+          "confidence": 0.98828125,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 185240,
+          "end": 185360,
+          "confidence": 0.95751953,
+          "speaker": "A"
+        },
+        {
+          "text": "get",
+          "start": 185360,
+          "end": 185520,
+          "confidence": 0.9682617,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 185520,
+          "end": 185680,
+          "confidence": 0.9926758,
+          "speaker": "A"
+        },
+        {
+          "text": "report",
+          "start": 185680,
+          "end": 185960,
+          "confidence": 0.9394531,
+          "speaker": "A"
+        },
+        {
+          "text": "from",
+          "start": 185960,
+          "end": 186240,
+          "confidence": 0.9550781,
+          "speaker": "A"
+        },
+        {
+          "text": "the.",
+          "start": 186240,
+          "end": 186520,
+          "confidence": 0.5644531,
+          "speaker": "A"
+        },
+        {
+          "text": "That's",
+          "start": 187400,
+          "end": 187840,
+          "confidence": 0.93082684,
+          "speaker": "A"
+        },
+        {
+          "text": "all",
+          "start": 187840,
+          "end": 188120,
+          "confidence": 0.8847656,
+          "speaker": "A"
+        },
+        {
+          "text": "now.",
+          "start": 188760,
+          "end": 189160,
+          "confidence": 0.81640625,
+          "speaker": "A"
+        },
+        {
+          "text": "And.",
+          "start": 190840,
+          "end": 191160,
+          "confidence": 0.7519531,
+          "speaker": "A"
+        },
+        {
+          "text": "And",
+          "start": 191160,
+          "end": 191400,
+          "confidence": 0.98779297,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 191400,
+          "end": 191560,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "believe",
+          "start": 191560,
+          "end": 191800,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "this",
+          "start": 191800,
+          "end": 192160,
+          "confidence": 0.5600586,
+          "speaker": "A"
+        },
+        {
+          "text": "will",
+          "start": 192160,
+          "end": 192400,
+          "confidence": 0.97802734,
+          "speaker": "A"
+        },
+        {
+          "text": "actually",
+          "start": 192400,
+          "end": 192680,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "also",
+          "start": 192760,
+          "end": 193080,
+          "confidence": 0.98291016,
+          "speaker": "A"
+        },
+        {
+          "text": "save",
+          "start": 193080,
+          "end": 193400,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 193400,
+          "end": 193600,
+          "confidence": 0.98876953,
+          "speaker": "A"
+        },
+        {
+          "text": "space,",
+          "start": 193600,
+          "end": 193880,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "isn't",
+          "start": 193960,
+          "end": 194400,
+          "confidence": 0.97302246,
+          "speaker": "A"
+        },
+        {
+          "text": "it?",
+          "start": 194400,
+          "end": 194640,
+          "confidence": 0.99072266,
+          "speaker": "A"
+        },
+        {
+          "text": "You",
+          "start": 194640,
+          "end": 194880,
+          "confidence": 0.9838867,
+          "speaker": "A"
+        },
+        {
+          "text": "don't",
+          "start": 194880,
+          "end": 195080,
+          "confidence": 0.99886066,
+          "speaker": "A"
+        },
+        {
+          "text": "have",
+          "start": 195080,
+          "end": 195160,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 195160,
+          "end": 195280,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "go",
+          "start": 195280,
+          "end": 195480,
+          "confidence": 0.97314453,
+          "speaker": "A"
+        },
+        {
+          "text": "for.",
+          "start": 195480,
+          "end": 195800,
+          "confidence": 0.95458984,
+          "speaker": "A"
+        },
+        {
+          "text": "Go",
+          "start": 196040,
+          "end": 196400,
+          "confidence": 0.99609375,
+          "speaker": "A"
+        },
+        {
+          "text": "and",
+          "start": 196400,
+          "end": 196680,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "create",
+          "start": 196680,
+          "end": 196920,
+          "confidence": 0.9946289,
+          "speaker": "A"
+        },
+        {
+          "text": "another",
+          "start": 196920,
+          "end": 197240,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "report.",
+          "start": 197240,
+          "end": 197640,
+          "confidence": 0.80810547,
+          "speaker": "A"
+        },
+        {
+          "text": "You",
+          "start": 198440,
+          "end": 198720,
+          "confidence": 0.92822266,
+          "speaker": "A"
+        },
+        {
+          "text": "just",
+          "start": 198720,
+          "end": 198920,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "have",
+          "start": 198920,
+          "end": 199080,
+          "confidence": 0.93603516,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 199080,
+          "end": 199200,
+          "confidence": 0.99121094,
+          "speaker": "A"
+        },
+        {
+          "text": "add",
+          "start": 199200,
+          "end": 199360,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "three",
+          "start": 199360,
+          "end": 199560,
+          "confidence": 0.9794922,
+          "speaker": "A"
+        },
+        {
+          "text": "more",
+          "start": 199560,
+          "end": 199800,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "columns.",
+          "start": 199800,
+          "end": 200280,
+          "confidence": 0.94885254,
+          "speaker": "A"
+        },
+        {
+          "text": "That's",
+          "start": 200280,
+          "end": 200560,
+          "confidence": 0.96272784,
+          "speaker": "A"
+        },
+        {
+          "text": "it.",
+          "start": 200560,
+          "end": 200840,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "Now",
+          "start": 201640,
+          "end": 201960,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "one",
+          "start": 201960,
+          "end": 202200,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "more",
+          "start": 202200,
+          "end": 202400,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "thing",
+          "start": 202400,
+          "end": 202600,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "that",
+          "start": 202600,
+          "end": 202800,
+          "confidence": 0.98046875,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 202800,
+          "end": 202920,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "wanted",
+          "start": 202920,
+          "end": 203200,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 203200,
+          "end": 203360,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "mention",
+          "start": 203360,
+          "end": 203800,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "is",
+          "start": 204120,
+          "end": 204520,
+          "confidence": 0.93603516,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 204760,
+          "end": 205160,
+          "confidence": 0.8881836,
+          "speaker": "A"
+        },
+        {
+          "text": "probably.",
+          "start": 206760,
+          "end": 207240,
+          "confidence": 0.9819336,
+          "speaker": "A"
+        },
+        {
+          "text": "You",
+          "start": 207240,
+          "end": 207440,
+          "confidence": 0.89404297,
+          "speaker": "A"
+        },
+        {
+          "text": "have",
+          "start": 207440,
+          "end": 207640,
+          "confidence": 0.9916992,
+          "speaker": "A"
+        },
+        {
+          "text": "already",
+          "start": 207640,
+          "end": 207960,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "seen",
+          "start": 208120,
+          "end": 208520,
+          "confidence": 0.96191406,
+          "speaker": "A"
+        },
+        {
+          "text": "these.",
+          "start": 208520,
+          "end": 208920,
+          "confidence": 0.44750977,
+          "speaker": "A"
+        },
+        {
+          "text": "Just",
+          "start": 212050,
+          "end": 212290,
+          "confidence": 0.88134766,
+          "speaker": "A"
+        },
+        {
+          "text": "one",
+          "start": 212450,
+          "end": 212850,
+          "confidence": 0.9951172,
+          "speaker": "A"
+        },
+        {
+          "text": "second.",
+          "start": 212850,
+          "end": 213250,
+          "confidence": 0.9892578,
+          "speaker": "A"
+        },
+        {
+          "text": "Yeah,",
+          "start": 215410,
+          "end": 215970,
+          "confidence": 0.86832684,
+          "speaker": "A"
+        },
+        {
+          "text": "so",
+          "start": 216770,
+          "end": 217170,
+          "confidence": 0.9819336,
+          "speaker": "A"
+        },
+        {
+          "text": "what",
+          "start": 217250,
+          "end": 217570,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "they",
+          "start": 217570,
+          "end": 217810,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "have",
+          "start": 217810,
+          "end": 218010,
+          "confidence": 0.99560547,
+          "speaker": "A"
+        },
+        {
+          "text": "done",
+          "start": 218010,
+          "end": 218250,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "is",
+          "start": 218250,
+          "end": 218570,
+          "confidence": 0.8959961,
+          "speaker": "A"
+        },
+        {
+          "text": "you",
+          "start": 218570,
+          "end": 218930,
+          "confidence": 0.9819336,
+          "speaker": "A"
+        },
+        {
+          "text": "will",
+          "start": 219010,
+          "end": 219330,
+          "confidence": 0.9819336,
+          "speaker": "A"
+        },
+        {
+          "text": "probably",
+          "start": 219330,
+          "end": 219690,
+          "confidence": 0.8385417,
+          "speaker": "A"
+        },
+        {
+          "text": "see",
+          "start": 219690,
+          "end": 219970,
+          "confidence": 0.7661133,
+          "speaker": "A"
+        },
+        {
+          "text": "that",
+          "start": 219970,
+          "end": 220210,
+          "confidence": 0.8925781,
+          "speaker": "A"
+        },
+        {
+          "text": "there",
+          "start": 220210,
+          "end": 220450,
+          "confidence": 0.9711914,
+          "speaker": "A"
+        },
+        {
+          "text": "is",
+          "start": 220450,
+          "end": 220770,
+          "confidence": 0.9902344,
+          "speaker": "A"
+        },
+        {
+          "text": "a",
+          "start": 220850,
+          "end": 221250,
+          "confidence": 0.92578125,
+          "speaker": "A"
+        },
+        {
+          "text": "in",
+          "start": 223490,
+          "end": 223770,
+          "confidence": 0.9926758,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 223770,
+          "end": 223930,
+          "confidence": 0.9946289,
+          "speaker": "A"
+        },
+        {
+          "text": "reporting.",
+          "start": 223930,
+          "end": 224450,
+          "confidence": 0.99487305,
+          "speaker": "A"
+        },
+        {
+          "text": "There",
+          "start": 224450,
+          "end": 224650,
+          "confidence": 0.9946289,
+          "speaker": "A"
+        },
+        {
+          "text": "are",
+          "start": 224650,
+          "end": 224930,
+          "confidence": 0.99658203,
+          "speaker": "A"
+        },
+        {
+          "text": "two",
+          "start": 225010,
+          "end": 225370,
+          "confidence": 0.98876953,
+          "speaker": "A"
+        },
+        {
+          "text": "version",
+          "start": 225370,
+          "end": 225850,
+          "confidence": 0.8331299,
+          "speaker": "A"
+        },
+        {
+          "text": "now",
+          "start": 225850,
+          "end": 226210,
+          "confidence": 0.99316406,
+          "speaker": "A"
+        },
+        {
+          "text": "they",
+          "start": 226530,
+          "end": 226810,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "have",
+          "start": 226810,
+          "end": 226970,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "released",
+          "start": 226970,
+          "end": 227330,
+          "confidence": 0.9958496,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 227330,
+          "end": 227450,
+          "confidence": 0.83447266,
+          "speaker": "A"
+        },
+        {
+          "text": "version",
+          "start": 227450,
+          "end": 227810,
+          "confidence": 0.99658203,
+          "speaker": "A"
+        },
+        {
+          "text": "three",
+          "start": 227810,
+          "end": 228130,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "and",
+          "start": 228770,
+          "end": 229170,
+          "confidence": 0.9873047,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 230050,
+          "end": 230330,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "think",
+          "start": 230330,
+          "end": 230490,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 230490,
+          "end": 230650,
+          "confidence": 0.98339844,
+          "speaker": "A"
+        },
+        {
+          "text": "version",
+          "start": 230650,
+          "end": 231010,
+          "confidence": 0.9815674,
+          "speaker": "A"
+        },
+        {
+          "text": "two",
+          "start": 231010,
+          "end": 231250,
+          "confidence": 0.9428711,
+          "speaker": "A"
+        },
+        {
+          "text": "will",
+          "start": 231250,
+          "end": 231450,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "be",
+          "start": 231450,
+          "end": 231610,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "eliminated",
+          "start": 231610,
+          "end": 232370,
+          "confidence": 0.98896486,
+          "speaker": "A"
+        },
+        {
+          "text": "next",
+          "start": 233490,
+          "end": 233810,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "year",
+          "start": 233810,
+          "end": 234130,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "after",
+          "start": 236780,
+          "end": 237020,
+          "confidence": 0.97509766,
+          "speaker": "A"
+        },
+        {
+          "text": "March",
+          "start": 237020,
+          "end": 237380,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "30th.",
+          "start": 237380,
+          "end": 237980,
+          "confidence": 0.97302,
+          "speaker": "A"
+        },
+        {
+          "text": "So",
+          "start": 238860,
+          "end": 239260,
+          "confidence": 0.9736328,
+          "speaker": "A"
+        },
+        {
+          "text": "would",
+          "start": 239740,
+          "end": 240060,
+          "confidence": 0.9433594,
+          "speaker": "A"
+        },
+        {
+          "text": "you",
+          "start": 240060,
+          "end": 240300,
+          "confidence": 0.99609375,
+          "speaker": "A"
+        },
+        {
+          "text": "be",
+          "start": 240300,
+          "end": 240500,
+          "confidence": 0.98779297,
+          "speaker": "A"
+        },
+        {
+          "text": "able",
+          "start": 240500,
+          "end": 240700,
+          "confidence": 0.9892578,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 240700,
+          "end": 240940,
+          "confidence": 0.9951172,
+          "speaker": "A"
+        },
+        {
+          "text": "do",
+          "start": 240940,
+          "end": 241260,
+          "confidence": 0.9897461,
+          "speaker": "A"
+        },
+        {
+          "text": "everything",
+          "start": 241740,
+          "end": 242100,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "that",
+          "start": 242100,
+          "end": 242340,
+          "confidence": 0.9897461,
+          "speaker": "A"
+        },
+        {
+          "text": "you",
+          "start": 242340,
+          "end": 242500,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "are",
+          "start": 242500,
+          "end": 242660,
+          "confidence": 0.87158203,
+          "speaker": "A"
+        },
+        {
+          "text": "doing",
+          "start": 242660,
+          "end": 242820,
+          "confidence": 0.9951172,
+          "speaker": "A"
+        },
+        {
+          "text": "for",
+          "start": 242820,
+          "end": 242980,
+          "confidence": 0.99316406,
+          "speaker": "A"
+        },
+        {
+          "text": "ad",
+          "start": 242980,
+          "end": 243180,
+          "confidence": 0.953125,
+          "speaker": "A"
+        },
+        {
+          "text": "report",
+          "start": 243180,
+          "end": 243500,
+          "confidence": 0.9604492,
+          "speaker": "A"
+        },
+        {
+          "text": "from",
+          "start": 243660,
+          "end": 243980,
+          "confidence": 0.91503906,
+          "speaker": "A"
+        },
+        {
+          "text": "version",
+          "start": 243980,
+          "end": 244340,
+          "confidence": 0.98461914,
+          "speaker": "A"
+        },
+        {
+          "text": "three",
+          "start": 244340,
+          "end": 244580,
+          "confidence": 0.52246094,
+          "speaker": "A"
+        },
+        {
+          "text": "itself?",
+          "start": 244580,
+          "end": 245020,
+          "confidence": 0.8051758,
+          "speaker": "A"
+        },
+        {
+          "text": "That",
+          "start": 247020,
+          "end": 247300,
+          "confidence": 0.99560547,
+          "speaker": "A"
+        },
+        {
+          "text": "will",
+          "start": 247300,
+          "end": 247460,
+          "confidence": 0.8828125,
+          "speaker": "A"
+        },
+        {
+          "text": "be",
+          "start": 247460,
+          "end": 247620,
+          "confidence": 0.97265625,
+          "speaker": "A"
+        },
+        {
+          "text": "better.",
+          "start": 247620,
+          "end": 247900,
+          "confidence": 0.96533203,
+          "speaker": "A"
+        },
+        {
+          "text": "So",
+          "start": 249580,
+          "end": 249980,
+          "confidence": 0.96240234,
+          "speaker": "A"
+        },
+        {
+          "text": "let",
+          "start": 250380,
+          "end": 250660,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "me",
+          "start": 250660,
+          "end": 250820,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "know",
+          "start": 250820,
+          "end": 250980,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "about",
+          "start": 250980,
+          "end": 251180,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "this",
+          "start": 251180,
+          "end": 251420,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "one",
+          "start": 251420,
+          "end": 251740,
+          "confidence": 0.9951172,
+          "speaker": "A"
+        },
+        {
+          "text": "and",
+          "start": 251740,
+          "end": 252099,
+          "confidence": 0.99365234,
+          "speaker": "A"
+        },
+        {
+          "text": "also",
+          "start": 252099,
+          "end": 252380,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "let",
+          "start": 252380,
+          "end": 252580,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "me",
+          "start": 252580,
+          "end": 252740,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "know",
+          "start": 252740,
+          "end": 252900,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "about",
+          "start": 252900,
+          "end": 253100,
+          "confidence": 0.96972656,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 253100,
+          "end": 253260,
+          "confidence": 0.98583984,
+          "speaker": "A"
+        },
+        {
+          "text": "solution",
+          "start": 253260,
+          "end": 253700,
+          "confidence": 0.99243164,
+          "speaker": "A"
+        },
+        {
+          "text": "that",
+          "start": 253700,
+          "end": 253940,
+          "confidence": 0.99365234,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 253940,
+          "end": 254220,
+          "confidence": 0.99658203,
+          "speaker": "A"
+        },
+        {
+          "text": "just",
+          "start": 254540,
+          "end": 254860,
+          "confidence": 0.99365234,
+          "speaker": "A"
+        },
+        {
+          "text": "talked",
+          "start": 254860,
+          "end": 255220,
+          "confidence": 0.9597168,
+          "speaker": "A"
+        },
+        {
+          "text": "about",
+          "start": 255220,
+          "end": 255460,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "here",
+          "start": 255460,
+          "end": 255820,
+          "confidence": 0.9951172,
+          "speaker": "A"
+        },
+        {
+          "text": "in",
+          "start": 255820,
+          "end": 256100,
+          "confidence": 0.9946289,
+          "speaker": "A"
+        },
+        {
+          "text": "this",
+          "start": 256100,
+          "end": 256260,
+          "confidence": 0.9946289,
+          "speaker": "A"
+        },
+        {
+          "text": "video.",
+          "start": 256260,
+          "end": 256540,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "How",
+          "start": 257420,
+          "end": 257700,
+          "confidence": 0.6855469,
+          "speaker": "A"
+        },
+        {
+          "text": "do",
+          "start": 257700,
+          "end": 257820,
+          "confidence": 0.9453125,
+          "speaker": "A"
+        },
+        {
+          "text": "you",
+          "start": 257820,
+          "end": 257940,
+          "confidence": 0.75390625,
+          "speaker": "A"
+        },
+        {
+          "text": "feel",
+          "start": 257940,
+          "end": 258140,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "about",
+          "start": 258140,
+          "end": 258380,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "this?",
+          "start": 258380,
+          "end": 258700,
+          "confidence": 0.99560547,
+          "speaker": "A"
+        },
+        {
+          "text": "That's",
+          "start": 259580,
+          "end": 259940,
+          "confidence": 0.8595378,
+          "speaker": "A"
+        },
+        {
+          "text": "all.",
+          "start": 259940,
+          "end": 260220,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "Thank",
+          "start": 260300,
+          "end": 260660,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "you",
+          "start": 260660,
+          "end": 260820,
+          "confidence": 0.99658203,
+          "speaker": "A"
+        },
+        {
+          "text": "so",
+          "start": 260820,
+          "end": 260980,
+          "confidence": 0.99316406,
+          "speaker": "A"
+        },
+        {
+          "text": "much.",
+          "start": 260980,
+          "end": 261260,
+          "confidence": 0.9941406,
+          "speaker": "A"
+        }
+      ]
+    }
+  ],
+  "confidence": 0.95405453,
+  "audio_duration": 263,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": {
+    "status": "success",
+    "results": [
+      {
+        "count": 1,
+        "rank": 0.11,
+        "text": "weekly time series data",
+        "timestamps": [
+          {
+            "start": 178830,
+            "end": 180110
+          }
+        ]
+      },
+      {
+        "count": 1,
+        "rank": 0.1,
+        "text": "monthly time series",
+        "timestamps": [
+          {
+            "start": 180190,
+            "end": 181110
+          }
+        ]
+      },
+      {
+        "count": 2,
+        "rank": 0.09,
+        "text": "next year",
+        "timestamps": [
+          {
+            "start": 128210,
+            "end": 128690
+          },
+          {
+            "start": 233490,
+            "end": 234130
+          }
+        ]
+      },
+      {
+        "count": 4,
+        "rank": 0.09,
+        "text": "time series",
+        "timestamps": [
+          {
+            "start": 176430,
+            "end": 177110
+          },
+          {
+            "start": 178190,
+            "end": 178750
+          },
+          {
+            "start": 179350,
+            "end": 179750
+          },
+          {
+            "start": 180670,
+            "end": 181110
+          }
+        ]
+      },
+      {
+        "count": 1,
+        "rank": 0.08,
+        "text": "several years",
+        "timestamps": [
+          {
+            "start": 103670,
+            "end": 104590
+          }
+        ]
+      },
+      {
+        "count": 2,
+        "rank": 0.07,
+        "text": "time series data",
+        "timestamps": [
+          {
+            "start": 176430,
+            "end": 177430
+          },
+          {
+            "start": 179350,
+            "end": 180110
+          }
+        ]
+      },
+      {
+        "count": 1,
+        "rank": 0.07,
+        "text": "months",
+        "timestamps": [
+          {
+            "start": 36450,
+            "end": 36690
+          }
+        ]
+      },
+      {
+        "count": 1,
+        "rank": 0.07,
+        "text": "ad report",
+        "timestamps": [
+          {
+            "start": 242980,
+            "end": 243500
+          }
+        ]
+      },
+      {
+        "count": 1,
+        "rank": 0.07,
+        "text": "much challenges",
+        "timestamps": [
+          {
+            "start": 17440,
+            "end": 18240
+          }
+        ]
+      },
+      {
+        "count": 3,
+        "rank": 0.07,
+        "text": "number",
+        "timestamps": [
+          {
+            "start": 89950,
+            "end": 90350
+          },
+          {
+            "start": 109210,
+            "end": 109610
+          },
+          {
+            "start": 118890,
+            "end": 119210
+          }
+        ]
+      },
+      {
+        "count": 1,
+        "rank": 0.06,
+        "text": "March 30th",
+        "timestamps": [
+          {
+            "start": 237020,
+            "end": 237980
+          }
+        ]
+      },
+      {
+        "count": 4,
+        "rank": 0.06,
+        "text": "version",
+        "timestamps": [
+          {
+            "start": 225370,
+            "end": 225850
+          },
+          {
+            "start": 227450,
+            "end": 227810
+          },
+          {
+            "start": 230650,
+            "end": 231010
+          },
+          {
+            "start": 243980,
+            "end": 244340
+          }
+        ]
+      },
+      {
+        "count": 3,
+        "rank": 0.05,
+        "text": "quarter",
+        "timestamps": [
+          {
+            "start": 122170,
+            "end": 122570
+          },
+          {
+            "start": 132020,
+            "end": 132300
+          },
+          {
+            "start": 181390,
+            "end": 181710
+          }
+        ]
+      },
+      {
+        "count": 2,
+        "rank": 0.05,
+        "text": "Q1",
+        "timestamps": [
+          {
+            "start": 132660,
+            "end": 133100
+          },
+          {
+            "start": 133940,
+            "end": 134660
+          }
+        ]
+      },
+      {
+        "count": 1,
+        "rank": 0.05,
+        "text": "month column",
+        "timestamps": [
+          {
+            "start": 42610,
+            "end": 43410
+          }
+        ]
+      }
+    ]
+  },
+  "auto_highlights": true,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "prompt": null,
+  "keyterms_prompt": [],
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_audio_options": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "speaker_options": null,
+  "content_safety": false,
+  "iab_categories": false,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "iab_categories_result": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_options": null,
+  "language_detection_results": null,
+  "language_confidence_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": null,
+  "speech_models": [
+    "universal-2"
+  ],
+  "speech_model_used": "universal-2",
+  "temperature": null,
+  "remove_audio_tags": "all",
+  "chapters": [
+    {
+      "summary": "Sama: I think it will be very simple and you won't have to go through much challenges like aggregating the data. What I have done is whenever, whatever date it shows for month, there should be a month column that will basically show just the month and the year. And I believe this will actually also save the space, isn't it?",
+      "headline": "Video talks about the challenge of aggregating weekly, monthly and quarterly data",
+      "gist": "How to merge weekly, monthly and quarterly data",
+      "start": 400,
+      "end": 261260
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": true,
+  "sentiment_analysis": true,
+  "sentiment_analysis_results": [
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Hey Sama.",
+      "start": 400,
+      "end": 1040,
+      "confidence": 0.734525
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "So I'm making this video to talk about the challenge that we are having about the weekly, monthly and quarterly data.",
+      "start": 1120,
+      "end": 8400,
+      "confidence": 0.8260027
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Now I have thought of something that is.",
+      "start": 9280,
+      "end": 11920,
+      "confidence": 0.7744886
+    },
+    {
+      "sentiment": "POSITIVE",
+      "speaker": "A",
+      "text": "I think it will be very simple and you won't have to go through much challenges like aggregating the data and all this.",
+      "start": 12480,
+      "end": 20400,
+      "confidence": 0.5676934
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Now here, what I have done, when you download the data, you definitely don't have these columns, but you will have a date column.",
+      "start": 21920,
+      "end": 32450,
+      "confidence": 0.7310501
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Right now I have been, I am showing you the example for months.",
+      "start": 32450,
+      "end": 36690,
+      "confidence": 0.70986503
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "So what I have done is whenever, whatever date it shows for month, there should be a month column that will basically show just the month and the year.",
+      "start": 36690,
+      "end": 46330,
+      "confidence": 0.89815634
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "That's it.",
+      "start": 46810,
+      "end": 47450,
+      "confidence": 0.53212136
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "I don't need anything.",
+      "start": 47690,
+      "end": 48810,
+      "confidence": 0.5245796
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "That's all.",
+      "start": 49930,
+      "end": 50570,
+      "confidence": 0.5908354
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "And here for the week, for example, you don't have to do it exactly in the same way.",
+      "start": 51380,
+      "end": 61380,
+      "confidence": 0.7639032
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "But I found this.",
+      "start": 61380,
+      "end": 62500,
+      "confidence": 0.5357361
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Just a second.",
+      "start": 68580,
+      "end": 69460,
+      "confidence": 0.66546094
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "I was just googling it and.",
+      "start": 79390,
+      "end": 80750,
+      "confidence": 0.79738533
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Oh.",
+      "start": 80750,
+      "end": 81230,
+      "confidence": 0.54432964
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "So this formula here, we can num.",
+      "start": 81230,
+      "end": 84830,
+      "confidence": 0.8275741
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Weeknum and then the date, it actually gives the week number of the year.",
+      "start": 85310,
+      "end": 91390,
+      "confidence": 0.8815684
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "So let me go to that page.",
+      "start": 91710,
+      "end": 93390,
+      "confidence": 0.85091376
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Actually.",
+      "start": 93390,
+      "end": 93709,
+      "confidence": 0.55904895
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "It will show 1 to 54.",
+      "start": 97950,
+      "end": 99710,
+      "confidence": 0.8728087
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Now what we can do is since we may have data for several years eventually it's probably better to keep the week number and the year.",
+      "start": 100430,
+      "end": 110970,
+      "confidence": 0.68277144
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "So we can just, we can just take this date and then maintain number and year.",
+      "start": 111930,
+      "end": 119770,
+      "confidence": 0.88581127
+    },
+    {
+      "sentiment": "POSITIVE",
+      "speaker": "A",
+      "text": "That that will do for quarter, it's even more simpler.",
+      "start": 120250,
+      "end": 124010,
+      "confidence": 0.8686261
+    },
+    {
+      "sentiment": "NEGATIVE",
+      "speaker": "A",
+      "text": "But I don't know how I actually didn't give it a thought how I can do it next year.",
+      "start": 124010,
+      "end": 128690,
+      "confidence": 0.49102738
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "But let's say so the first quarter that is Q1, we can just say Q1, then the year 2022, something like this.",
+      "start": 128690,
+      "end": 140420,
+      "confidence": 0.87228477
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "But June is in, I think January, February, March, May, June, April, May, June.",
+      "start": 140420,
+      "end": 150980,
+      "confidence": 0.8439597
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "So that will be Q2 here.",
+      "start": 151620,
+      "end": 153860,
+      "confidence": 0.8526912
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "So it will just judge which month it is.",
+      "start": 155620,
+      "end": 159870,
+      "confidence": 0.8511495
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "And if it falls in Q2, then it will just go Q2 and the year.",
+      "start": 160110,
+      "end": 164510,
+      "confidence": 0.7656062
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "And similarly we'll keep filling out all the cells.",
+      "start": 164750,
+      "end": 168190,
+      "confidence": 0.8350243
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "So if we do this, you don't need to aggregate any data.",
+      "start": 169230,
+      "end": 171950,
+      "confidence": 0.7549025
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "I will get my.",
+      "start": 172510,
+      "end": 173550,
+      "confidence": 0.5967727
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "My purpose from this API is I'm getting the time series data.",
+      "start": 173789,
+      "end": 177430,
+      "confidence": 0.7751722
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "So the daily time series, weekly time series data, monthly time series and quarter.",
+      "start": 177430,
+      "end": 181710,
+      "confidence": 0.85158163
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "And now I can do anything after I get the report from the.",
+      "start": 182910,
+      "end": 186520,
+      "confidence": 0.799009
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "That's all now.",
+      "start": 187400,
+      "end": 189160,
+      "confidence": 0.6360943
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "And.",
+      "start": 190840,
+      "end": 191160,
+      "confidence": 0.61894137
+    },
+    {
+      "sentiment": "POSITIVE",
+      "speaker": "A",
+      "text": "And I believe this will actually also save the space, isn't it?",
+      "start": 191160,
+      "end": 194640,
+      "confidence": 0.81841904
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "You don't have to go for.",
+      "start": 194640,
+      "end": 195800,
+      "confidence": 0.67747635
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Go and create another report.",
+      "start": 196040,
+      "end": 197640,
+      "confidence": 0.79509723
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "You just have to add three more columns.",
+      "start": 198440,
+      "end": 200280,
+      "confidence": 0.79303473
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "That's it.",
+      "start": 200280,
+      "end": 200840,
+      "confidence": 0.53212136
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Now one more thing that I wanted to mention is I probably.",
+      "start": 201640,
+      "end": 207240,
+      "confidence": 0.7488348
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "You have already seen these.",
+      "start": 207240,
+      "end": 208920,
+      "confidence": 0.77945787
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Just one second.",
+      "start": 212050,
+      "end": 213250,
+      "confidence": 0.5918457
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Yeah, so what they have done is you will probably see that there is a in the reporting.",
+      "start": 215410,
+      "end": 224450,
+      "confidence": 0.7733637
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "There are two version now they have released the version three and I think the version two will be eliminated next year after March 30th.",
+      "start": 224450,
+      "end": 237980,
+      "confidence": 0.89333296
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "So would you be able to do everything that you are doing for ad report from version three itself?",
+      "start": 238860,
+      "end": 245020,
+      "confidence": 0.9051056
+    },
+    {
+      "sentiment": "POSITIVE",
+      "speaker": "A",
+      "text": "That will be better.",
+      "start": 247020,
+      "end": 247900,
+      "confidence": 0.7152898
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "So let me know about this one and also let me know about the solution that I just talked about here in this video.",
+      "start": 249580,
+      "end": 256540,
+      "confidence": 0.8787615
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "How do you feel about this?",
+      "start": 257420,
+      "end": 258700,
+      "confidence": 0.8272921
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "That's all.",
+      "start": 259580,
+      "end": 260220,
+      "confidence": 0.5908354
+    },
+    {
+      "sentiment": "POSITIVE",
+      "speaker": "A",
+      "text": "Thank you so much.",
+      "start": 260300,
+      "end": 261260,
+      "confidence": 0.9793017
+    }
+  ],
+  "entities": [
+    {
+      "entity_type": "person_name",
+      "text": "Sama",
+      "start": 640,
+      "end": 1040,
+      "speaker": "A"
+    },
+    {
+      "entity_type": "date_interval",
+      "text": "Q1",
+      "start": 132660,
+      "end": 133100,
+      "speaker": "A"
+    },
+    {
+      "entity_type": "date_interval",
+      "text": "Q1",
+      "start": 133940,
+      "end": 134660,
+      "speaker": "A"
+    },
+    {
+      "entity_type": "date_interval",
+      "text": "2022",
+      "start": 136820,
+      "end": 138020,
+      "speaker": "A"
+    },
+    {
+      "entity_type": "date_interval",
+      "text": "June",
+      "start": 140620,
+      "end": 140860,
+      "speaker": "A"
+    },
+    {
+      "entity_type": "date_interval",
+      "text": "January",
+      "start": 142020,
+      "end": 142340,
+      "speaker": "A"
+    },
+    {
+      "entity_type": "date_interval",
+      "text": "February",
+      "start": 142420,
+      "end": 142940,
+      "speaker": "A"
+    },
+    {
+      "entity_type": "date_interval",
+      "text": "March",
+      "start": 142940,
+      "end": 143300,
+      "speaker": "A"
+    },
+    {
+      "entity_type": "date_interval",
+      "text": "May",
+      "start": 144500,
+      "end": 144900,
+      "speaker": "A"
+    },
+    {
+      "entity_type": "date_interval",
+      "text": "June",
+      "start": 145540,
+      "end": 145940,
+      "speaker": "A"
+    },
+    {
+      "entity_type": "date_interval",
+      "text": "April",
+      "start": 149860,
+      "end": 150260,
+      "speaker": "A"
+    },
+    {
+      "entity_type": "date_interval",
+      "text": "May",
+      "start": 150260,
+      "end": 150620,
+      "speaker": "A"
+    },
+    {
+      "entity_type": "date_interval",
+      "text": "June",
+      "start": 150620,
+      "end": 150980,
+      "speaker": "A"
+    },
+    {
+      "entity_type": "date_interval",
+      "text": "Q2",
+      "start": 153020,
+      "end": 153500,
+      "speaker": "A"
+    },
+    {
+      "entity_type": "date_interval",
+      "text": "Q2",
+      "start": 161190,
+      "end": 161710,
+      "speaker": "A"
+    },
+    {
+      "entity_type": "date_interval",
+      "text": "Q2",
+      "start": 162630,
+      "end": 163310,
+      "speaker": "A"
+    },
+    {
+      "entity_type": "date",
+      "text": "March 30th",
+      "start": 237020,
+      "end": 237980,
+      "speaker": "A"
+    }
+  ],
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "multichannel": null,
+  "project_id": 553667,
+  "token_id": 555720
+}

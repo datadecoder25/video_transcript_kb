@@ -1,0 +1,308 @@
+Transcript for: Recording__54.mp4
+Title: Recording #54
+============================================================
+
+Volume settings Just check. I'm thinking you could just come in my office if you want to, but I want you to have control. Actually I have to add prepared something to check, but it's fine, I'll try to. Not a problem. I'll go ahead. So Soham, is it okay if I can share my screen with you? Sure, yeah. Okay. Yeah. So I just prepared a small note on how my current configuration is in both Amazon Canada and US store. So based on ASIN and FNSKU which is unique to each store. So if you see both in Canada and US we have the same ASIN for two pack of Camelina oil but with unique FNSQ because that is store specific. So I've. I've captured the snippets of how they are currently configured. So this is my new back size box size of how I'm planning to pack it. So this is the dimension in centimeters which they generally ask. And I've converted the pounds to kg as well. And this is how my current settings are. So let's say if I want to, I just did a random addition of one sku to send to Amazon for both us and canada. So dash1 is with for us and without dash is for Canada. Just we segregate them with a dash to identify it internally. So their configurations are different and even their weight. I don't know for what reason it was done in the past with such a high weight, but it is wrong. So and also like orientation wise we were sending it vertically stacked like we were packing two bottles and making them stand vertically on the pallet. But now what we are doing is we are placing it horizontally so my height significantly reduces. But it doesn't matter because how they are currently seeing them it's like 6 by 6 by 12 box size. So basically the height was 12 and now the height is it's like 38 by 24 by 12. So there is a significant jump from 6 by 6 by 12 to the box size of it. Right. And okay, so this new box size, it still contains just one unit of Camelin oil, one unit of two pack once one saleable eighth. And so yeah, it's a two pack. Yes. And also the old one used to contain the same. Correct. Okay, so why is the size box size changing? First of all, so we are trying to protect our box. It's a glass bottle in this corrugate. We are putting it inside. Like for example we put the glass box like this. Yes. To protect it. And there is exactly the same thing which we are Covering it on top. So let's say. Okay, And before. So it was a different box. Now it's new. And then we are putting it inside a master carton. Okay. Just inside one master vertical. Now it is going horizontally. Got it. And to clarify, in the master carton, you are just sending two units, one sellable unit on Amazon. This one asin, Basically. Yeah. Yes, we are sending one sellable unit that comprises of two bottles. Yes. In each master curtain. That's what it has. Okay. Yeah. All right. It's just, just that the master. So adding a packaging material didn't change anything. First question. No, D.C. is totally fine. What you are showing me is totally fine. Okay. Yeah. Because yeah, you set it up. You're just putting in the accurate dimms and that's the only change because. Yeah, there's no change to what's selling, there's no change to how many units. It's literally just a dimension format. And this entire box is something that Amazon will ship to the customers. Right? Yeah, got it. Yeah. Okay. So they'll just pick it and ship it. Right, right. First of all, I mean, if you. It's something that Amazon will take care of, them take care of it on their own. Your shipping expenses may go up, by the way. Maybe shipping expenses. And if you want to be proactive, then you can, you have two things to do. One is you can go to the back end of the listing, click on Edit. There's a tab where it's most likely going to be the product information tab or the last tab that you have there. You can correct the dimensions. And another thing you could do is to. So I have this one. So I've had this page open. So what I did is so I created one shipment, for example, I added in US Store one box. And here is my editing details for pack slip. Yeah, I can change the box dimension, right? Yeah, that's fine. That's from your end. It's totally fine. What I was talking about is something on the product backend. Okay. But really it's not that urgent. It's not going to do anything. If you change it here, that's going to be sufficient. But if you want to be a little bit more proactive, then one thing you could do is go to the product backend, click on Edit and then go to the product backend and also edit the dimensions there. Okay, so if I change it now, will it affect anything? Because I still have units as active inventory selling in Amazon with different dimension. And even in transit, I have shipments in transit. Yes, A different box. Okay, got it. So you know what, let's not change the product back listing back end yet. Just change it here because if you change it in the back end, Amazon will start charging the higher APA fee if it is going to be higher for whatever they're going to sell. So let's just. Here I can still change the packing. Okay. And change when you pack it. Just change when you pack your new order going in. Don't change anything right now with the inventory that's currently in flow. Okay. So actually I can right away check if it allows me to change because sometimes the box dimension is not allowing me to take those dimensions. So let me see. 38 point. I'll just move it and I see. Try to see if it allows me those units. Right. Annabelle, you're talking inches. So this one. So it is different for us. And like one accepts inch and one accepts centimeter. Yeah, okay, got it. So this is us. I'll just try to replicate in inches. So for us let me say it is 15 and I'll just copy it so that I can resume it back just in case. 12.5 and 4.18. So let me see 15. Because sometimes it doesn't even allow me to do those changes. That will. 9.5. It won't allow here. Seems maybe I have to cut it down with a decimal or something. Maybe it needs single single digits, not decimals. And this goes to probably. Yeah, just a single. No decimal. Can you round it up, Annaba? Like just give it single digits. It maybe can't take decimal points. So these are valid. Yeah, 9 and 10. So probably I'll just keep it like 9 and then 5 probably. There you go. Yeah. Okay. So it does take it. Yeah, yeah. Similarly I can update into the Canadian. Yes. If it doesn't, it's because of the values that we have in the product. Backend is too different. That could be one reason if it doesn't take the value here. But are we defining anywhere in Amazon in the background backend? Like how many cases are we putting on a pallet in the backend? No, because that will change now. No, no, we are not. We. We are just specifying the product dimension and the packaging dimensions in the back end. Okay. Yeah. Okay. So I got it on this front now. Next question for me is the challenge and the timing of doing the ship. So for example, as I said, so I have still shipments in transit which are with the old configuration. So we still haven't implemented the new configuration yet. Now the thing is, I Have to configure my ERP system with those new bom because my BOM changes because of addition of new packaging items also. Right. So my ERP system code changes as well. So I have to understand. So there are two topics of discussion. One is from the process change point of view. So you are saying that we can implement right away without waiting for anything. But I have to verify with our ERP system whether they will allow us to have two different BOM configurations because in order to send set two different BOM configurations I have to create a new item code in ERP and to do that I have to have the same item code getting reflected in here just for tie up purposes. Yes. So my, my issue is that I can't have two different item codes at the same time in Amazon. So either I have to wait for inventory to get depleted for the existing stock and then create a new code. So that is the only issue which I'm having right now. Like I able to understand like what my. Yeah, I can understand that. Yes. Yeah. Okay. Who are you talking about to that about Annabou, Natasha. H. Internally this is. So I thought maybe with once we have this round of discussion that okay, are we good to ship it physically then probably I'll take it up with fishbowl rerp system to check if the bomb configuration is. We don't want to stop, we don't want to run out of inventory and then start filling. Yeah, that's the risk you're saying? Yeah. Okay, Anubhav here, can you. Let's say we can, we can create a different SKU on Amazon, but I don't recommend doing that. So just for your own sake, you have your own system, right. How about you create a different SKU on your end and then say this maps with this SKU on the app. Is that doable? It won't. Because for example as and when any one of the unit gets sold to a customer, it takes the inventory out automatically. So let's say I got a paid order on Amazon, it takes my parent inventory, let's say item code number A out. So if I create a new item code, say B, it won't take that out, right. Because there will be two codes so they will be getting confused which inventory to flush out whether it is A or B. Got it. Okay. And my mapping will be only to one parent ID because I have one item in Amazon, right? Yes. So the mapping is one is to one. Well, so this kind of change, is it a very frequent change or is it something that you see once. If you change it once, is this going to be forever? I mean, yeah. For a considerable longer period of time. Definitely. Got it. Okay. In that case, you can create a different SKU for the same ASIN on Amazon and send a new inventory for that SKU immediately. You don't have to stop. So what will happen is it will the inventory that we already have for the older sku, they will run out. We'll run, we'll seal them through and then it will start selling from the newer sku. And so is there risk in losing review like reviews or any of that? Nothing. So you're just saying you take. So we're going to sell out of one and all that listing just moves over to that? Yes. Yeah, it takes it. It will take a long time, maybe just maybe two months or so to run out of stock. I mean for the older SKU, because there will be reserve SKUs and so many other things going on, but it will eventually run out of stock. Now you'll have two out there selling. Why would it take so long? Because you know what, when a product is low in stock, first of all, then Amazon will start redistributing them throughout their warehouses. That will take some of the available inventory and convert them to reserve status. The slow sales volume will be slow on those. So it will take considerable amount of time to run out of stock. Totally run out of stock. Yeah. Well, ideally there's a way. We're saying a plan A is that there's a way on our end. Right, Annabov, that that in fishbowl works. Yeah. So I think Soham is okay with us doing that change immediately in Amazon. But yeah, we have to double verify the fishbowl part. So I'll take up that thing with their support team to see if that works. Okay. And then if we have to come back to this plan B, we'll. We'll revisit it with show home on what that would look like. Yeah. For example, if they ask us to create a different code, then how that will work? You just need to list the same ASIN with a different sku. That's it. It's very simple process actually. Okay. Okay. So you can have two different codes for the same item. Yes. Created in Amazon Portal. That is what you're saying? Yeah. Okay. Yeah. So let us. I'll just check that with my poll and then come back to you and show home. You can do that because it's the exact same item is what you're saying. There's nothing changing about it, it's the exact same item, so it isn't easy to. Yeah, I get you. If it is the same asin, then it will be okay. The SKU is changing, that's all. Okay, so now is that all that you wanted to ask? So this is one concept and the same concept will apply to the six pack because right now the format, how we are selling six pack is different in Amazon and we are changing that. So again there is will be active inventory, there will be new part numbers created in our system. So yeah, a similar concept would extend to those six pack. Yeah, I understand that. See the best option would be plan A. If you can somehow say, oh on Amazon we have 600 units of this left and somehow we will manage that on your end in the erp. I don't know how, honestly. But yeah, if that's not possible, we'll do plan B. And so are you saying that. So the snacks to go, which is they're still going to sell the unit like this. So the unit. Right, this unit is in a box, one unit. Right now they're still going to sell the one unit but they're going to pull it out of a master case of six. Yes. So you're saying the same methodology, the same thing, you create a new item and map it into the same asin. Yes. Okay, I'll tell you this because the Snack2Go variety pack is very important. So we need to make sure that Amazon has sufficient available inventory with the new SKU before we discontinue the old one. So if that doesn't happen, then our advertisement will get affected, our sell through rate will be lower and even though we have sent, let's say 600 units, if Amazon is still receiving them and some of them are, let's say in reserve status, it will impact our sales. We have to be. So I've seen that, I've seen that like one case, let's say forget about hundreds, even one case gets into the reserve status for like three months, four months, something like that. I have seen that happen. Yeah, Amazon, yeah, it does happen. It's especially during the Q4, it's very busy. Okay. And so you're saying, and sorry, I'm just always just repeating this back so I understand. So if we have the snaps to go one unit box here and now we're going to create the new item this, you're saying we need to get enough inventory of this new item in and then this one is just going to take a really long time to run out. Yeah, but we have to continue keeping this one stocked. Is there an issue with this one running low, where they'll stop taking this one? Well, so you have to have sufficient inventory in at least one of those queues. I know it's a difficult balance. So probably when you create a new SKUs, you send a bunch of inventory, let's say three months of inventory and let Amazon take the time it takes to receive them and make them available for sale. So we just need to maintain that inventory level is all I'm saying. Either with either of those items. Yeah, of the new item. Yeah. Okay. Okay. So you know what, I will share a few more things with you that are Amazon policies so that if you need to decide or if you need to make a decision in the future, relearning any of these things, you can do it on your own. So let me share my screen now. So let's see. One second. All right, so we had a question about the master carton too. Right. So for example, for Snack to Go, will it be okay if we ship six units in the same box, same master carton, instead of how we are doing right now? Let's see. I think I lost the page for some reason. One second. This is the one that I needed. And are these regulations? These are regulations in the back end. No, this is just Amazon's policy regarding shipping products to fba. So we are going to take a look at the box weight and dimensions. These are the two things you need. So let's say you wanted to, Instead of sending one camelina oil in one master carton, you wanted to send 10 of them. Will you be able to do that? So to like how big of a box can you send really? I see. Yeah. So it cannot exceed 25 inches on any side, the master carton, that's the policy regarding the dimensions. Now if you want to know about the weight, it cannot exceed £50. Yeah, yeah. Those are the two things we need to know. Just that. Okay. Yeah, if you wanted there are some more information. I don't know if this is something that you need. Maybe I'll send these three links or two links so that you can anubhav. You can take a few moment minutes to review these. Yeah, yeah. They are very informative. Yeah, I think we vetted these parameters prior to sending them, but yeah, it must have been a while now. So good to see if there is any updated change to that list. So next steps here on these two items. Specifically Annabelle and I'm glad that we'll be able to try it with the Camelin oil before we get into any changes. Like my suggestion is let's do it with the Camelin oil before we start changing anything on the snacks to go. But you'll discuss with the ERP people like is the only option to create a new SKU that maps into the same asin. And then it sounds like we'll have to have a conversation with Showham in terms of how much inventory should we push in to make sure that we don't have an issue. Especially I'm. Especially with the snacks to go. I don't want any disruption. Yeah. Yeah. Okay. Okay. Okay, great. And then just from here. So we actually have a marketing call following this Annabelle with show home. But. Well, we have three more minutes. I don't know. Annabelle, did you want to chat about the 5 liter issue? Because is this kind of the same idea what's happening here? Yeah. Well, maybe. Yeah. So the current issue with 5 liters was that we sent them a wrong expiry label. So the product itself contained one day and when we generated label from our erp. So our ERP captured a different date than what was actually packaged. So we had two contradicting date labels on Amazon and they plugged it off. So they said that hey, they marked it as unfulfillable or unsalable to us. Then we corrected the correct all the necessary steps. We sent correct dates but they still did not accept it. So they said that okay, probably once it has been highlighted as error, they didn't take even the correct one. So their suggestion was to take the entire return till we get to a zero level. So till last week we were having 16 cases for last four, four and a half months. So we have not been selling that SKU, which is a high performing SKU for last four to five months. And we are just waiting for that inventory to go zero. And once that inventory gets zero, we were suggested from, from our past partner that we will have to create a new item code to resell it to Amazon. Okay. This is not very common first of all. So I mean I want to make sure. I think we just have one minute. But I wanted to understand the problem was we labeled the products with incorrect expiration date and sent it to Amazon. Right? Yeah. So one box had two different expiry dates, two different expiration expiration and that's why it got flagged. Okay. I didn't expect that the second list, second shipment will also be flagged even after fixing the expiration dates. Yeah. So as soon as it got received it Automatically entered into unfulfillable. Even though that. Even though the dates were right that time. Oh yeah. Fresh, all correct dates. Okay. So we sent small batches to them just to test it and two batches we sent to them, both got stuck and everything was under recall status and they were like close to 100 or 80, 80 plus units of them until now because it comes from different warehouses. Right. So they ship it like a courier of five boxes today. Next week they will send 10 boxes or even one box. So. So that over the past four and a half months, it has gotten down to 16 last week. And I'm just waiting to see if. When they are getting zero. Yeah. Okay. You might have to think on that one show home because. Yeah, it's. What you're saying is. So the. Our previous partner said the only way out of this is to sell down till zero and start over, which I don't think maybe necessarily was the best. Well, I think that we could probably create a new SKU right now and then try sending a small amount of inventory and see if they receive it instead of. So when you say new sku, do you see. Do you like the same this way where it's a new item to the same asin? Yeah. So you're saying try it with a small. Do it and try it. What do you think of that? Are you able to create a new listing for us? Yeah, sure. You can give me the SKU or I can show you how to do it. Yeah, yeah, yeah. Either way we can do that too. Yeah, we're all for learning. So did we want to maybe just set up like a follow up on this maybe? Annabelle, why don't you take back the conversation to the ERP group and then we come back on all three items or you guys just go back and forth via email or set up your own call or what do you think? I can send. And send a video tutorial on how to do that and if Anupav needs any help, I can. We can definitely catch up. Perfect. Perfect. Okay. Okay. Yeah, Sounds good. Yeah. All right. All right. So.
+
+============================================================
+Speaker-labeled transcript:
+============================================================
+
+Speaker A: Volume settings Just check.
+
+Speaker B: I'm thinking you could just come in my office if you want to, but I want you to have control.
+
+Speaker A: Actually I have to add prepared something to check, but it's fine, I'll try to. Not a problem. I'll go ahead. So Soham, is it okay if I can share my screen with you?
+
+Speaker C: Sure, yeah.
+
+Speaker A: Okay. Yeah. So I just prepared a small note on how my current configuration is in both Amazon Canada and US store. So based on ASIN and FNSKU which is unique to each store. So if you see both in Canada and US we have the same ASIN for two pack of Camelina oil but with unique FNSQ because that is store specific. So I've. I've captured the snippets of how they are currently configured. So this is my new back size box size of how I'm planning to pack it. So this is the dimension in centimeters which they generally ask. And I've converted the pounds to kg as well. And this is how my current settings are. So let's say if I want to, I just did a random addition of one sku to send to Amazon for both us and canada. So dash1 is with for us and without dash is for Canada. Just we segregate them with a dash to identify it internally. So their configurations are different and even their weight. I don't know for what reason it was done in the past with such a high weight, but it is wrong. So and also like orientation wise we were sending it vertically stacked like we were packing two bottles and making them stand vertically on the pallet. But now what we are doing is we are placing it horizontally so my height significantly reduces. But it doesn't matter because how they are currently seeing them it's like 6 by 6 by 12 box size. So basically the height was 12 and now the height is it's like 38 by 24 by 12. So there is a significant jump from 6 by 6 by 12 to the box size of it.
+
+Speaker C: Right. And okay, so this new box size, it still contains just one unit of Camelin oil,
+
+Speaker A: one unit of two pack
+
+Speaker B: once one saleable eighth. And so yeah, it's a two pack.
+
+Speaker C: Yes. And also the old one used to contain the same.
+
+Speaker A: Correct.
+
+Speaker C: Okay, so why is the size box size changing?
+
+Speaker A: First of all, so we are trying to protect our box.
+
+Speaker B: It's a glass bottle
+
+Speaker A: in this corrugate. We are putting it inside. Like for example we put the glass box like this.
+
+Speaker C: Yes.
+
+Speaker A: To protect it. And there is exactly the same thing which we are Covering it on top. So let's say.
+
+Speaker C: Okay,
+
+Speaker B: And before. So it was a different box. Now it's new.
+
+Speaker A: And then we are putting it inside a master carton.
+
+Speaker B: Okay.
+
+Speaker A: Just inside one master vertical. Now it is going horizontally.
+
+Speaker C: Got it. And to clarify, in the master carton, you are just sending two units, one sellable unit on Amazon. This one asin, Basically.
+
+Speaker A: Yeah. Yes, we are sending one sellable unit that comprises of two bottles.
+
+Speaker C: Yes. In each master curtain. That's what it has. Okay.
+
+Speaker A: Yeah.
+
+Speaker C: All right. It's just, just that the master.
+
+Speaker A: So adding a packaging material didn't change anything. First question.
+
+Speaker C: No, D.C. is totally fine. What you are showing me is totally fine.
+
+Speaker A: Okay.
+
+Speaker C: Yeah.
+
+Speaker B: Because yeah, you set it up. You're just putting in the accurate dimms and that's the only change because. Yeah, there's no change to what's selling, there's no change to how many units. It's literally just a dimension format.
+
+Speaker C: And this entire box is something that Amazon will ship to the customers. Right? Yeah, got it.
+
+Speaker A: Yeah.
+
+Speaker C: Okay.
+
+Speaker A: So they'll just pick it and ship it.
+
+Speaker C: Right, right. First of all, I mean, if you. It's something that Amazon will take care of, them take care of it on their own. Your shipping expenses may go up, by the way. Maybe shipping expenses. And if you want to be proactive, then you can, you have two things to do. One is you can go to the back end of the listing, click on Edit. There's a tab where it's most likely going to be the product information tab or the last tab that you have there. You can correct the dimensions. And another thing you could do is to.
+
+Speaker A: So I have this one. So I've had this page open. So what I did is so I created one shipment, for example, I added in US Store one box. And here is my editing details for pack slip. Yeah, I can change the box dimension, right?
+
+Speaker C: Yeah, that's fine. That's from your end. It's totally fine. What I was talking about is something on the product backend.
+
+Speaker A: Okay.
+
+Speaker C: But really it's not that urgent. It's not going to do anything. If you change it here, that's going to be sufficient. But if you want to be a little bit more proactive, then one thing you could do is go to the product backend, click on Edit and then go to the product backend and also edit the dimensions there.
+
+Speaker A: Okay, so if I change it now, will it affect anything? Because I still have units as active inventory selling in Amazon with different dimension. And even in transit, I have shipments in transit. Yes, A different box.
+
+Speaker C: Okay, got it. So you know what, let's not change the product back listing back end yet. Just change it here because if you change it in the back end, Amazon will start charging the higher APA fee if it is going to be higher for whatever they're going to sell. So let's just.
+
+Speaker A: Here I can still change the packing. Okay.
+
+Speaker B: And change when you pack it. Just change when you pack your new order going in. Don't change anything right now with the inventory that's currently in flow.
+
+Speaker A: Okay. So actually I can right away check if it allows me to change because sometimes the box dimension is not allowing me to take those dimensions. So let me see. 38 point. I'll just move it and I see. Try to see if it allows me those units.
+
+Speaker B: Right. Annabelle, you're talking inches.
+
+Speaker A: So this one. So it is different for us. And like one accepts inch and one accepts centimeter.
+
+Speaker B: Yeah, okay, got it.
+
+Speaker A: So this is us. I'll just try to replicate in inches. So for us let me say it is 15 and I'll just copy it so that I can resume it back just in case. 12.5 and 4.18. So let me see 15. Because sometimes it doesn't even allow me to do those changes. That will. 9.5. It won't allow here. Seems maybe I have to cut it down with a decimal or something.
+
+Speaker B: Maybe it needs single single digits, not decimals.
+
+Speaker A: And this goes to probably.
+
+Speaker C: Yeah, just a single. No decimal.
+
+Speaker B: Can you round it up, Annaba? Like just give it single digits. It maybe can't take decimal points.
+
+Speaker A: So these are valid. Yeah, 9 and 10. So probably I'll just keep it like 9 and then 5 probably. There you go. Yeah. Okay. So it does take it. Yeah, yeah. Similarly I can update into the Canadian.
+
+Speaker C: Yes. If it doesn't, it's because of the values that we have in the product. Backend is too different. That could be one reason if it doesn't take the value here.
+
+Speaker A: But are we defining anywhere in Amazon in the background backend? Like how many cases are we putting on a pallet in the backend? No, because that will change now.
+
+Speaker C: No, no, we are not. We. We are just specifying the product dimension and the packaging dimensions in the back end.
+
+Speaker A: Okay. Yeah. Okay. So I got it on this front now. Next question for me is the challenge and the timing of doing the ship. So for example, as I said, so I have still shipments in transit which are with the old configuration. So we still haven't implemented the new configuration yet. Now the thing is, I Have to configure my ERP system with those new bom because my BOM changes because of addition of new packaging items also. Right. So my ERP system code changes as well. So I have to understand. So there are two topics of discussion. One is from the process change point of view. So you are saying that we can implement right away without waiting for anything. But I have to verify with our ERP system whether they will allow us to have two different BOM configurations because in order to send set two different BOM configurations I have to create a new item code in ERP and to do that I have to have the same item code getting reflected in here just for tie up purposes.
+
+Speaker C: Yes.
+
+Speaker A: So my, my issue is that I can't have two different item codes at the same time in Amazon. So either I have to wait for inventory to get depleted for the existing stock and then create a new code. So that is the only issue which I'm having right now. Like I able to understand like what my.
+
+Speaker C: Yeah, I can understand that. Yes.
+
+Speaker A: Yeah.
+
+Speaker B: Okay. Who are you talking about to that about Annabou, Natasha. H.
+
+Speaker A: Internally this is. So I thought maybe with once we have this round of discussion that okay, are we good to ship it physically then probably I'll take it up with fishbowl rerp system to check if the bomb configuration is.
+
+Speaker B: We don't want to stop, we don't want to run out of inventory and then start filling. Yeah, that's the risk you're saying?
+
+Speaker A: Yeah.
+
+Speaker C: Okay, Anubhav here, can you. Let's say we can, we can create a different SKU on Amazon, but I don't recommend doing that. So just for your own sake, you have your own system, right. How about you create a different SKU on your end and then say this maps with this SKU on the app. Is that doable?
+
+Speaker A: It won't. Because for example as and when any one of the unit gets sold to a customer, it takes the inventory out automatically. So let's say I got a paid order on Amazon, it takes my parent inventory, let's say item code number A out. So if I create a new item code, say B, it won't take that out, right. Because there will be two codes so they will be getting confused which inventory to flush out whether it is A or B. Got it. Okay. And my mapping will be only to one parent ID because I have one item in Amazon, right?
+
+Speaker C: Yes.
+
+Speaker A: So the mapping is one is to one.
+
+Speaker C: Well, so this kind of change, is it a very frequent change or is it something that you see once. If you change it once, is this going to be forever?
+
+Speaker A: I mean, yeah. For a considerable longer period of time. Definitely. Got it. Okay.
+
+Speaker C: In that case, you can create a different SKU for the same ASIN on Amazon and send a new inventory for that SKU immediately. You don't have to stop. So what will happen is it will the inventory that we already have for the older sku, they will run out. We'll run, we'll seal them through and then it will start selling from the newer sku.
+
+Speaker B: And so is there risk in losing review like reviews or any of that?
+
+Speaker C: Nothing.
+
+Speaker B: So you're just saying you take. So we're going to sell out of one and all that listing just moves over to that?
+
+Speaker C: Yes. Yeah, it takes it. It will take a long time, maybe just maybe two months or so to run out of stock. I mean for the older SKU, because there will be reserve SKUs and so many other things going on, but it will eventually run out of stock.
+
+Speaker B: Now you'll have two out there selling. Why would it take so long?
+
+Speaker C: Because you know what, when a product is low in stock, first of all, then Amazon will start redistributing them throughout their warehouses. That will take some of the available inventory and convert them to reserve status. The slow sales volume will be slow on those. So it will take considerable amount of time to run out of stock. Totally run out of stock.
+
+Speaker A: Yeah.
+
+Speaker B: Well, ideally there's a way. We're saying a plan A is that there's a way on our end. Right, Annabov, that that in fishbowl works.
+
+Speaker A: Yeah. So I think Soham is okay with us doing that change immediately in Amazon. But yeah, we have to double verify the fishbowl part. So I'll take up that thing with their support team to see if that works. Okay.
+
+Speaker B: And then if we have to come back to this plan B, we'll. We'll revisit it with show home on what that would look like.
+
+Speaker A: Yeah. For example, if they ask us to create a different code, then how that will work?
+
+Speaker C: You just need to list the same ASIN with a different sku. That's it. It's very simple process actually.
+
+Speaker A: Okay.
+
+Speaker B: Okay.
+
+Speaker A: So you can have two different codes for the same item.
+
+Speaker C: Yes.
+
+Speaker A: Created in Amazon Portal. That is what you're saying? Yeah. Okay. Yeah. So let us. I'll just check that with my poll and then come back to you and show home.
+
+Speaker B: You can do that because it's the exact same item is what you're saying. There's nothing changing about it, it's the exact same item, so it isn't easy to.
+
+Speaker A: Yeah, I get you.
+
+Speaker C: If it is the same asin, then it will be okay. The SKU is changing, that's all. Okay, so now is that all that you wanted to ask?
+
+Speaker A: So this is one concept and the same concept will apply to the six pack because right now the format, how we are selling six pack is different in Amazon and we are changing that. So again there is will be active inventory, there will be new part numbers created in our system. So yeah, a similar concept would extend to those six pack.
+
+Speaker C: Yeah, I understand that. See the best option would be plan A. If you can somehow say, oh on Amazon we have 600 units of this left and somehow we will manage that on your end in the erp. I don't know how, honestly. But yeah, if that's not possible, we'll do plan B.
+
+Speaker B: And so are you saying that. So the snacks to go, which is they're still going to sell the unit like this. So the unit. Right, this unit is in a box, one unit. Right now they're still going to sell the one unit but they're going to pull it out of a master case of six.
+
+Speaker C: Yes.
+
+Speaker B: So you're saying the same methodology, the same thing, you create a new item and map it into the same asin.
+
+Speaker C: Yes. Okay, I'll tell you this because the Snack2Go variety pack is very important. So we need to make sure that Amazon has sufficient available inventory with the new SKU before we discontinue the old one. So if that doesn't happen, then our advertisement will get affected, our sell through rate will be lower and even though we have sent, let's say 600 units, if Amazon is still receiving them and some of them are, let's say in reserve status, it will impact our sales. We have to be.
+
+Speaker A: So I've seen that, I've seen that like one case, let's say forget about hundreds, even one case gets into the reserve status for like three months, four months, something like that. I have seen that happen.
+
+Speaker C: Yeah, Amazon, yeah, it does happen. It's especially during the Q4, it's very busy.
+
+Speaker B: Okay. And so you're saying, and sorry, I'm just always just repeating this back so I understand. So if we have the snaps to go one unit box here and now we're going to create the new item this, you're saying we need to get enough inventory of this new item in and then this one is just going to take a really long time to run out. Yeah, but we have to continue keeping this one stocked. Is there an issue with this one running low, where they'll stop taking this one?
+
+Speaker C: Well, so you have to have sufficient inventory in at least one of those queues. I know it's a difficult balance. So probably when you create a new SKUs, you send a bunch of inventory, let's say three months of inventory and let Amazon take the time it takes to receive them and make them available for sale. So we just need to maintain that inventory level is all I'm saying. Either with either of those items.
+
+Speaker B: Yeah, of the new item.
+
+Speaker C: Yeah.
+
+Speaker B: Okay.
+
+Speaker C: Okay. So you know what, I will share a few more things with you that are Amazon policies so that if you need to decide or if you need to make a decision in the future, relearning any of these things, you can do it on your own. So let me share my screen now. So let's see. One second. All right, so we had a question about the master carton too. Right. So for example, for Snack to Go, will it be okay if we ship six units in the same box, same master carton, instead of how we are doing right now? Let's see. I think I lost the page for some reason. One second. This is the one that I needed.
+
+Speaker B: And are these regulations? These are regulations in the back end.
+
+Speaker C: No, this is just Amazon's policy regarding shipping products to fba. So we are going to take a look at the box weight and dimensions. These are the two things you need. So let's say you wanted to, Instead of sending one camelina oil in one master carton, you wanted to send 10 of them. Will you be able to do that? So to like how big of a box can you send really?
+
+Speaker B: I see.
+
+Speaker C: Yeah. So it cannot exceed 25 inches on any side, the master carton, that's the policy regarding the dimensions. Now if you want to know about the weight, it cannot exceed £50.
+
+Speaker A: Yeah, yeah.
+
+Speaker C: Those are the two things we need to know. Just that.
+
+Speaker A: Okay.
+
+Speaker C: Yeah, if you wanted there are some more information. I don't know if this is something that you need. Maybe I'll send these three links or two links so that you can anubhav. You can take a few moment minutes to review these.
+
+Speaker A: Yeah, yeah.
+
+Speaker C: They are very informative.
+
+Speaker A: Yeah, I think we vetted these parameters prior to sending them, but yeah, it must have been a while now. So good to see if there is any updated change to that list.
+
+Speaker B: So next steps here on these two items. Specifically Annabelle and I'm glad that we'll be able to try it with the Camelin oil before we get into any changes. Like my suggestion is let's do it with the Camelin oil before we start changing anything on the snacks to go. But you'll discuss with the ERP people like is the only option to create a new SKU that maps into the same asin. And then it sounds like we'll have to have a conversation with Showham in terms of how much inventory should we push in to make sure that we don't have an issue. Especially I'm. Especially with the snacks to go. I don't want any disruption.
+
+Speaker A: Yeah. Yeah.
+
+Speaker B: Okay.
+
+Speaker A: Okay.
+
+Speaker B: Okay, great. And then just from here. So we actually have a marketing call following this Annabelle with show home. But. Well, we have three more minutes. I don't know. Annabelle, did you want to chat about the 5 liter issue? Because is this kind of the same idea what's happening here? Yeah.
+
+Speaker A: Well, maybe. Yeah. So the current issue with 5 liters was that we sent them a wrong expiry label. So the product itself contained one day and when we generated label from our erp. So our ERP captured a different date than what was actually packaged. So we had two contradicting date labels on Amazon and they plugged it off. So they said that hey, they marked it as unfulfillable or unsalable to us. Then we corrected the correct all the necessary steps. We sent correct dates but they still did not accept it. So they said that okay, probably once it has been highlighted as error, they didn't take even the correct one. So their suggestion was to take the entire return till we get to a zero level. So till last week we were having 16 cases for last four, four and a half months. So we have not been selling that SKU, which is a high performing SKU for last four to five months. And we are just waiting for that inventory to go zero. And once that inventory gets zero, we were suggested from, from our past partner that we will have to create a new item code to resell it to Amazon.
+
+Speaker C: Okay. This is not very common first of all. So I mean I want to make sure. I think we just have one minute. But I wanted to understand the problem was we labeled the products with incorrect expiration date and sent it to Amazon. Right?
+
+Speaker A: Yeah. So one box had two different expiry dates, two different expiration expiration and that's why it got flagged.
+
+Speaker C: Okay. I didn't expect that the second list, second shipment will also be flagged even after fixing the expiration dates.
+
+Speaker A: Yeah. So as soon as it got received it Automatically entered into unfulfillable.
+
+Speaker B: Even though that. Even though the dates were right that time.
+
+Speaker A: Oh yeah. Fresh, all correct dates. Okay. So we sent small batches to them just to test it and two batches we sent to them, both got stuck and everything was under recall status and they were like close to 100 or 80, 80 plus units of them until now because it comes from different warehouses. Right. So they ship it like a courier of five boxes today. Next week they will send 10 boxes or even one box. So. So that over the past four and a half months, it has gotten down to 16 last week. And I'm just waiting to see if. When they are getting zero.
+
+Speaker C: Yeah. Okay.
+
+Speaker B: You might have to think on that one show home because. Yeah, it's. What you're saying is. So the. Our previous partner said the only way out of this is to sell down till zero and start over, which I don't think maybe necessarily was the best.
+
+Speaker C: Well, I think that we could probably create a new SKU right now and then try sending a small amount of inventory and see if they receive it instead of.
+
+Speaker B: So when you say new sku, do you see. Do you like the same this way where it's a new item to the same asin?
+
+Speaker A: Yeah.
+
+Speaker B: So you're saying try it with a small. Do it and try it. What do you think of that?
+
+Speaker A: Are you able to create a new listing for us?
+
+Speaker C: Yeah, sure. You can give me the SKU or I can show you how to do it.
+
+Speaker A: Yeah, yeah, yeah.
+
+Speaker B: Either way we can do that too. Yeah, we're all for learning. So did we want to maybe just set up like a follow up on this maybe? Annabelle, why don't you take back the conversation to the ERP group and then we come back on all three items or you guys just go back and forth via email or set up your own call or what do you think?
+
+Speaker C: I can send. And send a video tutorial on how to do that and if Anupav needs any help, I can. We can definitely catch up.
+
+Speaker A: Perfect.
+
+Speaker B: Perfect.
+
+Speaker A: Okay. Okay.
+
+Speaker B: Yeah, Sounds good.
+
+Speaker A: Yeah.
+
+Speaker B: All right.
+
+Speaker A: All right.
+
+Speaker B: So.
+

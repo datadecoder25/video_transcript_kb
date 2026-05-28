@@ -1,0 +1,291 @@
+{
+  "id": "1d551529-0db0-47d0-833b-48295379036f",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "speech_understanding": null,
+  "translated_texts": null,
+  "status": "completed",
+  "audio_url": "https://cdn.assemblyai.com/upload/5ec44af2be7386d3b00637e3f2a53687e8ae5f106c90839cfe3f90ec2cc5b03d/7b89910c-ed94-4435-ad58-7f0f89b7d9ed",
+  "text": "Hello. Just testing this for to check the video audio quality.",
+  "words": [
+    {
+      "text": "Hello.",
+      "start": 1360,
+      "end": 1760,
+      "confidence": 0.9116211,
+      "speaker": "A"
+    },
+    {
+      "text": "Just",
+      "start": 1840,
+      "end": 2160,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "testing",
+      "start": 2160,
+      "end": 2640,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "this",
+      "start": 2640,
+      "end": 2960,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "for",
+      "start": 3040,
+      "end": 3440,
+      "confidence": 0.8925781,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 4720,
+      "end": 5000,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "check",
+      "start": 5000,
+      "end": 5240,
+      "confidence": 0.9929199,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 5240,
+      "end": 5400,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "video",
+      "start": 5400,
+      "end": 5680,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "audio",
+      "start": 5760,
+      "end": 6280,
+      "confidence": 0.765625,
+      "speaker": "A"
+    },
+    {
+      "text": "quality.",
+      "start": 6280,
+      "end": 6800,
+      "confidence": 0.986084,
+      "speaker": "A"
+    }
+  ],
+  "utterances": [
+    {
+      "speaker": "A",
+      "text": "Hello. Just testing this for to check the video audio quality.",
+      "confidence": 0.9588956,
+      "start": 1360,
+      "end": 6800,
+      "words": [
+        {
+          "text": "Hello.",
+          "start": 1360,
+          "end": 1760,
+          "confidence": 0.9116211,
+          "speaker": "A"
+        },
+        {
+          "text": "Just",
+          "start": 1840,
+          "end": 2160,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "testing",
+          "start": 2160,
+          "end": 2640,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "this",
+          "start": 2640,
+          "end": 2960,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "for",
+          "start": 3040,
+          "end": 3440,
+          "confidence": 0.8925781,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 4720,
+          "end": 5000,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "check",
+          "start": 5000,
+          "end": 5240,
+          "confidence": 0.9929199,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 5240,
+          "end": 5400,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "video",
+          "start": 5400,
+          "end": 5680,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "audio",
+          "start": 5760,
+          "end": 6280,
+          "confidence": 0.765625,
+          "speaker": "A"
+        },
+        {
+          "text": "quality.",
+          "start": 6280,
+          "end": 6800,
+          "confidence": 0.986084,
+          "speaker": "A"
+        }
+      ]
+    }
+  ],
+  "confidence": 0.9588956,
+  "audio_duration": 9,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": {
+    "status": "success",
+    "results": [
+      {
+        "count": 1,
+        "rank": 0.22,
+        "text": "video audio quality",
+        "timestamps": [
+          {
+            "start": 5400,
+            "end": 6800
+          }
+        ]
+      }
+    ]
+  },
+  "auto_highlights": true,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "prompt": null,
+  "keyterms_prompt": [],
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_audio_options": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "speaker_options": null,
+  "content_safety": false,
+  "iab_categories": false,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "iab_categories_result": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_options": null,
+  "language_detection_results": null,
+  "language_confidence_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": null,
+  "speech_models": [
+    "universal-2"
+  ],
+  "speech_model_used": "universal-2",
+  "temperature": null,
+  "remove_audio_tags": "all",
+  "chapters": [
+    {
+      "summary": "Hello. Just testing this for to check the video audio quality.",
+      "headline": "Hello. Just testing this for to check the video audio quality",
+      "gist": "testing this feature",
+      "start": 1360,
+      "end": 6800
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": true,
+  "sentiment_analysis": true,
+  "sentiment_analysis_results": [
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Hello.",
+      "start": 1360,
+      "end": 1760,
+      "confidence": 0.52085793
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Just testing this for to check the video audio quality.",
+      "start": 1840,
+      "end": 6800,
+      "confidence": 0.82061523
+    }
+  ],
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "multichannel": null,
+  "project_id": 553667,
+  "token_id": 555720
+}

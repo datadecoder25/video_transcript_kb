@@ -1,0 +1,355 @@
+{
+  "id": "e23d4317-9898-4819-8624-2f65ce4f7096",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "speech_understanding": null,
+  "translated_texts": null,
+  "status": "completed",
+  "audio_url": "https://cdn.assemblyai.com/upload/8cb4a45ea315b701c4466b9fc0daac865864efbc0d14cbe71d143d8a1418fd59/ba091cf1-bb68-40d7-9551-91c9aadba460",
+  "text": "Hello? Hello? I'm testing it again whether this fucking rubbish mic is working or not.",
+  "words": [
+    {
+      "text": "Hello?",
+      "start": 400,
+      "end": 680,
+      "confidence": 0.8881836,
+      "speaker": "A"
+    },
+    {
+      "text": "Hello?",
+      "start": 680,
+      "end": 1040,
+      "confidence": 0.87475586,
+      "speaker": "A"
+    },
+    {
+      "text": "I'm",
+      "start": 1040,
+      "end": 1320,
+      "confidence": 0.9583333,
+      "speaker": "A"
+    },
+    {
+      "text": "testing",
+      "start": 1320,
+      "end": 1640,
+      "confidence": 0.8395996,
+      "speaker": "A"
+    },
+    {
+      "text": "it",
+      "start": 1640,
+      "end": 1840,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "again",
+      "start": 1840,
+      "end": 2160,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "whether",
+      "start": 2320,
+      "end": 2680,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "this",
+      "start": 2680,
+      "end": 3000,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "fucking",
+      "start": 3000,
+      "end": 3520,
+      "confidence": 0.9703776,
+      "speaker": "A"
+    },
+    {
+      "text": "rubbish",
+      "start": 3520,
+      "end": 4000,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "mic",
+      "start": 4000,
+      "end": 4320,
+      "confidence": 0.9914551,
+      "speaker": "A"
+    },
+    {
+      "text": "is",
+      "start": 4320,
+      "end": 4520,
+      "confidence": 0.9970703,
+      "speaker": "A"
+    },
+    {
+      "text": "working",
+      "start": 4520,
+      "end": 4720,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "or",
+      "start": 4720,
+      "end": 4960,
+      "confidence": 0.7548828,
+      "speaker": "A"
+    },
+    {
+      "text": "not.",
+      "start": 4960,
+      "end": 5280,
+      "confidence": 1.0,
+      "speaker": "A"
+    }
+  ],
+  "utterances": [
+    {
+      "speaker": "A",
+      "text": "Hello? Hello? I'm testing it again whether this fucking rubbish mic is working or not.",
+      "confidence": 0.95151365,
+      "start": 400,
+      "end": 5280,
+      "words": [
+        {
+          "text": "Hello?",
+          "start": 400,
+          "end": 680,
+          "confidence": 0.8881836,
+          "speaker": "A"
+        },
+        {
+          "text": "Hello?",
+          "start": 680,
+          "end": 1040,
+          "confidence": 0.87475586,
+          "speaker": "A"
+        },
+        {
+          "text": "I'm",
+          "start": 1040,
+          "end": 1320,
+          "confidence": 0.9583333,
+          "speaker": "A"
+        },
+        {
+          "text": "testing",
+          "start": 1320,
+          "end": 1640,
+          "confidence": 0.8395996,
+          "speaker": "A"
+        },
+        {
+          "text": "it",
+          "start": 1640,
+          "end": 1840,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "again",
+          "start": 1840,
+          "end": 2160,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "whether",
+          "start": 2320,
+          "end": 2680,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "this",
+          "start": 2680,
+          "end": 3000,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "fucking",
+          "start": 3000,
+          "end": 3520,
+          "confidence": 0.9703776,
+          "speaker": "A"
+        },
+        {
+          "text": "rubbish",
+          "start": 3520,
+          "end": 4000,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "mic",
+          "start": 4000,
+          "end": 4320,
+          "confidence": 0.9914551,
+          "speaker": "A"
+        },
+        {
+          "text": "is",
+          "start": 4320,
+          "end": 4520,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "working",
+          "start": 4520,
+          "end": 4720,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "or",
+          "start": 4720,
+          "end": 4960,
+          "confidence": 0.7548828,
+          "speaker": "A"
+        },
+        {
+          "text": "not.",
+          "start": 4960,
+          "end": 5280,
+          "confidence": 1.0,
+          "speaker": "A"
+        }
+      ]
+    }
+  ],
+  "confidence": 0.95151365,
+  "audio_duration": 7,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": {
+    "status": "success",
+    "results": [
+      {
+        "count": 1,
+        "rank": 0.22,
+        "text": "fucking rubbish mic",
+        "timestamps": [
+          {
+            "start": 3000,
+            "end": 4320
+          }
+        ]
+      }
+    ]
+  },
+  "auto_highlights": true,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "prompt": null,
+  "keyterms_prompt": [],
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_audio_options": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "speaker_options": null,
+  "content_safety": false,
+  "iab_categories": false,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "iab_categories_result": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_options": null,
+  "language_detection_results": null,
+  "language_confidence_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": null,
+  "speech_models": [
+    "universal-2"
+  ],
+  "speech_model_used": "universal-2",
+  "temperature": null,
+  "remove_audio_tags": "all",
+  "chapters": [
+    {
+      "summary": "Hello? Hello? I'm testing it again whether this rubbish mic is working or not.",
+      "headline": "Hello? Hello? I'm testing to see if this mic is working",
+      "gist": "Oh My God",
+      "start": 400,
+      "end": 5280
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": true,
+  "sentiment_analysis": true,
+  "sentiment_analysis_results": [
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Hello?",
+      "start": 400,
+      "end": 680,
+      "confidence": 0.6430091
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Hello?",
+      "start": 680,
+      "end": 1040,
+      "confidence": 0.6430091
+    },
+    {
+      "sentiment": "NEGATIVE",
+      "speaker": "A",
+      "text": "I'm testing it again whether this fucking rubbish mic is working or not.",
+      "start": 1040,
+      "end": 5280,
+      "confidence": 0.95603734
+    }
+  ],
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "multichannel": null,
+  "project_id": 553667,
+  "token_id": 555720
+}

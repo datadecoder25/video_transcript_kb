@@ -1,0 +1,477 @@
+{
+  "id": "62e52b17-3f53-4800-b5f5-6ae123ca86a9",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "speech_understanding": null,
+  "translated_texts": null,
+  "status": "completed",
+  "audio_url": "https://cdn.assemblyai.com/upload/7e3aa4576e15a70431e1ec80f942a2d67608415cbf8db7bee53b0505b2f4b584/38f4ad85-664a-4b74-b598-3ca27c5c96cf",
+  "text": "Hey, Sydney. Just wanted to record this to talk about the video. I. The only thing that I wanted to say.",
+  "words": [
+    {
+      "text": "Hey,",
+      "start": 960,
+      "end": 1200,
+      "confidence": 0.99780273,
+      "speaker": "A"
+    },
+    {
+      "text": "Sydney.",
+      "start": 1200,
+      "end": 1760,
+      "confidence": 0.96516925,
+      "speaker": "A"
+    },
+    {
+      "text": "Just",
+      "start": 1760,
+      "end": 2080,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    },
+    {
+      "text": "wanted",
+      "start": 2080,
+      "end": 2440,
+      "confidence": 0.99975586,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 2440,
+      "end": 2720,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "record",
+      "start": 3520,
+      "end": 3920,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "this",
+      "start": 3920,
+      "end": 4280,
+      "confidence": 0.93847656,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 4280,
+      "end": 4640,
+      "confidence": 0.99609375,
+      "speaker": "A"
+    },
+    {
+      "text": "talk",
+      "start": 4640,
+      "end": 4960,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "about",
+      "start": 4960,
+      "end": 5200,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 5200,
+      "end": 5400,
+      "confidence": 0.9980469,
+      "speaker": "A"
+    },
+    {
+      "text": "video.",
+      "start": 5400,
+      "end": 5680,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "I.",
+      "start": 6320,
+      "end": 6720,
+      "confidence": 0.62158203,
+      "speaker": "A"
+    },
+    {
+      "text": "The",
+      "start": 8080,
+      "end": 8440,
+      "confidence": 0.9980469,
+      "speaker": "A"
+    },
+    {
+      "text": "only",
+      "start": 8440,
+      "end": 8760,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "thing",
+      "start": 8760,
+      "end": 9000,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "that",
+      "start": 9000,
+      "end": 9200,
+      "confidence": 0.99365234,
+      "speaker": "A"
+    },
+    {
+      "text": "I",
+      "start": 9200,
+      "end": 9520,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "wanted",
+      "start": 9760,
+      "end": 10280,
+      "confidence": 0.99975586,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 10280,
+      "end": 10480,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "say.",
+      "start": 10480,
+      "end": 10800,
+      "confidence": 0.9941406,
+      "speaker": "A"
+    }
+  ],
+  "utterances": [
+    {
+      "speaker": "A",
+      "text": "Hey, Sydney. Just wanted to record this to talk about the video. I. The only thing that I wanted to say.",
+      "confidence": 0.9759851,
+      "start": 960,
+      "end": 10800,
+      "words": [
+        {
+          "text": "Hey,",
+          "start": 960,
+          "end": 1200,
+          "confidence": 0.99780273,
+          "speaker": "A"
+        },
+        {
+          "text": "Sydney.",
+          "start": 1200,
+          "end": 1760,
+          "confidence": 0.96516925,
+          "speaker": "A"
+        },
+        {
+          "text": "Just",
+          "start": 1760,
+          "end": 2080,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "wanted",
+          "start": 2080,
+          "end": 2440,
+          "confidence": 0.99975586,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 2440,
+          "end": 2720,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "record",
+          "start": 3520,
+          "end": 3920,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "this",
+          "start": 3920,
+          "end": 4280,
+          "confidence": 0.93847656,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 4280,
+          "end": 4640,
+          "confidence": 0.99609375,
+          "speaker": "A"
+        },
+        {
+          "text": "talk",
+          "start": 4640,
+          "end": 4960,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "about",
+          "start": 4960,
+          "end": 5200,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 5200,
+          "end": 5400,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "video.",
+          "start": 5400,
+          "end": 5680,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "I.",
+          "start": 6320,
+          "end": 6720,
+          "confidence": 0.62158203,
+          "speaker": "A"
+        },
+        {
+          "text": "The",
+          "start": 8080,
+          "end": 8440,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "only",
+          "start": 8440,
+          "end": 8760,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "thing",
+          "start": 8760,
+          "end": 9000,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "that",
+          "start": 9000,
+          "end": 9200,
+          "confidence": 0.99365234,
+          "speaker": "A"
+        },
+        {
+          "text": "I",
+          "start": 9200,
+          "end": 9520,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "wanted",
+          "start": 9760,
+          "end": 10280,
+          "confidence": 0.99975586,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 10280,
+          "end": 10480,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "say.",
+          "start": 10480,
+          "end": 10800,
+          "confidence": 0.9941406,
+          "speaker": "A"
+        }
+      ]
+    }
+  ],
+  "confidence": 0.9759851,
+  "audio_duration": 13,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": {
+    "status": "success",
+    "results": [
+      {
+        "count": 1,
+        "rank": 0.13,
+        "text": "only thing",
+        "timestamps": [
+          {
+            "start": 8440,
+            "end": 9000
+          }
+        ]
+      },
+      {
+        "count": 1,
+        "rank": 0.07,
+        "text": "video",
+        "timestamps": [
+          {
+            "start": 5400,
+            "end": 5680
+          }
+        ]
+      },
+      {
+        "count": 1,
+        "rank": 0.07,
+        "text": "Sydney",
+        "timestamps": [
+          {
+            "start": 1200,
+            "end": 1760
+          }
+        ]
+      }
+    ]
+  },
+  "auto_highlights": true,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "prompt": null,
+  "keyterms_prompt": [],
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_audio_options": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "speaker_options": null,
+  "content_safety": false,
+  "iab_categories": false,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "iab_categories_result": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_options": null,
+  "language_detection_results": null,
+  "language_confidence_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": null,
+  "speech_models": [
+    "universal-2"
+  ],
+  "speech_model_used": "universal-2",
+  "temperature": null,
+  "remove_audio_tags": "all",
+  "chapters": [
+    {
+      "summary": "Hey, Sydney. Just wanted to record this to talk about the video. The only thing that I wanted to say. I.",
+      "headline": "Hey, Sydney. Just wanted to record this to talk about the video",
+      "gist": "Sydney on the Video",
+      "start": 960,
+      "end": 10800
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": true,
+  "sentiment_analysis": true,
+  "sentiment_analysis_results": [
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Hey, Sydney.",
+      "start": 960,
+      "end": 1760,
+      "confidence": 0.710052
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Just wanted to record this to talk about the video.",
+      "start": 1760,
+      "end": 5680,
+      "confidence": 0.8637499
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "I.",
+      "start": 6320,
+      "end": 6720,
+      "confidence": 0.54979
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "The only thing that I wanted to say.",
+      "start": 8080,
+      "end": 10800,
+      "confidence": 0.70043266
+    }
+  ],
+  "entities": [
+    {
+      "entity_type": "person_name",
+      "text": "Sydney",
+      "start": 1200,
+      "end": 1760,
+      "speaker": "A"
+    }
+  ],
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "multichannel": null,
+  "project_id": 553667,
+  "token_id": 555720
+}

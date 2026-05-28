@@ -1,0 +1,327 @@
+{
+  "id": "c186f726-eef1-4e42-acbe-b9f678c7099d",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "speech_understanding": null,
+  "translated_texts": null,
+  "status": "completed",
+  "audio_url": "https://cdn.assemblyai.com/upload/33b72ed7ec61a68b80fc75531cca41595e0836a76a07afd4a95f349a27ccba20/4d2bf539-ced1-4fd9-bf01-df7cf3e4ac72",
+  "text": "Hello? Hello? I'm just testing if this fucking mic is working or not.",
+  "words": [
+    {
+      "text": "Hello?",
+      "start": 320,
+      "end": 640,
+      "confidence": 0.86499023,
+      "speaker": "A"
+    },
+    {
+      "text": "Hello?",
+      "start": 640,
+      "end": 1120,
+      "confidence": 0.7907715,
+      "speaker": "A"
+    },
+    {
+      "text": "I'm",
+      "start": 1200,
+      "end": 1640,
+      "confidence": 0.9978841,
+      "speaker": "A"
+    },
+    {
+      "text": "just",
+      "start": 1640,
+      "end": 1840,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "testing",
+      "start": 1840,
+      "end": 2280,
+      "confidence": 0.99975586,
+      "speaker": "A"
+    },
+    {
+      "text": "if",
+      "start": 2280,
+      "end": 2440,
+      "confidence": 0.93847656,
+      "speaker": "A"
+    },
+    {
+      "text": "this",
+      "start": 2440,
+      "end": 2640,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "fucking",
+      "start": 2640,
+      "end": 3080,
+      "confidence": 0.9404297,
+      "speaker": "A"
+    },
+    {
+      "text": "mic",
+      "start": 3080,
+      "end": 3320,
+      "confidence": 0.9968262,
+      "speaker": "A"
+    },
+    {
+      "text": "is",
+      "start": 3320,
+      "end": 3480,
+      "confidence": 0.9980469,
+      "speaker": "A"
+    },
+    {
+      "text": "working",
+      "start": 3480,
+      "end": 3760,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "or",
+      "start": 3760,
+      "end": 4080,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "not.",
+      "start": 4080,
+      "end": 4400,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    }
+  ],
+  "utterances": [
+    {
+      "speaker": "A",
+      "text": "Hello? Hello? I'm just testing if this fucking mic is working or not.",
+      "confidence": 0.9633664,
+      "start": 320,
+      "end": 4400,
+      "words": [
+        {
+          "text": "Hello?",
+          "start": 320,
+          "end": 640,
+          "confidence": 0.86499023,
+          "speaker": "A"
+        },
+        {
+          "text": "Hello?",
+          "start": 640,
+          "end": 1120,
+          "confidence": 0.7907715,
+          "speaker": "A"
+        },
+        {
+          "text": "I'm",
+          "start": 1200,
+          "end": 1640,
+          "confidence": 0.9978841,
+          "speaker": "A"
+        },
+        {
+          "text": "just",
+          "start": 1640,
+          "end": 1840,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "testing",
+          "start": 1840,
+          "end": 2280,
+          "confidence": 0.99975586,
+          "speaker": "A"
+        },
+        {
+          "text": "if",
+          "start": 2280,
+          "end": 2440,
+          "confidence": 0.93847656,
+          "speaker": "A"
+        },
+        {
+          "text": "this",
+          "start": 2440,
+          "end": 2640,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "fucking",
+          "start": 2640,
+          "end": 3080,
+          "confidence": 0.9404297,
+          "speaker": "A"
+        },
+        {
+          "text": "mic",
+          "start": 3080,
+          "end": 3320,
+          "confidence": 0.9968262,
+          "speaker": "A"
+        },
+        {
+          "text": "is",
+          "start": 3320,
+          "end": 3480,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "working",
+          "start": 3480,
+          "end": 3760,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "or",
+          "start": 3760,
+          "end": 4080,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "not.",
+          "start": 4080,
+          "end": 4400,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        }
+      ]
+    }
+  ],
+  "confidence": 0.9633664,
+  "audio_duration": 7,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": {
+    "status": "success",
+    "results": [
+      {
+        "count": 1,
+        "rank": 0.2,
+        "text": "fucking mic",
+        "timestamps": [
+          {
+            "start": 2640,
+            "end": 3320
+          }
+        ]
+      }
+    ]
+  },
+  "auto_highlights": true,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "prompt": null,
+  "keyterms_prompt": [],
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_audio_options": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "speaker_options": null,
+  "content_safety": false,
+  "iab_categories": false,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "iab_categories_result": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_options": null,
+  "language_detection_results": null,
+  "language_confidence_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": null,
+  "speech_models": [
+    "universal-2"
+  ],
+  "speech_model_used": "universal-2",
+  "temperature": null,
+  "remove_audio_tags": "all",
+  "chapters": [
+    {
+      "summary": "Hello? Hello? I'm just testing if this microphone is working or not.",
+      "headline": "Hello? Hello? I'm testing if this mic is working or not",
+      "gist": "Testing the mic",
+      "start": 320,
+      "end": 4400
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": true,
+  "sentiment_analysis": true,
+  "sentiment_analysis_results": [
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Hello?",
+      "start": 320,
+      "end": 640,
+      "confidence": 0.6430091
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Hello?",
+      "start": 640,
+      "end": 1120,
+      "confidence": 0.6430091
+    },
+    {
+      "sentiment": "NEGATIVE",
+      "speaker": "A",
+      "text": "I'm just testing if this fucking mic is working or not.",
+      "start": 1200,
+      "end": 4400,
+      "confidence": 0.9398357
+    }
+  ],
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "multichannel": null,
+  "project_id": 553667,
+  "token_id": 555720
+}

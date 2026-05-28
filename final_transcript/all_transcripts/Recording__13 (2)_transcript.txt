@@ -1,0 +1,200 @@
+Transcript for: Recording__13 (2).mp4
+Title: Recording #132
+============================================================
+
+So this is here. I'm just adjusting the date. And then you said something else. Change the date range. Yes, I have changed the date range. It's now fine, isn't it? Query editor. Yes, here I have changed the date range to January. The drop down. Ah, got it. Then you also need to specify or allow. Allow the. Allow the option. Click on Advanced. Options. Click on Advanced. And then I need to allow the inner data gaps. Yeah. And this one. Now you can just uncheck them. Okay. And then. Okay. And then run. All right. Okay, let it run. It will take a while. I'm going to pause the video for now. Okay, so now we'll. After the file is generated from amc, we'll have to go to raw here. And then. Yeah, and then remove the data from column A to H. Okay. I'll keep the header. The row. One row. The first row. Yeah. A to H. A to H. Okay. A to H. I'm removing that. All right, then you need to put them base the new data there. Okay. And ex formula in column I to L. If there needs to be. Extend the formula if it is needed. Yeah. Okay, you mean to the columns that rows that are below. Like where the formula is not pasted. We need to just extend. Got it. Okay. All right. Then that. It should be calculating cohort and products. Cohort and products. Okay. Oh, it will also calculate the products and. Okay, so both of these. All right. And the MOM retention would also mean. Would also be updated. Sorry, Some the products would be a different query. The second one. Okay. All right. So for the second one we will have. It's another query, right? Yeah, the second query. Got it. Okay, let's go there. Where is it here? Not this. Okay, so the first query was this. And then it is this one. Product aggregation query. This one. Okay, cool. So let's run these two at the same time. There's no need to wait. So we need to adjust the dates here, right? What do we need to adjust Kirin for this one? The. The date is already set here. If ever you'll need to do. Just to start from a specific map, you'll need to edit the date. This one. Done. Okay. Okay, I see. And then it's the range you need to add the lesser than value. What is that? What is that? Lesser than? Hello. If you need to have an end date for this range in the query, you'll also need to have a similar. You need to copy that one. That row. Then change this lesser. Okay, so it's like copy this. Hold on. It's like Copy this entire thing and then paste it here and then change the entire row. Oh, the entire row. Okay, hold on. Enter row and. And then add a new line and then you can paste. Okay. And then just put in the lesser than symbol instead of greater than equal to. Okay. Then enter your. Add your end date. This case like 31. All right. And I don't know why this date became December 31st. I don't know if I chose it that way. But that shouldn't make any difference, I believe. Yep. Because we already have the attempted reading of me only. Yeah. Okay, so this is the case. And I can just run this, right? Yes. Okay, cool. Let's also do it with the. There was a hard query here. Was it? Or just these two. That's just. Just those. Just those two. Okay. All right. So we'll wait for these two to. Oh, one is processed already. So I'll just download that. All. Okay. So I just need to copy the entire thing. There are so many blank rows there. Probably it's a good thing to remove those with. No. With missing data slab. Why is that? Remove those with no data in the. In RMB in column A. Okay. I mean, what is the reason we are going to do that? The. Those would not be counted as well on the query or on the file. So it would be better if we remove them. Yeah. All right. But do you know the reason behind this? Is it because it's not meeting the threshold? Yeah. Okay, I see. All right, so what's the easiest way to remove the blank rows? You can filter it and then filter by. And then copy it. Right? Okay. Yep. And then. Right. Okay. All right. So let's copy it from here. Let's go and paste it there. Okay. And. I'm sorry. Oh, the. Check the formula. Right, right, right, right, right, right. Looks like we are covered. No. Yeah, we covered. Yeah. Okay, so then we're waiting for the other. The other query to get processed. There is actually still another one. Another. Another queries that we need to run. Oh, it. Okay. Copying that. And then I'll go here. Will paste it here. Change the date to 10:1. That's perfect. And is there anything else that we need to change? No, that's all. Okay, cool. What is this data about? It means that any data or any dates before January 1st will be excluded from the query. Okay, so it's the starting date. Yes. Okay. All right, so let's run it. Query was successfully submitted. All right. And where does this start query go? It should actually go on the. The third query goes to ASIN raw. Okay. Column. The second query will go to the product rom. Okay. So the product would separate first time purchase and then the number of review and then the reading. Ah, so following G indicates that's the, that's the first. That's how much they depend on the first purchase. Then H2J means how much they spent after their first. Okay. For that specific. I see Repeat users, repeat purchases. That is interesting. All right, now let's see what's happening. Nothing. Nothing. So let me download this query now. And which one was that? Do you know which this one was? Yeah, it should be on the product raw. The product raw. Okay, So this one. Product Raw. So let me delete that first. These two. This J. Yeah. Okay, cool. All right, let me now paste it. Oh, I have to filter it. Filter it 47. And then if I filter the blank out, we'll have still 47. Oh yeah. You didn't calculate the blank anyway, right? Yeah. Okay, so this is done. And then the last one is also ready. Sorry, the formulas. Okay, the formulas. No, no, it's covered. It's covered. It's covered. Right? Yeah, exactly. Why is this showing possible data loss? No idea. Well, I will just ignore that for now. So now the ACE in RAW and I will go to H and then erase the entire thing and go here and download the last one. This is the one, I hope. And again, turn the filter on, sort the blanks out and copy the entire thing now. All right. And then do this and extend. Right. Okay, it's done now. So that is it. Right now we need to just go to the, all of these things and we'll have the data ready. Cool. Got it. All right. You know, we'll. We're not going to talk about the accuracy for now because I think it's been, it's almost time. But then we'll, we'll continue from here in the next Monday. On Monday. Okay. There are a few things that we also need to talk about. For example, you see the top 10 products with LTV. What's happening is we are now treating the two packs as individual products. And same for AOV, which is not the case because two packs should be considered the one as one pack. I mean, as original SKU. So we'll have to do something so that we can present it. I will need to do some sort of mapping. Yes, mapping the ASIN or the product title into a category or. That's right, yeah. Now, given that this is very interesting. I have no idea how this happened. This is very, very interesting. And we stopped selling this product, you know, because it was not profitable in our opinion. Oh, it's ten packs. Oh, no, no. Then ignore that. Sorry, I was saying this one pack then. But this is interesting. Although the sales volume is low, this is a single pack. And we'll get more clarification on the data when we actually map. That's good. And you see, I think there is something wrong on this one. I was actually downloading the file and then I was thinking, okay, why they're showing just one product before you send me another file where it was showing the all of the products and the graph. Right? Yeah. So you can take a look at that on my end. It's a channel showing. It's showing. I'll check on it. Yeah, yeah, sure. All right. And everything else is okay. So.
+
+============================================================
+Speaker-labeled transcript:
+============================================================
+
+Speaker A: So this is here. I'm just adjusting the date. And then you said something else.
+
+Speaker B: Change the date range.
+
+Speaker A: Yes, I have changed the date range. It's now fine, isn't it? Query editor. Yes, here I have changed the date range to January. The drop down. Ah, got it.
+
+Speaker B: Then you also need to specify or allow. Allow the.
+
+Speaker A: Allow the option.
+
+Speaker B: Click on Advanced.
+
+Speaker A: Options. Click on Advanced. And then I need to allow the inner data gaps.
+
+Speaker B: Yeah.
+
+Speaker A: And this one.
+
+Speaker B: Now you can just uncheck them.
+
+Speaker A: Okay. And then. Okay. And then run. All right. Okay, let it run. It will take a while. I'm going to pause the video for now. Okay, so now we'll. After the file is generated from amc, we'll have to go to raw here.
+
+Speaker B: And then. Yeah, and then remove the data from column A to H. Okay.
+
+Speaker A: I'll keep the header. The row. One row. The first row.
+
+Speaker B: Yeah.
+
+Speaker A: A to H. A to H. Okay. A to H. I'm removing that. All right, then you need to put
+
+Speaker B: them base the new data there.
+
+Speaker A: Okay.
+
+Speaker B: And ex formula in column I to L. If there needs to be.
+
+Speaker A: Extend the formula if it is needed.
+
+Speaker B: Yeah.
+
+Speaker A: Okay, you mean to the columns that rows that are below. Like where the formula is not pasted. We need to just extend. Got it. Okay. All right.
+
+Speaker B: Then that. It should be calculating cohort and products.
+
+Speaker A: Cohort and products. Okay. Oh, it will also calculate the products and. Okay, so both of these. All right.
+
+Speaker B: And the MOM retention would also mean. Would also be updated. Sorry, Some the products would be a different query. The second one.
+
+Speaker A: Okay. All right. So for the second one we will have. It's another query, right?
+
+Speaker B: Yeah, the second query.
+
+Speaker A: Got it. Okay, let's go there. Where is it here? Not this. Okay, so the first query was this. And then it is this one. Product aggregation query. This one. Okay, cool. So let's run these two at the same time. There's no need to wait. So we need to adjust the dates here, right? What do we need to adjust Kirin
+
+Speaker B: for this one? The. The date is already set here. If ever you'll need to do. Just to start from a specific map, you'll need to edit the date. This one. Done.
+
+Speaker A: Okay. Okay, I see.
+
+Speaker B: And then it's the range you need to add the lesser than value.
+
+Speaker A: What is that? What is that? Lesser than?
+
+Speaker B: Hello. If you need to have an end date for this range in the query, you'll also need to have a similar. You need to copy that one. That row. Then change
+
+Speaker A: this lesser. Okay, so it's like copy this.
+
+Speaker B: Hold on.
+
+Speaker A: It's like Copy this entire thing and then paste it here and then change
+
+Speaker B: the entire row.
+
+Speaker A: Oh, the entire row. Okay, hold on. Enter row and.
+
+Speaker B: And then add a new line and then you can paste.
+
+Speaker A: Okay.
+
+Speaker B: And then just put in the lesser than symbol instead of greater than equal to.
+
+Speaker A: Okay.
+
+Speaker B: Then enter your. Add your end date. This case like 31.
+
+Speaker A: All right. And I don't know why this date became December 31st. I don't know if I chose it that way. But that shouldn't make any difference, I believe.
+
+Speaker B: Yep. Because we already have the attempted reading of me only.
+
+Speaker A: Yeah. Okay, so this is the case. And I can just run this, right?
+
+Speaker B: Yes.
+
+Speaker A: Okay, cool. Let's also do it with the. There was a hard query here. Was it? Or just these two.
+
+Speaker B: That's just. Just those.
+
+Speaker A: Just those two. Okay. All right. So we'll wait for these two to. Oh, one is processed already. So I'll just download that. All. Okay. So I just need to copy the entire thing. There are so many blank rows there.
+
+Speaker B: Probably it's a good thing to remove those with. No. With missing data slab.
+
+Speaker A: Why is that?
+
+Speaker B: Remove those with no data in the. In RMB in column A.
+
+Speaker A: Okay. I mean, what is the reason we are going to do that?
+
+Speaker B: The. Those would not be counted as well on the query or on the file. So it would be better if we remove them. Yeah.
+
+Speaker A: All right. But do you know the reason behind this? Is it because it's not meeting the threshold?
+
+Speaker B: Yeah.
+
+Speaker A: Okay, I see. All right, so what's the easiest way to remove the blank rows?
+
+Speaker B: You can filter it and then filter by.
+
+Speaker A: And then copy it. Right? Okay.
+
+Speaker B: Yep.
+
+Speaker A: And then.
+
+Speaker B: Right.
+
+Speaker A: Okay. All right. So let's copy it from here. Let's go and paste it there. Okay. And. I'm sorry. Oh, the. Check the formula. Right, right, right, right, right, right. Looks like we are covered. No. Yeah, we covered. Yeah. Okay, so then we're waiting for the other. The other query to get processed.
+
+Speaker B: There is actually still another one. Another. Another queries that we need to run.
+
+Speaker A: Oh, it. Okay. Copying that. And then I'll go here. Will paste it here. Change the date to 10:1. That's perfect. And is there anything else that we need to change?
+
+Speaker B: No, that's all.
+
+Speaker A: Okay, cool. What is this data about?
+
+Speaker B: It means that any data or any dates before January 1st will be excluded from the query.
+
+Speaker A: Okay, so it's the starting date.
+
+Speaker B: Yes.
+
+Speaker A: Okay. All right, so let's run it. Query was successfully submitted. All right. And where does this start query go?
+
+Speaker B: It should actually go on the. The third query goes to ASIN raw.
+
+Speaker A: Okay.
+
+Speaker B: Column. The second query will go to the product rom.
+
+Speaker A: Okay.
+
+Speaker B: So the product would separate first time purchase and then the number of review and then the reading. Ah, so following G indicates that's the, that's the first. That's how much they depend on the first purchase. Then H2J means how much they spent after their first.
+
+Speaker A: Okay.
+
+Speaker B: For that specific.
+
+Speaker A: I see Repeat users, repeat purchases. That is interesting. All right, now let's see what's happening. Nothing. Nothing. So let me download this query now. And which one was that? Do you know which this one was?
+
+Speaker B: Yeah, it should be on the product raw.
+
+Speaker A: The product raw. Okay, So this one. Product Raw. So let me delete that first. These two. This J. Yeah. Okay, cool. All right, let me now paste it. Oh, I have to filter it. Filter it 47. And then if I filter the blank out, we'll have still 47. Oh yeah. You didn't calculate the blank anyway, right? Yeah. Okay, so this is done. And then the last one is also ready.
+
+Speaker B: Sorry, the formulas.
+
+Speaker A: Okay, the formulas. No, no, it's covered. It's covered. It's covered. Right?
+
+Speaker B: Yeah, exactly.
+
+Speaker A: Why is this showing possible data loss?
+
+Speaker B: No idea.
+
+Speaker A: Well, I will just ignore that for now. So now the ACE in RAW and I will go to H and then erase the entire thing and go here and download the last one. This is the one, I hope.
+
+Speaker B: And
+
+Speaker A: again, turn the filter on, sort the blanks out and copy the entire thing now. All right. And then do this and extend. Right. Okay, it's done now. So that is it. Right now we need to just go to the, all of these things and we'll have the data ready. Cool. Got it. All right. You know, we'll. We're not going to talk about the accuracy for now because I think it's been, it's almost time. But then we'll, we'll continue from here in the next Monday. On Monday. Okay. There are a few things that we also need to talk about. For example, you see the top 10 products with LTV. What's happening is we are now treating the two packs as individual products. And same for AOV, which is not the case because two packs should be considered the one as one pack. I mean, as original SKU. So we'll have to do something so that we can present it.
+
+Speaker B: I will need to do some sort of mapping. Yes, mapping the ASIN or the product title into a category or.
+
+Speaker A: That's right, yeah. Now, given that this is very interesting. I have no idea how this happened. This is very, very interesting. And we stopped selling this product, you know, because it was not profitable in our opinion. Oh, it's ten packs. Oh, no, no. Then ignore that. Sorry, I was saying this one pack then. But this is interesting. Although the sales volume is low, this is a single pack. And we'll get more clarification on the data when we actually map. That's good. And you see, I think there is something wrong on this one. I was actually downloading the file and then I was thinking, okay, why they're showing just one product before you send me another file where it was showing the all of the products and the graph. Right? Yeah. So you can take a look at that
+
+Speaker B: on my end. It's a channel showing.
+
+Speaker A: It's showing.
+
+Speaker B: I'll check on it.
+
+Speaker A: Yeah, yeah, sure. All right. And everything else is okay. So.
+

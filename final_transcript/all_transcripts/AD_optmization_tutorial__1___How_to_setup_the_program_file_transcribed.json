@@ -1,0 +1,176 @@
+{
+  "id": "9455f86a-7325-496f-806e-45bf85317613",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "speech_understanding": null,
+  "translated_texts": null,
+  "status": "completed",
+  "audio_url": "https://cdn.assemblyai.com/upload/01e4b69f25a50652b5ddb68140c2d976cc037bd635f95479e1a69b01e32634b4/8a65b8fd-2d3a-4331-8d60-51b495a7de80",
+  "text": "Sa. Foreign.",
+  "words": [
+    {
+      "text": "Sa.",
+      "start": 76830,
+      "end": 77070,
+      "confidence": 0.8876953,
+      "speaker": "A"
+    },
+    {
+      "text": "Foreign.",
+      "start": 154060,
+      "end": 154700,
+      "confidence": 0.78100586,
+      "speaker": "A"
+    }
+  ],
+  "utterances": [
+    {
+      "speaker": "A",
+      "text": "Sa. Foreign.",
+      "confidence": 0.8343506,
+      "start": 76830,
+      "end": 154700,
+      "words": [
+        {
+          "text": "Sa.",
+          "start": 76830,
+          "end": 77070,
+          "confidence": 0.8876953,
+          "speaker": "A"
+        },
+        {
+          "text": "Foreign.",
+          "start": 154060,
+          "end": 154700,
+          "confidence": 0.78100586,
+          "speaker": "A"
+        }
+      ]
+    }
+  ],
+  "confidence": 0.8343506,
+  "audio_duration": 719,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": {
+    "status": "success",
+    "results": [
+      {
+        "count": 1,
+        "rank": 0.33,
+        "text": "Sa",
+        "timestamps": [
+          {
+            "start": 76830,
+            "end": 77070
+          }
+        ]
+      },
+      {
+        "count": 1,
+        "rank": 0.33,
+        "text": "Foreign",
+        "timestamps": [
+          {
+            "start": 154060,
+            "end": 154700
+          }
+        ]
+      }
+    ]
+  },
+  "auto_highlights": true,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "prompt": null,
+  "keyterms_prompt": [],
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_audio_options": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "speaker_options": null,
+  "content_safety": false,
+  "iab_categories": false,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "iab_categories_result": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_options": null,
+  "language_detection_results": null,
+  "language_confidence_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": null,
+  "speech_models": [
+    "universal-2"
+  ],
+  "speech_model_used": "universal-2",
+  "temperature": null,
+  "remove_audio_tags": null,
+  "chapters": [
+    {
+      "summary": "Sa. Foreign.",
+      "headline": "Sa. Foreign.",
+      "gist": "Sa. Foreign.",
+      "start": 76830,
+      "end": 154700
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": true,
+  "sentiment_analysis": true,
+  "sentiment_analysis_results": [
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Sa.",
+      "start": 76830,
+      "end": 77070,
+      "confidence": 0.57677823
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Foreign.",
+      "start": 154060,
+      "end": 154700,
+      "confidence": 0.6445749
+    }
+  ],
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "multichannel": null,
+  "project_id": 553667,
+  "token_id": 555720
+}

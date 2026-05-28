@@ -1,0 +1,553 @@
+{
+  "id": "92057f9a-8052-474e-839e-937aca8ab56e",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "speech_understanding": null,
+  "translated_texts": null,
+  "status": "completed",
+  "audio_url": "https://cdn.assemblyai.com/upload/d36f24234221422a1720596afa1bb5e8160d6ac32f58ac4e62fa3cc4e20a2041/07679654-2dce-4fa9-812e-5d21d4092482",
+  "text": "Hi. Good afternoon. I'm just recording this to check the audio quality because last time it was messed up. So let's see how it is this time.",
+  "words": [
+    {
+      "text": "Hi.",
+      "start": 320,
+      "end": 560,
+      "confidence": 0.9992676,
+      "speaker": "A"
+    },
+    {
+      "text": "Good",
+      "start": 560,
+      "end": 760,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "afternoon.",
+      "start": 760,
+      "end": 1200,
+      "confidence": 0.77685547,
+      "speaker": "A"
+    },
+    {
+      "text": "I'm",
+      "start": 1200,
+      "end": 1480,
+      "confidence": 0.9370117,
+      "speaker": "A"
+    },
+    {
+      "text": "just",
+      "start": 1480,
+      "end": 1640,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "recording",
+      "start": 1640,
+      "end": 2040,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "this",
+      "start": 2040,
+      "end": 2240,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "to",
+      "start": 2240,
+      "end": 2440,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "check",
+      "start": 2440,
+      "end": 2680,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "the",
+      "start": 2680,
+      "end": 2800,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "audio",
+      "start": 2800,
+      "end": 3080,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "quality",
+      "start": 3080,
+      "end": 3440,
+      "confidence": 0.99975586,
+      "speaker": "A"
+    },
+    {
+      "text": "because",
+      "start": 3440,
+      "end": 3720,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "last",
+      "start": 3720,
+      "end": 4000,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "time",
+      "start": 4000,
+      "end": 4200,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "it",
+      "start": 4200,
+      "end": 4480,
+      "confidence": 0.53027344,
+      "speaker": "A"
+    },
+    {
+      "text": "was",
+      "start": 4560,
+      "end": 4840,
+      "confidence": 0.9975586,
+      "speaker": "A"
+    },
+    {
+      "text": "messed",
+      "start": 4840,
+      "end": 5160,
+      "confidence": 0.83569336,
+      "speaker": "A"
+    },
+    {
+      "text": "up.",
+      "start": 5160,
+      "end": 5440,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "So",
+      "start": 6560,
+      "end": 6800,
+      "confidence": 0.99121094,
+      "speaker": "A"
+    },
+    {
+      "text": "let's",
+      "start": 6800,
+      "end": 7000,
+      "confidence": 0.8925781,
+      "speaker": "A"
+    },
+    {
+      "text": "see",
+      "start": 7000,
+      "end": 7120,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "how",
+      "start": 7120,
+      "end": 7240,
+      "confidence": 1.0,
+      "speaker": "A"
+    },
+    {
+      "text": "it",
+      "start": 7240,
+      "end": 7400,
+      "confidence": 0.9995117,
+      "speaker": "A"
+    },
+    {
+      "text": "is",
+      "start": 7400,
+      "end": 7560,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "this",
+      "start": 7560,
+      "end": 7760,
+      "confidence": 0.99902344,
+      "speaker": "A"
+    },
+    {
+      "text": "time.",
+      "start": 7760,
+      "end": 8080,
+      "confidence": 0.99853516,
+      "speaker": "A"
+    }
+  ],
+  "utterances": [
+    {
+      "speaker": "A",
+      "text": "Hi. Good afternoon. I'm just recording this to check the audio quality because last time it was messed up. So let's see how it is this time.",
+      "confidence": 0.96114546,
+      "start": 320,
+      "end": 8080,
+      "words": [
+        {
+          "text": "Hi.",
+          "start": 320,
+          "end": 560,
+          "confidence": 0.9992676,
+          "speaker": "A"
+        },
+        {
+          "text": "Good",
+          "start": 560,
+          "end": 760,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "afternoon.",
+          "start": 760,
+          "end": 1200,
+          "confidence": 0.77685547,
+          "speaker": "A"
+        },
+        {
+          "text": "I'm",
+          "start": 1200,
+          "end": 1480,
+          "confidence": 0.9370117,
+          "speaker": "A"
+        },
+        {
+          "text": "just",
+          "start": 1480,
+          "end": 1640,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "recording",
+          "start": 1640,
+          "end": 2040,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "this",
+          "start": 2040,
+          "end": 2240,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "to",
+          "start": 2240,
+          "end": 2440,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "check",
+          "start": 2440,
+          "end": 2680,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 2680,
+          "end": 2800,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "audio",
+          "start": 2800,
+          "end": 3080,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "quality",
+          "start": 3080,
+          "end": 3440,
+          "confidence": 0.99975586,
+          "speaker": "A"
+        },
+        {
+          "text": "because",
+          "start": 3440,
+          "end": 3720,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "last",
+          "start": 3720,
+          "end": 4000,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "time",
+          "start": 4000,
+          "end": 4200,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "it",
+          "start": 4200,
+          "end": 4480,
+          "confidence": 0.53027344,
+          "speaker": "A"
+        },
+        {
+          "text": "was",
+          "start": 4560,
+          "end": 4840,
+          "confidence": 0.9975586,
+          "speaker": "A"
+        },
+        {
+          "text": "messed",
+          "start": 4840,
+          "end": 5160,
+          "confidence": 0.83569336,
+          "speaker": "A"
+        },
+        {
+          "text": "up.",
+          "start": 5160,
+          "end": 5440,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "So",
+          "start": 6560,
+          "end": 6800,
+          "confidence": 0.99121094,
+          "speaker": "A"
+        },
+        {
+          "text": "let's",
+          "start": 6800,
+          "end": 7000,
+          "confidence": 0.8925781,
+          "speaker": "A"
+        },
+        {
+          "text": "see",
+          "start": 7000,
+          "end": 7120,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "how",
+          "start": 7120,
+          "end": 7240,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "it",
+          "start": 7240,
+          "end": 7400,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "is",
+          "start": 7400,
+          "end": 7560,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "this",
+          "start": 7560,
+          "end": 7760,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "time.",
+          "start": 7760,
+          "end": 8080,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        }
+      ]
+    }
+  ],
+  "confidence": 0.96114546,
+  "audio_duration": 10,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": {
+    "status": "success",
+    "results": [
+      {
+        "count": 1,
+        "rank": 0.18,
+        "text": "Good afternoon",
+        "timestamps": [
+          {
+            "start": 560,
+            "end": 1200
+          }
+        ]
+      },
+      {
+        "count": 1,
+        "rank": 0.14,
+        "text": "afternoon",
+        "timestamps": [
+          {
+            "start": 760,
+            "end": 1200
+          }
+        ]
+      },
+      {
+        "count": 1,
+        "rank": 0.12,
+        "text": "audio quality",
+        "timestamps": [
+          {
+            "start": 2800,
+            "end": 3440
+          }
+        ]
+      }
+    ]
+  },
+  "auto_highlights": true,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "prompt": null,
+  "keyterms_prompt": [],
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_audio_options": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "speaker_options": null,
+  "content_safety": false,
+  "iab_categories": false,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "iab_categories_result": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_options": null,
+  "language_detection_results": null,
+  "language_confidence_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": null,
+  "speech_models": [
+    "universal-2"
+  ],
+  "speech_model_used": "universal-2",
+  "temperature": null,
+  "remove_audio_tags": "all",
+  "chapters": [
+    {
+      "summary": "Hi. I'm just recording this to check the audio quality because last time it was messed up. So let's see how it is this time.",
+      "headline": "I'm just checking the audio quality because last time it was messed up",
+      "gist": "Fooled by Nature",
+      "start": 320,
+      "end": 8080
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": true,
+  "sentiment_analysis": true,
+  "sentiment_analysis_results": [
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "Hi.",
+      "start": 320,
+      "end": 560,
+      "confidence": 0.5325649
+    },
+    {
+      "sentiment": "POSITIVE",
+      "speaker": "A",
+      "text": "Good afternoon.",
+      "start": 560,
+      "end": 1200,
+      "confidence": 0.7916814
+    },
+    {
+      "sentiment": "NEGATIVE",
+      "speaker": "A",
+      "text": "I'm just recording this to check the audio quality because last time it was messed up.",
+      "start": 1200,
+      "end": 5440,
+      "confidence": 0.7092701
+    },
+    {
+      "sentiment": "NEUTRAL",
+      "speaker": "A",
+      "text": "So let's see how it is this time.",
+      "start": 6560,
+      "end": 8080,
+      "confidence": 0.75458765
+    }
+  ],
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "multichannel": null,
+  "project_id": 553667,
+  "token_id": 555720
+}
